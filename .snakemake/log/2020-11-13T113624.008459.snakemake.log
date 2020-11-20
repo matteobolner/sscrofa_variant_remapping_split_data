@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	get_coords
+	135
+
+[Fri Nov 13 11:36:24 2020]
+rule get_coords:
+    input: data/starting_files/ENSSSCG00000012371
+    output: data/gene_coords/ENSSSCG00000012371.gene, data/var_coords/ENSSSCG00000012371.vars
+    jobid: 58
+    wildcards: id=ENSSSCG00000012371
+    threads: 8
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/pelmo/tesi/remap_sscrofa/.snakemake/log/2020-11-13T113624.008459.snakemake.log

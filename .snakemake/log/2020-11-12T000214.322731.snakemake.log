@@ -1,0 +1,2 @@
+SyntaxError in line 5 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Unexpected keyword gene_files in rule definition (Snakefile, line 5)

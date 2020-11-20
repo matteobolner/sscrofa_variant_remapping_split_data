@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	gene_coords
+	135
+
+[Wed Nov 11 20:43:39 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010937
+    output: data/gene_coords/ENSSSCG00000010937.gene
+    jobid: 73
+    wildcards: id=ENSSSCG00000010937
+
+[Wed Nov 11 20:43:39 2020]
+Error in rule gene_coords:
+    jobid: 73
+    output: data/gene_coords/ENSSSCG00000010937.gene
+    shell:
+        cut -f 3,4,5 -d | data/starting_files/ENSSSCG00000010937 > data/gene_coords/ENSSSCG00000010937.gene
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job gene_coords since they might be corrupted:
+data/gene_coords/ENSSSCG00000010937.gene
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/pelmo/tesi/remap_sscrofa/.snakemake/log/2020-11-11T204339.796553.snakemake.log

@@ -1,0 +1,181 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	get_ncbi
+	135
+
+[Thu Nov 19 17:33:04 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010787.complete
+    output: data/ncbi_coords/ENSSSCG00000010787.ncbi
+    jobid: 265
+    wildcards: id=ENSSSCG00000010787
+
+[Thu Nov 19 17:33:04 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000005488.complete
+    output: data/ncbi_coords/ENSSSCG00000005488.ncbi
+    jobid: 235
+    wildcards: id=ENSSSCG00000005488
+
+[Thu Nov 19 17:33:04 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000011033.complete
+    output: data/ncbi_coords/ENSSSCG00000011033.ncbi
+    jobid: 175
+    wildcards: id=ENSSSCG00000011033
+
+[Thu Nov 19 17:33:04 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000015053.complete
+    output: data/ncbi_coords/ENSSSCG00000015053.ncbi
+    jobid: 221
+    wildcards: id=ENSSSCG00000015053
+
+[Thu Nov 19 17:33:04 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000012118.complete
+    output: data/ncbi_coords/ENSSSCG00000012118.ncbi
+    jobid: 191
+    wildcards: id=ENSSSCG00000012118
+
+[Thu Nov 19 17:33:04 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000029988.complete
+    output: data/ncbi_coords/ENSSSCG00000029988.ncbi
+    jobid: 11
+    wildcards: id=ENSSSCG00000029988
+
+[Thu Nov 19 17:33:04 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000026201.complete
+    output: data/ncbi_coords/ENSSSCG00000026201.ncbi
+    jobid: 41
+    wildcards: id=ENSSSCG00000026201
+
+[Thu Nov 19 17:33:04 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007522.complete
+    output: data/ncbi_coords/ENSSSCG00000007522.ncbi
+    jobid: 131
+    wildcards: id=ENSSSCG00000007522
+
+[Thu Nov 19 17:33:05 2020]
+Error in rule get_ncbi:
+[Thu Nov 19 17:33:05 2020]
+Error in rule get_ncbi:
+    jobid: 235
+    output: data/ncbi_coords/ENSSSCG00000005488.ncbi
+
+RuleException:
+CalledProcessError in line 28 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpptzlin5h.get_ncbi.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 28, in __rule_get_ncbi
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+    jobid: 175
+[Thu Nov 19 17:33:05 2020]
+    output: data/ncbi_coords/ENSSSCG00000011033.ncbi
+Error in rule get_ncbi:
+
+    jobid: 265
+    output: data/ncbi_coords/ENSSSCG00000010787.ncbi
+
+[Thu Nov 19 17:33:05 2020]
+Error in rule get_ncbi:
+RuleException:
+CalledProcessError in line 28 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmp0zw574t6.get_ncbi.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 28, in __rule_get_ncbi
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+    jobid: 41
+[Thu Nov 19 17:33:05 2020]
+    output: data/ncbi_coords/ENSSSCG00000026201.ncbi
+Error in rule get_ncbi:
+
+RuleException:
+CalledProcessError in line 28 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmp_4ogd2h5.get_ncbi.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 28, in __rule_get_ncbi
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+    jobid: 191
+    output: data/ncbi_coords/ENSSSCG00000012118.ncbi
+
+RuleException:
+CalledProcessError in line 28 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpgaeb_q8u.get_ncbi.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 28, in __rule_get_ncbi
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+[Thu Nov 19 17:33:05 2020]
+[Thu Nov 19 17:33:05 2020]
+Error in rule get_ncbi:
+[Thu Nov 19 17:33:05 2020]
+RuleException:
+CalledProcessError in line 28 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpczzyo2kr.get_ncbi.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 28, in __rule_get_ncbi
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+Error in rule get_ncbi:
+    jobid: 131
+Error in rule get_ncbi:
+    jobid: 221
+    output: data/ncbi_coords/ENSSSCG00000007522.ncbi
+    jobid: 11
+    output: data/ncbi_coords/ENSSSCG00000015053.ncbi
+
+    output: data/ncbi_coords/ENSSSCG00000029988.ncbi
+
+
+RuleException:
+CalledProcessError in line 28 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpwaul16z1.get_ncbi.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 28, in __rule_get_ncbi
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+RuleException:
+CalledProcessError in line 28 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpuy8x7u_0.get_ncbi.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 28, in __rule_get_ncbi
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+RuleException:
+CalledProcessError in line 28 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpn7pwwfs2.get_ncbi.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 28, in __rule_get_ncbi
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/pelmo/tesi/remap_sscrofa/.snakemake/log/2020-11-19T173303.919284.snakemake.log

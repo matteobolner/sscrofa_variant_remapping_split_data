@@ -1,0 +1,2 @@
+SyntaxError in line 6 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Unexpected keyword expand in rule definition (Snakefile, line 6)

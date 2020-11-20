@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Job counts:
+	count	jobs
+	1	all
+	134	remap_genes
+	135
+
+[Thu Nov 19 19:03:26 2020]
+rule remap_genes:
+    input: data/gene_coords/ENSSSCG00000010937.gene
+    output: data/gene_coords_remapped/ENSSSCG00000010937.gene.annot, data/gene_coords_remapped/ENSSSCG00000010937.gene.report
+    jobid: 145
+    wildcards: id=ENSSSCG00000010937
+
+RuleException in line 23 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+'OutputFiles' object has no attribute 'report'
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 131, in run_jobs
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 140, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 151, in _run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 171, in printjob
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 157, in printjob

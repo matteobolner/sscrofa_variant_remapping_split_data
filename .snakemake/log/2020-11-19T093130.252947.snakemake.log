@@ -1,0 +1,160 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	get_coords
+	135
+
+[Thu Nov 19 09:31:30 2020]
+rule get_coords:
+    input: data/starting_files/ENSSSCG00000010929
+    output: data/gene_coords/ENSSSCG00000010929.gene, data/var_coords/ENSSSCG00000010929.vars
+    jobid: 5
+    wildcards: id=ENSSSCG00000010929
+
+[Thu Nov 19 09:31:30 2020]
+rule get_coords:
+    input: data/starting_files/ENSSSCG00000006403
+    output: data/gene_coords/ENSSSCG00000006403.gene, data/var_coords/ENSSSCG00000006403.vars
+    jobid: 20
+    wildcards: id=ENSSSCG00000006403
+
+[Thu Nov 19 09:31:30 2020]
+rule get_coords:
+    input: data/starting_files/ENSSSCG00000017121
+    output: data/gene_coords/ENSSSCG00000017121.gene, data/var_coords/ENSSSCG00000017121.vars
+    jobid: 35
+    wildcards: id=ENSSSCG00000017121
+
+[Thu Nov 19 09:31:30 2020]
+rule get_coords:
+    input: data/starting_files/ENSSSCG00000009115
+    output: data/gene_coords/ENSSSCG00000009115.gene, data/var_coords/ENSSSCG00000009115.vars
+    jobid: 50
+    wildcards: id=ENSSSCG00000009115
+
+[Thu Nov 19 09:31:30 2020]
+rule get_coords:
+    input: data/starting_files/ENSSSCG00000008088
+    output: data/gene_coords/ENSSSCG00000008088.gene, data/var_coords/ENSSSCG00000008088.vars
+    jobid: 65
+    wildcards: id=ENSSSCG00000008088
+
+[Thu Nov 19 09:31:30 2020]
+rule get_coords:
+    input: data/starting_files/ENSSSCG00000023666
+    output: data/gene_coords/ENSSSCG00000023666.gene, data/var_coords/ENSSSCG00000023666.vars
+    jobid: 26
+    wildcards: id=ENSSSCG00000023666
+
+[Thu Nov 19 09:31:30 2020]
+rule get_coords:
+    input: data/starting_files/ENSSSCG00000029988
+    output: data/gene_coords/ENSSSCG00000029988.gene, data/var_coords/ENSSSCG00000029988.vars
+    jobid: 6
+    wildcards: id=ENSSSCG00000029988
+
+[Thu Nov 19 09:31:31 2020]
+Error in rule get_coords:
+    jobid: 65
+    output: data/gene_coords/ENSSSCG00000008088.gene, data/var_coords/ENSSSCG00000008088.vars
+
+RuleException:
+CalledProcessError in line 18 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpcu0ud30g.get_coords.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 18, in __rule_get_coords
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+[Thu Nov 19 09:31:31 2020]
+Error in rule get_coords:
+    jobid: 5
+    output: data/gene_coords/ENSSSCG00000010929.gene, data/var_coords/ENSSSCG00000010929.vars
+
+RuleException:
+CalledProcessError in line 18 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpkxu44rhu.get_coords.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 18, in __rule_get_coords
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+[Thu Nov 19 09:31:31 2020]
+Error in rule get_coords:
+    jobid: 50
+    output: data/gene_coords/ENSSSCG00000009115.gene, data/var_coords/ENSSSCG00000009115.vars
+
+RuleException:
+CalledProcessError in line 18 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmp6feriecg.get_coords.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 18, in __rule_get_coords
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+[Thu Nov 19 09:31:31 2020]
+Error in rule get_coords:
+    jobid: 26
+    output: data/gene_coords/ENSSSCG00000023666.gene, data/var_coords/ENSSSCG00000023666.vars
+
+RuleException:
+CalledProcessError in line 18 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpr4pa5zun.get_coords.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 18, in __rule_get_coords
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+[Thu Nov 19 09:31:31 2020]
+Error in rule get_coords:
+    jobid: 35
+    output: data/gene_coords/ENSSSCG00000017121.gene, data/var_coords/ENSSSCG00000017121.vars
+
+RuleException:
+CalledProcessError in line 18 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpkgm9s4g9.get_coords.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 18, in __rule_get_coords
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+[Thu Nov 19 09:31:31 2020]
+Error in rule get_coords:
+    jobid: 6
+    output: data/gene_coords/ENSSSCG00000029988.gene, data/var_coords/ENSSSCG00000029988.vars
+
+RuleException:
+CalledProcessError in line 18 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpfv2084cz.get_coords.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 18, in __rule_get_coords
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+[Thu Nov 19 09:31:31 2020]
+Error in rule get_coords:
+    jobid: 20
+    output: data/gene_coords/ENSSSCG00000006403.gene, data/var_coords/ENSSSCG00000006403.vars
+
+RuleException:
+CalledProcessError in line 18 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/tesi/remap_sscrofa/.snakemake/scripts/tmpib0uv5ax.get_coords.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2231, in run_wrapper
+  File "/home/pelmo/tesi/remap_sscrofa/Snakefile", line 18, in __rule_get_coords
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2262, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/pelmo/tesi/remap_sscrofa/.snakemake/log/2020-11-19T093130.252947.snakemake.log

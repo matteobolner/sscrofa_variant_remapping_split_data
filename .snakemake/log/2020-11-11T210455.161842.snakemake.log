@@ -1,0 +1,1493 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	gene_coords
+	135
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000005488
+    output: data/gene_coords/ENSSSCG00000005488.gene
+    jobid: 118
+    wildcards: id=ENSSSCG00000005488
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 118.
+1 of 135 steps (0.74%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010787
+    output: data/gene_coords/ENSSSCG00000010787.gene
+    jobid: 133
+    wildcards: id=ENSSSCG00000010787
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 133.
+2 of 135 steps (1%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000011862
+    output: data/gene_coords/ENSSSCG00000011862.gene
+    jobid: 70
+    wildcards: id=ENSSSCG00000011862
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 70.
+3 of 135 steps (2%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010310
+    output: data/gene_coords/ENSSSCG00000010310.gene
+    jobid: 85
+    wildcards: id=ENSSSCG00000010310
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 85.
+4 of 135 steps (3%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000009002
+    output: data/gene_coords/ENSSSCG00000009002.gene
+    jobid: 115
+    wildcards: id=ENSSSCG00000009002
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 115.
+5 of 135 steps (4%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007153
+    output: data/gene_coords/ENSSSCG00000007153.gene
+    jobid: 29
+    wildcards: id=ENSSSCG00000007153
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 29.
+6 of 135 steps (4%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000001404
+    output: data/gene_coords/ENSSSCG00000001404.gene
+    jobid: 44
+    wildcards: id=ENSSSCG00000001404
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 44.
+7 of 135 steps (5%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000030758
+    output: data/gene_coords/ENSSSCG00000030758.gene
+    jobid: 119
+    wildcards: id=ENSSSCG00000030758
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 119.
+8 of 135 steps (6%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000002385
+    output: data/gene_coords/ENSSSCG00000002385.gene
+    jobid: 30
+    wildcards: id=ENSSSCG00000002385
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 30.
+9 of 135 steps (7%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000028629
+    output: data/gene_coords/ENSSSCG00000028629.gene
+    jobid: 90
+    wildcards: id=ENSSSCG00000028629
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 90.
+10 of 135 steps (7%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000011147
+    output: data/gene_coords/ENSSSCG00000011147.gene
+    jobid: 120
+    wildcards: id=ENSSSCG00000011147
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 120.
+11 of 135 steps (8%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000001428
+    output: data/gene_coords/ENSSSCG00000001428.gene
+    jobid: 46
+    wildcards: id=ENSSSCG00000001428
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 46.
+12 of 135 steps (9%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000027850
+    output: data/gene_coords/ENSSSCG00000027850.gene
+    jobid: 121
+    wildcards: id=ENSSSCG00000027850
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 121.
+13 of 135 steps (10%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000004875
+    output: data/gene_coords/ENSSSCG00000004875.gene
+    jobid: 47
+    wildcards: id=ENSSSCG00000004875
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 47.
+14 of 135 steps (10%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000016200
+    output: data/gene_coords/ENSSSCG00000016200.gene
+    jobid: 92
+    wildcards: id=ENSSSCG00000016200
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 92.
+15 of 135 steps (11%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000000481
+    output: data/gene_coords/ENSSSCG00000000481.gene
+    jobid: 131
+    wildcards: id=ENSSSCG00000000481
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 131.
+16 of 135 steps (12%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000026583
+    output: data/gene_coords/ENSSSCG00000026583.gene
+    jobid: 48
+    wildcards: id=ENSSSCG00000026583
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 48.
+17 of 135 steps (13%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010885
+    output: data/gene_coords/ENSSSCG00000010885.gene
+    jobid: 123
+    wildcards: id=ENSSSCG00000010885
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 123.
+18 of 135 steps (13%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000001050
+    output: data/gene_coords/ENSSSCG00000001050.gene
+    jobid: 34
+    wildcards: id=ENSSSCG00000001050
+
+[Wed Nov 11 21:04:55 2020]
+Finished job 34.
+19 of 135 steps (14%) done
+
+[Wed Nov 11 21:04:55 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000008521
+    output: data/gene_coords/ENSSSCG00000008521.gene
+    jobid: 94
+    wildcards: id=ENSSSCG00000008521
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 94.
+20 of 135 steps (15%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000017121
+    output: data/gene_coords/ENSSSCG00000017121.gene
+    jobid: 35
+    wildcards: id=ENSSSCG00000017121
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 35.
+21 of 135 steps (16%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000001741
+    output: data/gene_coords/ENSSSCG00000001741.gene
+    jobid: 95
+    wildcards: id=ENSSSCG00000001741
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 95.
+22 of 135 steps (16%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000016047
+    output: data/gene_coords/ENSSSCG00000016047.gene
+    jobid: 125
+    wildcards: id=ENSSSCG00000016047
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 125.
+23 of 135 steps (17%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007226
+    output: data/gene_coords/ENSSSCG00000007226.gene
+    jobid: 51
+    wildcards: id=ENSSSCG00000007226
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 51.
+24 of 135 steps (18%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000000038
+    output: data/gene_coords/ENSSSCG00000000038.gene
+    jobid: 126
+    wildcards: id=ENSSSCG00000000038
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 126.
+25 of 135 steps (19%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010459
+    output: data/gene_coords/ENSSSCG00000010459.gene
+    jobid: 52
+    wildcards: id=ENSSSCG00000010459
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 52.
+26 of 135 steps (19%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000027555
+    output: data/gene_coords/ENSSSCG00000027555.gene
+    jobid: 97
+    wildcards: id=ENSSSCG00000027555
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 97.
+27 of 135 steps (20%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010554
+    output: data/gene_coords/ENSSSCG00000010554.gene
+    jobid: 38
+    wildcards: id=ENSSSCG00000010554
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 38.
+28 of 135 steps (21%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000004296
+    output: data/gene_coords/ENSSSCG00000004296.gene
+    jobid: 98
+    wildcards: id=ENSSSCG00000004296
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 98.
+29 of 135 steps (21%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000011436
+    output: data/gene_coords/ENSSSCG00000011436.gene
+    jobid: 41
+    wildcards: id=ENSSSCG00000011436
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 41.
+30 of 135 steps (22%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000014428
+    output: data/gene_coords/ENSSSCG00000014428.gene
+    jobid: 27
+    wildcards: id=ENSSSCG00000014428
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 27.
+31 of 135 steps (23%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000015652
+    output: data/gene_coords/ENSSSCG00000015652.gene
+    jobid: 99
+    wildcards: id=ENSSSCG00000015652
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 99.
+32 of 135 steps (24%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000023876
+    output: data/gene_coords/ENSSSCG00000023876.gene
+    jobid: 40
+    wildcards: id=ENSSSCG00000023876
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 40.
+33 of 135 steps (24%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000008090
+    output: data/gene_coords/ENSSSCG00000008090.gene
+    jobid: 100
+    wildcards: id=ENSSSCG00000008090
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 100.
+34 of 135 steps (25%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000006337
+    output: data/gene_coords/ENSSSCG00000006337.gene
+    jobid: 130
+    wildcards: id=ENSSSCG00000006337
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 130.
+35 of 135 steps (26%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000031002
+    output: data/gene_coords/ENSSSCG00000031002.gene
+    jobid: 11
+    wildcards: id=ENSSSCG00000031002
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 11.
+36 of 135 steps (27%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000020924
+    output: data/gene_coords/ENSSSCG00000020924.gene
+    jobid: 56
+    wildcards: id=ENSSSCG00000020924
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 56.
+37 of 135 steps (27%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000005193
+    output: data/gene_coords/ENSSSCG00000005193.gene
+    jobid: 71
+    wildcards: id=ENSSSCG00000005193
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 71.
+38 of 135 steps (28%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000016273
+    output: data/gene_coords/ENSSSCG00000016273.gene
+    jobid: 55
+    wildcards: id=ENSSSCG00000016273
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 55.
+39 of 135 steps (29%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000025273
+    output: data/gene_coords/ENSSSCG00000025273.gene
+    jobid: 101
+    wildcards: id=ENSSSCG00000025273
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 101.
+40 of 135 steps (30%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000015070
+    output: data/gene_coords/ENSSSCG00000015070.gene
+    jobid: 12
+    wildcards: id=ENSSSCG00000015070
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 12.
+41 of 135 steps (30%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000008948
+    output: data/gene_coords/ENSSSCG00000008948.gene
+    jobid: 57
+    wildcards: id=ENSSSCG00000008948
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 57.
+42 of 135 steps (31%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000022432
+    output: data/gene_coords/ENSSSCG00000022432.gene
+    jobid: 129
+    wildcards: id=ENSSSCG00000022432
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 129.
+43 of 135 steps (32%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000025500
+    output: data/gene_coords/ENSSSCG00000025500.gene
+    jobid: 72
+    wildcards: id=ENSSSCG00000025500
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 72.
+44 of 135 steps (33%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000031069
+    output: data/gene_coords/ENSSSCG00000031069.gene
+    jobid: 102
+    wildcards: id=ENSSSCG00000031069
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 102.
+45 of 135 steps (33%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000012593
+    output: data/gene_coords/ENSSSCG00000012593.gene
+    jobid: 13
+    wildcards: id=ENSSSCG00000012593
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 13.
+46 of 135 steps (34%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000009695
+    output: data/gene_coords/ENSSSCG00000009695.gene
+    jobid: 87
+    wildcards: id=ENSSSCG00000009695
+
+[Wed Nov 11 21:04:56 2020]
+Finished job 87.
+47 of 135 steps (35%) done
+
+[Wed Nov 11 21:04:56 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000024497
+    output: data/gene_coords/ENSSSCG00000024497.gene
+    jobid: 117
+    wildcards: id=ENSSSCG00000024497
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 117.
+48 of 135 steps (36%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007215
+    output: data/gene_coords/ENSSSCG00000007215.gene
+    jobid: 132
+    wildcards: id=ENSSSCG00000007215
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 132.
+49 of 135 steps (36%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000011512
+    output: data/gene_coords/ENSSSCG00000011512.gene
+    jobid: 42
+    wildcards: id=ENSSSCG00000011512
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 42.
+50 of 135 steps (37%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000026214
+    output: data/gene_coords/ENSSSCG00000026214.gene
+    jobid: 14
+    wildcards: id=ENSSSCG00000026214
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 14.
+51 of 135 steps (38%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007217
+    output: data/gene_coords/ENSSSCG00000007217.gene
+    jobid: 59
+    wildcards: id=ENSSSCG00000007217
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 59.
+52 of 135 steps (39%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000009406
+    output: data/gene_coords/ENSSSCG00000009406.gene
+    jobid: 74
+    wildcards: id=ENSSSCG00000009406
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 74.
+53 of 135 steps (39%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000023686
+    output: data/gene_coords/ENSSSCG00000023686.gene
+    jobid: 104
+    wildcards: id=ENSSSCG00000023686
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 104.
+54 of 135 steps (40%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000024973
+    output: data/gene_coords/ENSSSCG00000024973.gene
+    jobid: 103
+    wildcards: id=ENSSSCG00000024973
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 103.
+55 of 135 steps (41%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000011453
+    output: data/gene_coords/ENSSSCG00000011453.gene
+    jobid: 15
+    wildcards: id=ENSSSCG00000011453
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 15.
+56 of 135 steps (41%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000006386
+    output: data/gene_coords/ENSSSCG00000006386.gene
+    jobid: 60
+    wildcards: id=ENSSSCG00000006386
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 60.
+57 of 135 steps (42%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000005503
+    output: data/gene_coords/ENSSSCG00000005503.gene
+    jobid: 75
+    wildcards: id=ENSSSCG00000005503
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 75.
+58 of 135 steps (43%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000008842
+    output: data/gene_coords/ENSSSCG00000008842.gene
+    jobid: 24
+    wildcards: id=ENSSSCG00000008842
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 24.
+59 of 135 steps (44%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000017227
+    output: data/gene_coords/ENSSSCG00000017227.gene
+    jobid: 69
+    wildcards: id=ENSSSCG00000017227
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 69.
+60 of 135 steps (44%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000012840
+    output: data/gene_coords/ENSSSCG00000012840.gene
+    jobid: 89
+    wildcards: id=ENSSSCG00000012840
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 89.
+61 of 135 steps (45%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000006924
+    output: data/gene_coords/ENSSSCG00000006924.gene
+    jobid: 134
+    wildcards: id=ENSSSCG00000006924
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 134.
+62 of 135 steps (46%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007277
+    output: data/gene_coords/ENSSSCG00000007277.gene
+    jobid: 84
+    wildcards: id=ENSSSCG00000007277
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 84.
+63 of 135 steps (47%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000012117
+    output: data/gene_coords/ENSSSCG00000012117.gene
+    jobid: 37
+    wildcards: id=ENSSSCG00000012117
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 37.
+64 of 135 steps (47%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000000932
+    output: data/gene_coords/ENSSSCG00000000932.gene
+    jobid: 127
+    wildcards: id=ENSSSCG00000000932
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 127.
+65 of 135 steps (48%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000000866
+    output: data/gene_coords/ENSSSCG00000000866.gene
+    jobid: 7
+    wildcards: id=ENSSSCG00000000866
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 7.
+66 of 135 steps (49%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007522
+    output: data/gene_coords/ENSSSCG00000007522.gene
+    jobid: 66
+    wildcards: id=ENSSSCG00000007522
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 66.
+67 of 135 steps (50%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000003141
+    output: data/gene_coords/ENSSSCG00000003141.gene
+    jobid: 81
+    wildcards: id=ENSSSCG00000003141
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 81.
+68 of 135 steps (50%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000013579
+    output: data/gene_coords/ENSSSCG00000013579.gene
+    jobid: 83
+    wildcards: id=ENSSSCG00000013579
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 83.
+69 of 135 steps (51%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007221
+    output: data/gene_coords/ENSSSCG00000007221.gene
+    jobid: 113
+    wildcards: id=ENSSSCG00000007221
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 113.
+70 of 135 steps (52%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010780
+    output: data/gene_coords/ENSSSCG00000010780.gene
+    jobid: 68
+    wildcards: id=ENSSSCG00000010780
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 68.
+71 of 135 steps (53%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000015048
+    output: data/gene_coords/ENSSSCG00000015048.gene
+    jobid: 31
+    wildcards: id=ENSSSCG00000015048
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 31.
+72 of 135 steps (53%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000004475
+    output: data/gene_coords/ENSSSCG00000004475.gene
+    jobid: 91
+    wildcards: id=ENSSSCG00000004475
+
+[Wed Nov 11 21:04:57 2020]
+Finished job 91.
+73 of 135 steps (54%) done
+
+[Wed Nov 11 21:04:57 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000006648
+    output: data/gene_coords/ENSSSCG00000006648.gene
+    jobid: 39
+    wildcards: id=ENSSSCG00000006648
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 39.
+74 of 135 steps (55%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000026592
+    output: data/gene_coords/ENSSSCG00000026592.gene
+    jobid: 23
+    wildcards: id=ENSSSCG00000026592
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 23.
+75 of 135 steps (56%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000002686
+    output: data/gene_coords/ENSSSCG00000002686.gene
+    jobid: 54
+    wildcards: id=ENSSSCG00000002686
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 54.
+76 of 135 steps (56%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000025244
+    output: data/gene_coords/ENSSSCG00000025244.gene
+    jobid: 8
+    wildcards: id=ENSSSCG00000025244
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 8.
+77 of 135 steps (57%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000002777
+    output: data/gene_coords/ENSSSCG00000002777.gene
+    jobid: 76
+    wildcards: id=ENSSSCG00000002777
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 76.
+78 of 135 steps (58%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000031060
+    output: data/gene_coords/ENSSSCG00000031060.gene
+    jobid: 105
+    wildcards: id=ENSSSCG00000031060
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 105.
+79 of 135 steps (59%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000008326
+    output: data/gene_coords/ENSSSCG00000008326.gene
+    jobid: 1
+    wildcards: id=ENSSSCG00000008326
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 1.
+80 of 135 steps (59%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000030227
+    output: data/gene_coords/ENSSSCG00000030227.gene
+    jobid: 128
+    wildcards: id=ENSSSCG00000030227
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 128.
+81 of 135 steps (60%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000005163
+    output: data/gene_coords/ENSSSCG00000005163.gene
+    jobid: 16
+    wildcards: id=ENSSSCG00000005163
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 16.
+82 of 135 steps (61%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010948
+    output: data/gene_coords/ENSSSCG00000010948.gene
+    jobid: 53
+    wildcards: id=ENSSSCG00000010948
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 53.
+83 of 135 steps (61%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000028431
+    output: data/gene_coords/ENSSSCG00000028431.gene
+    jobid: 61
+    wildcards: id=ENSSSCG00000028431
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 61.
+84 of 135 steps (62%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000000922
+    output: data/gene_coords/ENSSSCG00000000922.gene
+    jobid: 45
+    wildcards: id=ENSSSCG00000000922
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 45.
+85 of 135 steps (63%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000004904
+    output: data/gene_coords/ENSSSCG00000004904.gene
+    jobid: 106
+    wildcards: id=ENSSSCG00000004904
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 106.
+86 of 135 steps (64%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000006215
+    output: data/gene_coords/ENSSSCG00000006215.gene
+    jobid: 49
+    wildcards: id=ENSSSCG00000006215
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 49.
+87 of 135 steps (64%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000003017
+    output: data/gene_coords/ENSSSCG00000003017.gene
+    jobid: 124
+    wildcards: id=ENSSSCG00000003017
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 124.
+88 of 135 steps (65%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000003130
+    output: data/gene_coords/ENSSSCG00000003130.gene
+    jobid: 114
+    wildcards: id=ENSSSCG00000003130
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 114.
+89 of 135 steps (66%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000026409
+    output: data/gene_coords/ENSSSCG00000026409.gene
+    jobid: 2
+    wildcards: id=ENSSSCG00000026409
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 2.
+90 of 135 steps (67%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000002749
+    output: data/gene_coords/ENSSSCG00000002749.gene
+    jobid: 9
+    wildcards: id=ENSSSCG00000002749
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 9.
+91 of 135 steps (67%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007146
+    output: data/gene_coords/ENSSSCG00000007146.gene
+    jobid: 17
+    wildcards: id=ENSSSCG00000007146
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 17.
+92 of 135 steps (68%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000014170
+    output: data/gene_coords/ENSSSCG00000014170.gene
+    jobid: 112
+    wildcards: id=ENSSSCG00000014170
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 112.
+93 of 135 steps (69%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000012077
+    output: data/gene_coords/ENSSSCG00000012077.gene
+    jobid: 62
+    wildcards: id=ENSSSCG00000012077
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 62.
+94 of 135 steps (70%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000027877
+    output: data/gene_coords/ENSSSCG00000027877.gene
+    jobid: 82
+    wildcards: id=ENSSSCG00000027877
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 82.
+95 of 135 steps (70%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000029990
+    output: data/gene_coords/ENSSSCG00000029990.gene
+    jobid: 77
+    wildcards: id=ENSSSCG00000029990
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 77.
+96 of 135 steps (71%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000030733
+    output: data/gene_coords/ENSSSCG00000030733.gene
+    jobid: 67
+    wildcards: id=ENSSSCG00000030733
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 67.
+97 of 135 steps (72%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007744
+    output: data/gene_coords/ENSSSCG00000007744.gene
+    jobid: 32
+    wildcards: id=ENSSSCG00000007744
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 32.
+98 of 135 steps (73%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000006719
+    output: data/gene_coords/ENSSSCG00000006719.gene
+    jobid: 22
+    wildcards: id=ENSSSCG00000006719
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 22.
+99 of 135 steps (73%) done
+
+[Wed Nov 11 21:04:58 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000026109
+    output: data/gene_coords/ENSSSCG00000026109.gene
+    jobid: 122
+    wildcards: id=ENSSSCG00000026109
+
+[Wed Nov 11 21:04:58 2020]
+Finished job 122.
+100 of 135 steps (74%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000015053
+    output: data/gene_coords/ENSSSCG00000015053.gene
+    jobid: 111
+    wildcards: id=ENSSSCG00000015053
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 111.
+101 of 135 steps (75%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007214
+    output: data/gene_coords/ENSSSCG00000007214.gene
+    jobid: 107
+    wildcards: id=ENSSSCG00000007214
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 107.
+102 of 135 steps (76%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007218
+    output: data/gene_coords/ENSSSCG00000007218.gene
+    jobid: 116
+    wildcards: id=ENSSSCG00000007218
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 116.
+103 of 135 steps (76%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000023666
+    output: data/gene_coords/ENSSSCG00000023666.gene
+    jobid: 26
+    wildcards: id=ENSSSCG00000023666
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 26.
+104 of 135 steps (77%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000002756
+    output: data/gene_coords/ENSSSCG00000002756.gene
+    jobid: 86
+    wildcards: id=ENSSSCG00000002756
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 86.
+105 of 135 steps (78%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000001743
+    output: data/gene_coords/ENSSSCG00000001743.gene
+    jobid: 4
+    wildcards: id=ENSSSCG00000001743
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 4.
+106 of 135 steps (79%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000007216
+    output: data/gene_coords/ENSSSCG00000007216.gene
+    jobid: 64
+    wildcards: id=ENSSSCG00000007216
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 64.
+107 of 135 steps (79%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000020864
+    output: data/gene_coords/ENSSSCG00000020864.gene
+    jobid: 79
+    wildcards: id=ENSSSCG00000020864
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 79.
+108 of 135 steps (80%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000021739
+    output: data/gene_coords/ENSSSCG00000021739.gene
+    jobid: 109
+    wildcards: id=ENSSSCG00000021739
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 109.
+109 of 135 steps (81%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000008088
+    output: data/gene_coords/ENSSSCG00000008088.gene
+    jobid: 65
+    wildcards: id=ENSSSCG00000008088
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 65.
+110 of 135 steps (81%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000030168
+    output: data/gene_coords/ENSSSCG00000030168.gene
+    jobid: 80
+    wildcards: id=ENSSSCG00000030168
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 80.
+111 of 135 steps (82%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010591
+    output: data/gene_coords/ENSSSCG00000010591.gene
+    jobid: 110
+    wildcards: id=ENSSSCG00000010591
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 110.
+112 of 135 steps (83%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000009115
+    output: data/gene_coords/ENSSSCG00000009115.gene
+    jobid: 50
+    wildcards: id=ENSSSCG00000009115
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 50.
+113 of 135 steps (84%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010929
+    output: data/gene_coords/ENSSSCG00000010929.gene
+    jobid: 5
+    wildcards: id=ENSSSCG00000010929
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 5.
+114 of 135 steps (84%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000006403
+    output: data/gene_coords/ENSSSCG00000006403.gene
+    jobid: 20
+    wildcards: id=ENSSSCG00000006403
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 20.
+115 of 135 steps (85%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000011033
+    output: data/gene_coords/ENSSSCG00000011033.gene
+    jobid: 88
+    wildcards: id=ENSSSCG00000011033
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 88.
+116 of 135 steps (86%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000012257
+    output: data/gene_coords/ENSSSCG00000012257.gene
+    jobid: 36
+    wildcards: id=ENSSSCG00000012257
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 36.
+117 of 135 steps (87%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000015801
+    output: data/gene_coords/ENSSSCG00000015801.gene
+    jobid: 28
+    wildcards: id=ENSSSCG00000015801
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 28.
+118 of 135 steps (87%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000011850
+    output: data/gene_coords/ENSSSCG00000011850.gene
+    jobid: 43
+    wildcards: id=ENSSSCG00000011850
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 43.
+119 of 135 steps (88%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000013369
+    output: data/gene_coords/ENSSSCG00000013369.gene
+    jobid: 33
+    wildcards: id=ENSSSCG00000013369
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 33.
+120 of 135 steps (89%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000009477
+    output: data/gene_coords/ENSSSCG00000009477.gene
+    jobid: 93
+    wildcards: id=ENSSSCG00000009477
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 93.
+121 of 135 steps (90%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000016940
+    output: data/gene_coords/ENSSSCG00000016940.gene
+    jobid: 18
+    wildcards: id=ENSSSCG00000016940
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 18.
+122 of 135 steps (90%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000024689
+    output: data/gene_coords/ENSSSCG00000024689.gene
+    jobid: 63
+    wildcards: id=ENSSSCG00000024689
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 63.
+123 of 135 steps (91%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000015616
+    output: data/gene_coords/ENSSSCG00000015616.gene
+    jobid: 78
+    wildcards: id=ENSSSCG00000015616
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 78.
+124 of 135 steps (92%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000017103
+    output: data/gene_coords/ENSSSCG00000017103.gene
+    jobid: 108
+    wildcards: id=ENSSSCG00000017103
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 108.
+125 of 135 steps (93%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000017399
+    output: data/gene_coords/ENSSSCG00000017399.gene
+    jobid: 3
+    wildcards: id=ENSSSCG00000017399
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 3.
+126 of 135 steps (93%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000025058
+    output: data/gene_coords/ENSSSCG00000025058.gene
+    jobid: 25
+    wildcards: id=ENSSSCG00000025058
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 25.
+127 of 135 steps (94%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010816
+    output: data/gene_coords/ENSSSCG00000010816.gene
+    jobid: 10
+    wildcards: id=ENSSSCG00000010816
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 10.
+128 of 135 steps (95%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000026201
+    output: data/gene_coords/ENSSSCG00000026201.gene
+    jobid: 21
+    wildcards: id=ENSSSCG00000026201
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 21.
+129 of 135 steps (96%) done
+
+[Wed Nov 11 21:04:59 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000012371
+    output: data/gene_coords/ENSSSCG00000012371.gene
+    jobid: 58
+    wildcards: id=ENSSSCG00000012371
+
+[Wed Nov 11 21:04:59 2020]
+Finished job 58.
+130 of 135 steps (96%) done
+
+[Wed Nov 11 21:05:00 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000010937
+    output: data/gene_coords/ENSSSCG00000010937.gene
+    jobid: 73
+    wildcards: id=ENSSSCG00000010937
+
+[Wed Nov 11 21:05:00 2020]
+Finished job 73.
+131 of 135 steps (97%) done
+
+[Wed Nov 11 21:05:00 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000012118
+    output: data/gene_coords/ENSSSCG00000012118.gene
+    jobid: 96
+    wildcards: id=ENSSSCG00000012118
+
+[Wed Nov 11 21:05:00 2020]
+Finished job 96.
+132 of 135 steps (98%) done
+
+[Wed Nov 11 21:05:00 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000029988
+    output: data/gene_coords/ENSSSCG00000029988.gene
+    jobid: 6
+    wildcards: id=ENSSSCG00000029988
+
+[Wed Nov 11 21:05:00 2020]
+Finished job 6.
+133 of 135 steps (99%) done
+
+[Wed Nov 11 21:05:00 2020]
+rule gene_coords:
+    input: data/starting_files/ENSSSCG00000002961
+    output: data/gene_coords/ENSSSCG00000002961.gene
+    jobid: 19
+    wildcards: id=ENSSSCG00000002961
+
+[Wed Nov 11 21:05:00 2020]
+Finished job 19.
+134 of 135 steps (99%) done
+
+[Wed Nov 11 21:05:00 2020]
+localrule all:
+    input: data/gene_coords/ENSSSCG00000008326.gene, data/gene_coords/ENSSSCG00000026409.gene, data/gene_coords/ENSSSCG00000017399.gene, data/gene_coords/ENSSSCG00000001743.gene, data/gene_coords/ENSSSCG00000010929.gene, data/gene_coords/ENSSSCG00000029988.gene, data/gene_coords/ENSSSCG00000000866.gene, data/gene_coords/ENSSSCG00000025244.gene, data/gene_coords/ENSSSCG00000002749.gene, data/gene_coords/ENSSSCG00000010816.gene, data/gene_coords/ENSSSCG00000031002.gene, data/gene_coords/ENSSSCG00000015070.gene, data/gene_coords/ENSSSCG00000012593.gene, data/gene_coords/ENSSSCG00000026214.gene, data/gene_coords/ENSSSCG00000011453.gene, data/gene_coords/ENSSSCG00000005163.gene, data/gene_coords/ENSSSCG00000007146.gene, data/gene_coords/ENSSSCG00000016940.gene, data/gene_coords/ENSSSCG00000002961.gene, data/gene_coords/ENSSSCG00000006403.gene, data/gene_coords/ENSSSCG00000026201.gene, data/gene_coords/ENSSSCG00000006719.gene, data/gene_coords/ENSSSCG00000026592.gene, data/gene_coords/ENSSSCG00000008842.gene, data/gene_coords/ENSSSCG00000025058.gene, data/gene_coords/ENSSSCG00000023666.gene, data/gene_coords/ENSSSCG00000014428.gene, data/gene_coords/ENSSSCG00000015801.gene, data/gene_coords/ENSSSCG00000007153.gene, data/gene_coords/ENSSSCG00000002385.gene, data/gene_coords/ENSSSCG00000015048.gene, data/gene_coords/ENSSSCG00000007744.gene, data/gene_coords/ENSSSCG00000013369.gene, data/gene_coords/ENSSSCG00000001050.gene, data/gene_coords/ENSSSCG00000017121.gene, data/gene_coords/ENSSSCG00000012257.gene, data/gene_coords/ENSSSCG00000012117.gene, data/gene_coords/ENSSSCG00000010554.gene, data/gene_coords/ENSSSCG00000006648.gene, data/gene_coords/ENSSSCG00000023876.gene, data/gene_coords/ENSSSCG00000011436.gene, data/gene_coords/ENSSSCG00000011512.gene, data/gene_coords/ENSSSCG00000011850.gene, data/gene_coords/ENSSSCG00000001404.gene, data/gene_coords/ENSSSCG00000000922.gene, data/gene_coords/ENSSSCG00000001428.gene, data/gene_coords/ENSSSCG00000004875.gene, data/gene_coords/ENSSSCG00000026583.gene, data/gene_coords/ENSSSCG00000006215.gene, data/gene_coords/ENSSSCG00000009115.gene, data/gene_coords/ENSSSCG00000007226.gene, data/gene_coords/ENSSSCG00000010459.gene, data/gene_coords/ENSSSCG00000010948.gene, data/gene_coords/ENSSSCG00000002686.gene, data/gene_coords/ENSSSCG00000016273.gene, data/gene_coords/ENSSSCG00000020924.gene, data/gene_coords/ENSSSCG00000008948.gene, data/gene_coords/ENSSSCG00000012371.gene, data/gene_coords/ENSSSCG00000007217.gene, data/gene_coords/ENSSSCG00000006386.gene, data/gene_coords/ENSSSCG00000028431.gene, data/gene_coords/ENSSSCG00000012077.gene, data/gene_coords/ENSSSCG00000024689.gene, data/gene_coords/ENSSSCG00000007216.gene, data/gene_coords/ENSSSCG00000008088.gene, data/gene_coords/ENSSSCG00000007522.gene, data/gene_coords/ENSSSCG00000030733.gene, data/gene_coords/ENSSSCG00000010780.gene, data/gene_coords/ENSSSCG00000017227.gene, data/gene_coords/ENSSSCG00000011862.gene, data/gene_coords/ENSSSCG00000005193.gene, data/gene_coords/ENSSSCG00000025500.gene, data/gene_coords/ENSSSCG00000010937.gene, data/gene_coords/ENSSSCG00000009406.gene, data/gene_coords/ENSSSCG00000005503.gene, data/gene_coords/ENSSSCG00000002777.gene, data/gene_coords/ENSSSCG00000029990.gene, data/gene_coords/ENSSSCG00000015616.gene, data/gene_coords/ENSSSCG00000020864.gene, data/gene_coords/ENSSSCG00000030168.gene, data/gene_coords/ENSSSCG00000003141.gene, data/gene_coords/ENSSSCG00000027877.gene, data/gene_coords/ENSSSCG00000013579.gene, data/gene_coords/ENSSSCG00000007277.gene, data/gene_coords/ENSSSCG00000010310.gene, data/gene_coords/ENSSSCG00000002756.gene, data/gene_coords/ENSSSCG00000009695.gene, data/gene_coords/ENSSSCG00000011033.gene, data/gene_coords/ENSSSCG00000012840.gene, data/gene_coords/ENSSSCG00000028629.gene, data/gene_coords/ENSSSCG00000004475.gene, data/gene_coords/ENSSSCG00000016200.gene, data/gene_coords/ENSSSCG00000009477.gene, data/gene_coords/ENSSSCG00000008521.gene, data/gene_coords/ENSSSCG00000001741.gene, data/gene_coords/ENSSSCG00000012118.gene, data/gene_coords/ENSSSCG00000027555.gene, data/gene_coords/ENSSSCG00000004296.gene, data/gene_coords/ENSSSCG00000015652.gene, data/gene_coords/ENSSSCG00000008090.gene, data/gene_coords/ENSSSCG00000025273.gene, data/gene_coords/ENSSSCG00000031069.gene, data/gene_coords/ENSSSCG00000024973.gene, data/gene_coords/ENSSSCG00000023686.gene, data/gene_coords/ENSSSCG00000031060.gene, data/gene_coords/ENSSSCG00000004904.gene, data/gene_coords/ENSSSCG00000007214.gene, data/gene_coords/ENSSSCG00000017103.gene, data/gene_coords/ENSSSCG00000021739.gene, data/gene_coords/ENSSSCG00000010591.gene, data/gene_coords/ENSSSCG00000015053.gene, data/gene_coords/ENSSSCG00000014170.gene, data/gene_coords/ENSSSCG00000007221.gene, data/gene_coords/ENSSSCG00000003130.gene, data/gene_coords/ENSSSCG00000009002.gene, data/gene_coords/ENSSSCG00000007218.gene, data/gene_coords/ENSSSCG00000024497.gene, data/gene_coords/ENSSSCG00000005488.gene, data/gene_coords/ENSSSCG00000030758.gene, data/gene_coords/ENSSSCG00000011147.gene, data/gene_coords/ENSSSCG00000027850.gene, data/gene_coords/ENSSSCG00000026109.gene, data/gene_coords/ENSSSCG00000010885.gene, data/gene_coords/ENSSSCG00000003017.gene, data/gene_coords/ENSSSCG00000016047.gene, data/gene_coords/ENSSSCG00000000038.gene, data/gene_coords/ENSSSCG00000000932.gene, data/gene_coords/ENSSSCG00000030227.gene, data/gene_coords/ENSSSCG00000022432.gene, data/gene_coords/ENSSSCG00000006337.gene, data/gene_coords/ENSSSCG00000000481.gene, data/gene_coords/ENSSSCG00000007215.gene, data/gene_coords/ENSSSCG00000010787.gene, data/gene_coords/ENSSSCG00000006924.gene
+    jobid: 0
+
+[Wed Nov 11 21:05:00 2020]
+Finished job 0.
+135 of 135 steps (100%) done
+Complete log: /home/pelmo/tesi/remap_sscrofa/.snakemake/log/2020-11-11T210455.161842.snakemake.log

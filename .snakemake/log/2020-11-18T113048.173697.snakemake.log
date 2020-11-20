@@ -1,0 +1,124 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	remap_genes
+	135
+
+[Wed Nov 18 11:30:48 2020]
+rule remap_genes:
+    input: data/gene_coords/ENSSSCG00000026109.gene
+    output: data/gene_coords_remapped/ENSSSCG00000026109.gene.annot, data/gene_coords_remapped/ENSSSCG00000026109.gene.report
+    jobid: 243
+    wildcards: id=ENSSSCG00000026109
+
+
+[Wed Nov 18 11:30:48 2020]
+rule remap_genes:
+    input: data/gene_coords/ENSSSCG00000007214.gene
+    output: data/gene_coords_remapped/ENSSSCG00000007214.gene.annot, data/gene_coords_remapped/ENSSSCG00000007214.gene.report
+    jobid: 213
+    wildcards: id=ENSSSCG00000007214
+
+
+[Wed Nov 18 11:30:48 2020]
+rule remap_genes:
+    input: data/gene_coords/ENSSSCG00000023876.gene
+    output: data/gene_coords_remapped/ENSSSCG00000023876.gene.annot, data/gene_coords_remapped/ENSSSCG00000023876.gene.report
+    jobid: 79
+    wildcards: id=ENSSSCG00000023876
+
+
+[Wed Nov 18 11:30:48 2020]
+rule remap_genes:
+    input: data/gene_coords/ENSSSCG00000026201.gene
+    output: data/gene_coords_remapped/ENSSSCG00000026201.gene.annot, data/gene_coords_remapped/ENSSSCG00000026201.gene.report
+    jobid: 41
+    wildcards: id=ENSSSCG00000026201
+
+
+[Wed Nov 18 11:30:48 2020]
+rule remap_genes:
+    input: data/gene_coords/ENSSSCG00000025058.gene
+    output: data/gene_coords_remapped/ENSSSCG00000025058.gene.annot, data/gene_coords_remapped/ENSSSCG00000025058.gene.report
+    jobid: 49
+    wildcards: id=ENSSSCG00000025058
+
+
+[Wed Nov 18 11:30:48 2020]
+rule remap_genes:
+    input: data/gene_coords/ENSSSCG00000009002.gene
+    output: data/gene_coords_remapped/ENSSSCG00000009002.gene.annot, data/gene_coords_remapped/ENSSSCG00000009002.gene.report
+    jobid: 229
+    wildcards: id=ENSSSCG00000009002
+
+
+[Wed Nov 18 11:30:48 2020]
+[Wed Nov 18 11:30:48 2020]
+[Wed Nov 18 11:30:48 2020]
+Error in rule remap_genes:
+rule remap_genes:
+    input: data/gene_coords/ENSSSCG00000008090.gene
+    output: data/gene_coords_remapped/ENSSSCG00000008090.gene.annot, data/gene_coords_remapped/ENSSSCG00000008090.gene.report
+    jobid: 199
+    wildcards: id=ENSSSCG00000008090
+Error in rule remap_genes:
+    jobid: 243
+
+[Wed Nov 18 11:30:48 2020]
+    jobid: 213
+    output: data/gene_coords_remapped/ENSSSCG00000026109.gene.annot, data/gene_coords_remapped/ENSSSCG00000026109.gene.report
+Error in rule remap_genes:
+    output: data/gene_coords_remapped/ENSSSCG00000007214.gene.annot, data/gene_coords_remapped/ENSSSCG00000007214.gene.report
+    shell:
+        perl /home/pelmo/tesi/scripts/ensembl_scripts/remap_api.pl         --mode asm-asm --annotation data/gene_coords/ENSSSCG00000026109.gene         --from GCF_000003025.5 --dest GCF_000003025.6         --annot_out data/gene_coords_remapped/ENSSSCG00000026109.gene.annot --report_out data/gene_coords_remapped/ENSSSCG00000026109.gene.report
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    jobid: 79
+    shell:
+        perl /home/pelmo/tesi/scripts/ensembl_scripts/remap_api.pl         --mode asm-asm --annotation data/gene_coords/ENSSSCG00000007214.gene         --from GCF_000003025.5 --dest GCF_000003025.6         --annot_out data/gene_coords_remapped/ENSSSCG00000007214.gene.annot --report_out data/gene_coords_remapped/ENSSSCG00000007214.gene.report
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+    output: data/gene_coords_remapped/ENSSSCG00000023876.gene.annot, data/gene_coords_remapped/ENSSSCG00000023876.gene.report
+
+    shell:
+        perl /home/pelmo/tesi/scripts/ensembl_scripts/remap_api.pl         --mode asm-asm --annotation data/gene_coords/ENSSSCG00000023876.gene         --from GCF_000003025.5 --dest GCF_000003025.6         --annot_out data/gene_coords_remapped/ENSSSCG00000023876.gene.annot --report_out data/gene_coords_remapped/ENSSSCG00000023876.gene.report
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Nov 18 11:30:48 2020]
+Error in rule remap_genes:
+    jobid: 41
+    output: data/gene_coords_remapped/ENSSSCG00000026201.gene.annot, data/gene_coords_remapped/ENSSSCG00000026201.gene.report
+    shell:
+        perl /home/pelmo/tesi/scripts/ensembl_scripts/remap_api.pl         --mode asm-asm --annotation data/gene_coords/ENSSSCG00000026201.gene         --from GCF_000003025.5 --dest GCF_000003025.6         --annot_out data/gene_coords_remapped/ENSSSCG00000026201.gene.annot --report_out data/gene_coords_remapped/ENSSSCG00000026201.gene.report
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Nov 18 11:30:48 2020]
+Error in rule remap_genes:
+    jobid: 49
+    output: data/gene_coords_remapped/ENSSSCG00000025058.gene.annot, data/gene_coords_remapped/ENSSSCG00000025058.gene.report
+    shell:
+        perl /home/pelmo/tesi/scripts/ensembl_scripts/remap_api.pl         --mode asm-asm --annotation data/gene_coords/ENSSSCG00000025058.gene         --from GCF_000003025.5 --dest GCF_000003025.6         --annot_out data/gene_coords_remapped/ENSSSCG00000025058.gene.annot --report_out data/gene_coords_remapped/ENSSSCG00000025058.gene.report
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Nov 18 11:30:48 2020]
+Error in rule remap_genes:
+    jobid: 229
+    output: data/gene_coords_remapped/ENSSSCG00000009002.gene.annot, data/gene_coords_remapped/ENSSSCG00000009002.gene.report
+    shell:
+        perl /home/pelmo/tesi/scripts/ensembl_scripts/remap_api.pl         --mode asm-asm --annotation data/gene_coords/ENSSSCG00000009002.gene         --from GCF_000003025.5 --dest GCF_000003025.6         --annot_out data/gene_coords_remapped/ENSSSCG00000009002.gene.annot --report_out data/gene_coords_remapped/ENSSSCG00000009002.gene.report
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Nov 18 11:30:48 2020]
+Error in rule remap_genes:
+    jobid: 199
+    output: data/gene_coords_remapped/ENSSSCG00000008090.gene.annot, data/gene_coords_remapped/ENSSSCG00000008090.gene.report
+    shell:
+        perl /home/pelmo/tesi/scripts/ensembl_scripts/remap_api.pl         --mode asm-asm --annotation data/gene_coords/ENSSSCG00000008090.gene         --from GCF_000003025.5 --dest GCF_000003025.6         --annot_out data/gene_coords_remapped/ENSSSCG00000008090.gene.annot --report_out data/gene_coords_remapped/ENSSSCG00000008090.gene.report
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/pelmo/tesi/remap_sscrofa/.snakemake/log/2020-11-18T113048.173697.snakemake.log

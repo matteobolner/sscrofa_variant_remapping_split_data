@@ -1,0 +1,1429 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	get_ncbi
+	135
+
+[Thu Nov 19 17:36:09 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000013369.complete
+    output: data/ncbi_coords/ENSSSCG00000013369.ncbi
+    jobid: 65
+    wildcards: id=ENSSSCG00000013369
+
+[Thu Nov 19 17:36:09 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000017103.complete
+    output: data/ncbi_coords/ENSSSCG00000017103.ncbi
+    jobid: 215
+    wildcards: id=ENSSSCG00000017103
+
+[Thu Nov 19 17:36:09 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000015616.complete
+    output: data/ncbi_coords/ENSSSCG00000015616.ncbi
+    jobid: 155
+    wildcards: id=ENSSSCG00000015616
+
+[Thu Nov 19 17:36:09 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000009477.complete
+    output: data/ncbi_coords/ENSSSCG00000009477.ncbi
+    jobid: 185
+    wildcards: id=ENSSSCG00000009477
+
+[Thu Nov 19 17:36:09 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000012257.complete
+    output: data/ncbi_coords/ENSSSCG00000012257.ncbi
+    jobid: 71
+    wildcards: id=ENSSSCG00000012257
+
+[Thu Nov 19 17:36:10 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000031002.complete
+    output: data/ncbi_coords/ENSSSCG00000031002.ncbi
+    jobid: 21
+    wildcards: id=ENSSSCG00000031002
+
+[Thu Nov 19 17:36:10 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000025273.complete
+    output: data/ncbi_coords/ENSSSCG00000025273.ncbi
+    jobid: 201
+    wildcards: id=ENSSSCG00000025273
+
+[Thu Nov 19 17:36:10 2020]
+Finished job 155.
+1 of 135 steps (0.74%) done
+[Thu Nov 19 17:36:11 2020]
+Finished job 65.
+2 of 135 steps (1%) done
+[Thu Nov 19 17:36:11 2020]
+Finished job 185.
+3 of 135 steps (2%) done
+[Thu Nov 19 17:36:11 2020]
+Finished job 215.
+4 of 135 steps (3%) done
+[Thu Nov 19 17:36:11 2020]
+Finished job 21.
+5 of 135 steps (4%) done
+[Thu Nov 19 17:36:11 2020]
+Finished job 71.
+6 of 135 steps (4%) done
+[Thu Nov 19 17:36:11 2020]
+Finished job 201.
+7 of 135 steps (5%) done
+
+[Thu Nov 19 17:36:11 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010929.complete
+    output: data/ncbi_coords/ENSSSCG00000010929.ncbi
+    jobid: 9
+    wildcards: id=ENSSSCG00000010929
+
+[Thu Nov 19 17:36:11 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000015070.complete
+    output: data/ncbi_coords/ENSSSCG00000015070.ncbi
+    jobid: 23
+    wildcards: id=ENSSSCG00000015070
+
+[Thu Nov 19 17:36:11 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000002756.complete
+    output: data/ncbi_coords/ENSSSCG00000002756.ncbi
+    jobid: 171
+    wildcards: id=ENSSSCG00000002756
+
+
+[Thu Nov 19 17:36:11 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000031069.complete
+    output: data/ncbi_coords/ENSSSCG00000031069.ncbi
+    jobid: 203
+    wildcards: id=ENSSSCG00000031069
+
+
+[Thu Nov 19 17:36:11 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007522.complete
+    output: data/ncbi_coords/ENSSSCG00000007522.ncbi
+    jobid: 131
+    wildcards: id=ENSSSCG00000007522
+
+
+[Thu Nov 19 17:36:11 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000008948.complete
+    output: data/ncbi_coords/ENSSSCG00000008948.ncbi
+    jobid: 113
+    wildcards: id=ENSSSCG00000008948
+
+[Thu Nov 19 17:36:11 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000011512.complete
+    output: data/ncbi_coords/ENSSSCG00000011512.ncbi
+    jobid: 83
+    wildcards: id=ENSSSCG00000011512
+
+[Thu Nov 19 17:36:12 2020]
+Finished job 23.
+8 of 135 steps (6%) done
+[Thu Nov 19 17:36:12 2020]
+Finished job 9.
+9 of 135 steps (7%) done
+[Thu Nov 19 17:36:12 2020]
+Finished job 203.
+10 of 135 steps (7%) done
+[Thu Nov 19 17:36:12 2020]
+Finished job 113.
+11 of 135 steps (8%) done
+[Thu Nov 19 17:36:12 2020]
+Finished job 83.
+12 of 135 steps (9%) done
+[Thu Nov 19 17:36:12 2020]
+Finished job 171.
+13 of 135 steps (10%) done
+[Thu Nov 19 17:36:12 2020]
+Finished job 131.
+14 of 135 steps (10%) done
+
+[Thu Nov 19 17:36:12 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000012371.complete
+    output: data/ncbi_coords/ENSSSCG00000012371.ncbi
+    jobid: 115
+    wildcards: id=ENSSSCG00000012371
+
+[Thu Nov 19 17:36:12 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000008521.complete
+    output: data/ncbi_coords/ENSSSCG00000008521.ncbi
+    jobid: 187
+    wildcards: id=ENSSSCG00000008521
+
+
+[Thu Nov 19 17:36:12 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000011850.complete
+    output: data/ncbi_coords/ENSSSCG00000011850.ncbi
+    jobid: 85
+    wildcards: id=ENSSSCG00000011850
+
+[Thu Nov 19 17:36:12 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000005488.complete
+    output: data/ncbi_coords/ENSSSCG00000005488.ncbi
+    jobid: 235
+    wildcards: id=ENSSSCG00000005488
+
+
+[Thu Nov 19 17:36:12 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000012593.complete
+    output: data/ncbi_coords/ENSSSCG00000012593.ncbi
+    jobid: 25
+    wildcards: id=ENSSSCG00000012593
+
+[Thu Nov 19 17:36:12 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000003141.complete
+    output: data/ncbi_coords/ENSSSCG00000003141.ncbi
+    jobid: 161
+    wildcards: id=ENSSSCG00000003141
+
+
+[Thu Nov 19 17:36:12 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000015053.complete
+    output: data/ncbi_coords/ENSSSCG00000015053.ncbi
+    jobid: 221
+    wildcards: id=ENSSSCG00000015053
+
+[Thu Nov 19 17:36:13 2020]
+Finished job 25.
+15 of 135 steps (11%) done
+[Thu Nov 19 17:36:13 2020]
+Finished job 115.
+16 of 135 steps (12%) done
+[Thu Nov 19 17:36:13 2020]
+Finished job 221.
+17 of 135 steps (13%) done
+[Thu Nov 19 17:36:13 2020]
+Finished job 187.
+18 of 135 steps (13%) done
+[Thu Nov 19 17:36:13 2020]
+Finished job 161.
+19 of 135 steps (14%) done
+[Thu Nov 19 17:36:13 2020]
+Finished job 235.
+20 of 135 steps (15%) done
+[Thu Nov 19 17:36:13 2020]
+Finished job 85.
+21 of 135 steps (16%) done
+
+[Thu Nov 19 17:36:13 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000030758.complete
+    output: data/ncbi_coords/ENSSSCG00000030758.ncbi
+    jobid: 237
+    wildcards: id=ENSSSCG00000030758
+
+[Thu Nov 19 17:36:13 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007217.complete
+    output: data/ncbi_coords/ENSSSCG00000007217.ncbi
+    jobid: 117
+    wildcards: id=ENSSSCG00000007217
+
+
+[Thu Nov 19 17:36:13 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000025500.complete
+    output: data/ncbi_coords/ENSSSCG00000025500.ncbi
+    jobid: 143
+    wildcards: id=ENSSSCG00000025500
+
+[Thu Nov 19 17:36:13 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000012118.complete
+    output: data/ncbi_coords/ENSSSCG00000012118.ncbi
+    jobid: 191
+    wildcards: id=ENSSSCG00000012118
+
+[Thu Nov 19 17:36:13 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000000932.complete
+    output: data/ncbi_coords/ENSSSCG00000000932.ncbi
+    jobid: 253
+    wildcards: id=ENSSSCG00000000932
+
+
+[Thu Nov 19 17:36:13 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000006719.complete
+    output: data/ncbi_coords/ENSSSCG00000006719.ncbi
+    jobid: 43
+    wildcards: id=ENSSSCG00000006719
+
+[Thu Nov 19 17:36:13 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000014170.complete
+    output: data/ncbi_coords/ENSSSCG00000014170.ncbi
+    jobid: 223
+    wildcards: id=ENSSSCG00000014170
+
+[Thu Nov 19 17:36:14 2020]
+Finished job 253.
+22 of 135 steps (16%) done
+[Thu Nov 19 17:36:14 2020]
+Finished job 191.
+23 of 135 steps (17%) done
+[Thu Nov 19 17:36:14 2020]
+Finished job 237.
+24 of 135 steps (18%) done
+[Thu Nov 19 17:36:14 2020]
+Finished job 117.
+25 of 135 steps (19%) done
+[Thu Nov 19 17:36:14 2020]
+Finished job 43.
+26 of 135 steps (19%) done
+[Thu Nov 19 17:36:14 2020]
+Finished job 143.
+27 of 135 steps (20%) done
+[Thu Nov 19 17:36:15 2020]
+Finished job 223.
+28 of 135 steps (21%) done
+
+[Thu Nov 19 17:36:15 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000000922.complete
+    output: data/ncbi_coords/ENSSSCG00000000922.ncbi
+    jobid: 89
+    wildcards: id=ENSSSCG00000000922
+
+
+[Thu Nov 19 17:36:15 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000028431.complete
+    output: data/ncbi_coords/ENSSSCG00000028431.ncbi
+    jobid: 121
+    wildcards: id=ENSSSCG00000028431
+
+[Thu Nov 19 17:36:15 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000005163.complete
+    output: data/ncbi_coords/ENSSSCG00000005163.ncbi
+    jobid: 31
+    wildcards: id=ENSSSCG00000005163
+
+[Thu Nov 19 17:36:15 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000030227.complete
+    output: data/ncbi_coords/ENSSSCG00000030227.ncbi
+    jobid: 255
+    wildcards: id=ENSSSCG00000030227
+
+
+[Thu Nov 19 17:36:15 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007221.complete
+    output: data/ncbi_coords/ENSSSCG00000007221.ncbi
+    jobid: 225
+    wildcards: id=ENSSSCG00000007221
+
+[Thu Nov 19 17:36:15 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000026201.complete
+    output: data/ncbi_coords/ENSSSCG00000026201.ncbi
+    jobid: 41
+    wildcards: id=ENSSSCG00000026201
+
+[Thu Nov 19 17:36:15 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000026592.complete
+    output: data/ncbi_coords/ENSSSCG00000026592.ncbi
+    jobid: 45
+    wildcards: id=ENSSSCG00000026592
+
+[Thu Nov 19 17:36:15 2020]
+Finished job 41.
+29 of 135 steps (21%) done
+[Thu Nov 19 17:36:16 2020]
+Finished job 89.
+30 of 135 steps (22%) done
+[Thu Nov 19 17:36:16 2020]
+Finished job 225.
+31 of 135 steps (23%) done
+[Thu Nov 19 17:36:16 2020]
+Finished job 31.
+32 of 135 steps (24%) done
+[Thu Nov 19 17:36:16 2020]
+Finished job 121.
+33 of 135 steps (24%) done
+[Thu Nov 19 17:36:16 2020]
+Finished job 255.
+34 of 135 steps (25%) done
+[Thu Nov 19 17:36:16 2020]
+Finished job 45.
+35 of 135 steps (26%) done
+
+[Thu Nov 19 17:36:16 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000027850.complete
+    output: data/ncbi_coords/ENSSSCG00000027850.ncbi
+    jobid: 241
+    wildcards: id=ENSSSCG00000027850
+
+[Thu Nov 19 17:36:16 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000026214.complete
+    output: data/ncbi_coords/ENSSSCG00000026214.ncbi
+    jobid: 27
+    wildcards: id=ENSSSCG00000026214
+
+
+[Thu Nov 19 17:36:16 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007146.complete
+    output: data/ncbi_coords/ENSSSCG00000007146.ncbi
+    jobid: 33
+    wildcards: id=ENSSSCG00000007146
+
+
+[Thu Nov 19 17:36:16 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000004875.complete
+    output: data/ncbi_coords/ENSSSCG00000004875.ncbi
+    jobid: 93
+    wildcards: id=ENSSSCG00000004875
+
+
+[Thu Nov 19 17:36:16 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000008842.complete
+    output: data/ncbi_coords/ENSSSCG00000008842.ncbi
+    jobid: 47
+    wildcards: id=ENSSSCG00000008842
+
+[Thu Nov 19 17:36:16 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000003130.complete
+    output: data/ncbi_coords/ENSSSCG00000003130.ncbi
+    jobid: 227
+    wildcards: id=ENSSSCG00000003130
+
+
+[Thu Nov 19 17:36:16 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000022432.complete
+    output: data/ncbi_coords/ENSSSCG00000022432.ncbi
+    jobid: 257
+    wildcards: id=ENSSSCG00000022432
+
+[Thu Nov 19 17:36:17 2020]
+Finished job 241.
+36 of 135 steps (27%) done
+[Thu Nov 19 17:36:17 2020]
+Finished job 27.
+37 of 135 steps (27%) done
+[Thu Nov 19 17:36:17 2020]
+Finished job 227.
+38 of 135 steps (28%) done
+[Thu Nov 19 17:36:17 2020]
+Finished job 33.
+39 of 135 steps (29%) done
+[Thu Nov 19 17:36:17 2020]
+Finished job 93.
+40 of 135 steps (30%) done
+[Thu Nov 19 17:36:17 2020]
+Finished job 47.
+41 of 135 steps (30%) done
+[Thu Nov 19 17:36:17 2020]
+Finished job 257.
+42 of 135 steps (31%) done
+
+[Thu Nov 19 17:36:17 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000001428.complete
+    output: data/ncbi_coords/ENSSSCG00000001428.ncbi
+    jobid: 91
+    wildcards: id=ENSSSCG00000001428
+
+[Thu Nov 19 17:36:17 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000006386.complete
+    output: data/ncbi_coords/ENSSSCG00000006386.ncbi
+    jobid: 119
+    wildcards: id=ENSSSCG00000006386
+
+[Thu Nov 19 17:36:17 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000011453.complete
+    output: data/ncbi_coords/ENSSSCG00000011453.ncbi
+    jobid: 29
+    wildcards: id=ENSSSCG00000011453
+
+[Thu Nov 19 17:36:17 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007153.complete
+    output: data/ncbi_coords/ENSSSCG00000007153.ncbi
+    jobid: 57
+    wildcards: id=ENSSSCG00000007153
+
+
+[Thu Nov 19 17:36:17 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000030168.complete
+    output: data/ncbi_coords/ENSSSCG00000030168.ncbi
+    jobid: 159
+    wildcards: id=ENSSSCG00000030168
+
+
+[Thu Nov 19 17:36:17 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000026109.complete
+    output: data/ncbi_coords/ENSSSCG00000026109.ncbi
+    jobid: 243
+    wildcards: id=ENSSSCG00000026109
+
+
+[Thu Nov 19 17:36:17 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000012077.complete
+    output: data/ncbi_coords/ENSSSCG00000012077.ncbi
+    jobid: 123
+    wildcards: id=ENSSSCG00000012077
+
+[Thu Nov 19 17:36:18 2020]
+Finished job 57.
+43 of 135 steps (32%) done
+[Thu Nov 19 17:36:18 2020]
+Finished job 123.
+44 of 135 steps (33%) done
+[Thu Nov 19 17:36:18 2020]
+Finished job 119.
+45 of 135 steps (33%) done
+[Thu Nov 19 17:36:18 2020]
+Finished job 243.
+46 of 135 steps (34%) done
+[Thu Nov 19 17:36:18 2020]
+Finished job 91.
+47 of 135 steps (35%) done
+[Thu Nov 19 17:36:18 2020]
+Finished job 159.
+48 of 135 steps (36%) done
+[Thu Nov 19 17:36:18 2020]
+Finished job 29.
+49 of 135 steps (36%) done
+
+[Thu Nov 19 17:36:19 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000001404.complete
+    output: data/ncbi_coords/ENSSSCG00000001404.ncbi
+    jobid: 87
+    wildcards: id=ENSSSCG00000001404
+
+[Thu Nov 19 17:36:19 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000011147.complete
+    output: data/ncbi_coords/ENSSSCG00000011147.ncbi
+    jobid: 239
+    wildcards: id=ENSSSCG00000011147
+
+[Thu Nov 19 17:36:19 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000025058.complete
+    output: data/ncbi_coords/ENSSSCG00000025058.ncbi
+    jobid: 49
+    wildcards: id=ENSSSCG00000025058
+
+
+[Thu Nov 19 17:36:19 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000009695.complete
+    output: data/ncbi_coords/ENSSSCG00000009695.ncbi
+    jobid: 173
+    wildcards: id=ENSSSCG00000009695
+
+
+[Thu Nov 19 17:36:19 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000000038.complete
+    output: data/ncbi_coords/ENSSSCG00000000038.ncbi
+    jobid: 251
+    wildcards: id=ENSSSCG00000000038
+
+
+[Thu Nov 19 17:36:19 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000009002.complete
+    output: data/ncbi_coords/ENSSSCG00000009002.ncbi
+    jobid: 229
+    wildcards: id=ENSSSCG00000009002
+
+
+[Thu Nov 19 17:36:19 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000006337.complete
+    output: data/ncbi_coords/ENSSSCG00000006337.ncbi
+    jobid: 259
+    wildcards: id=ENSSSCG00000006337
+
+[Thu Nov 19 17:36:19 2020]
+Finished job 259.
+50 of 135 steps (37%) done
+[Thu Nov 19 17:36:20 2020]
+Finished job 87.
+51 of 135 steps (38%) done
+[Thu Nov 19 17:36:20 2020]
+Finished job 49.
+52 of 135 steps (39%) done
+[Thu Nov 19 17:36:20 2020]
+Finished job 251.
+53 of 135 steps (39%) done
+[Thu Nov 19 17:36:20 2020]
+Finished job 229.
+54 of 135 steps (40%) done
+[Thu Nov 19 17:36:20 2020]
+Finished job 173.
+55 of 135 steps (41%) done
+[Thu Nov 19 17:36:20 2020]
+Finished job 239.
+56 of 135 steps (41%) done
+
+[Thu Nov 19 17:36:20 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000001741.complete
+    output: data/ncbi_coords/ENSSSCG00000001741.ncbi
+    jobid: 189
+    wildcards: id=ENSSSCG00000001741
+
+[Thu Nov 19 17:36:20 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000001743.complete
+    output: data/ncbi_coords/ENSSSCG00000001743.ncbi
+    jobid: 7
+    wildcards: id=ENSSSCG00000001743
+
+[Thu Nov 19 17:36:20 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010591.complete
+    output: data/ncbi_coords/ENSSSCG00000010591.ncbi
+    jobid: 219
+    wildcards: id=ENSSSCG00000010591
+
+
+[Thu Nov 19 17:36:20 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000017121.complete
+    output: data/ncbi_coords/ENSSSCG00000017121.ncbi
+    jobid: 69
+    wildcards: id=ENSSSCG00000017121
+
+
+[Thu Nov 19 17:36:20 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000016940.complete
+    output: data/ncbi_coords/ENSSSCG00000016940.ncbi
+    jobid: 35
+    wildcards: id=ENSSSCG00000016940
+
+[Thu Nov 19 17:36:20 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000026583.complete
+    output: data/ncbi_coords/ENSSSCG00000026583.ncbi
+    jobid: 95
+    wildcards: id=ENSSSCG00000026583
+
+[Thu Nov 19 17:36:20 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007226.complete
+    output: data/ncbi_coords/ENSSSCG00000007226.ncbi
+    jobid: 101
+    wildcards: id=ENSSSCG00000007226
+
+[Thu Nov 19 17:36:21 2020]
+Finished job 7.
+57 of 135 steps (42%) done
+[Thu Nov 19 17:36:21 2020]
+Finished job 189.
+58 of 135 steps (43%) done
+[Thu Nov 19 17:36:21 2020]
+Finished job 95.
+59 of 135 steps (44%) done
+[Thu Nov 19 17:36:21 2020]
+Finished job 101.
+60 of 135 steps (44%) done
+[Thu Nov 19 17:36:21 2020]
+Finished job 35.
+61 of 135 steps (45%) done
+[Thu Nov 19 17:36:21 2020]
+Finished job 219.
+62 of 135 steps (46%) done
+[Thu Nov 19 17:36:21 2020]
+Finished job 69.
+63 of 135 steps (47%) done
+
+[Thu Nov 19 17:36:21 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000004296.complete
+    output: data/ncbi_coords/ENSSSCG00000004296.ncbi
+    jobid: 195
+    wildcards: id=ENSSSCG00000004296
+
+[Thu Nov 19 17:36:21 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000013579.complete
+    output: data/ncbi_coords/ENSSSCG00000013579.ncbi
+    jobid: 165
+    wildcards: id=ENSSSCG00000013579
+
+[Thu Nov 19 17:36:21 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000014428.complete
+    output: data/ncbi_coords/ENSSSCG00000014428.ncbi
+    jobid: 53
+    wildcards: id=ENSSSCG00000014428
+
+
+[Thu Nov 19 17:36:21 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010554.complete
+    output: data/ncbi_coords/ENSSSCG00000010554.ncbi
+    jobid: 75
+    wildcards: id=ENSSSCG00000010554
+
+[Thu Nov 19 17:36:21 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010780.complete
+    output: data/ncbi_coords/ENSSSCG00000010780.ncbi
+    jobid: 135
+    wildcards: id=ENSSSCG00000010780
+
+
+[Thu Nov 19 17:36:21 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000024497.complete
+    output: data/ncbi_coords/ENSSSCG00000024497.ncbi
+    jobid: 233
+    wildcards: id=ENSSSCG00000024497
+
+[Thu Nov 19 17:36:21 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007215.complete
+    output: data/ncbi_coords/ENSSSCG00000007215.ncbi
+    jobid: 263
+    wildcards: id=ENSSSCG00000007215
+
+[Thu Nov 19 17:36:22 2020]
+Finished job 53.
+64 of 135 steps (47%) done
+[Thu Nov 19 17:36:22 2020]
+Finished job 135.
+65 of 135 steps (48%) done
+[Thu Nov 19 17:36:22 2020]
+Finished job 195.
+66 of 135 steps (49%) done
+[Thu Nov 19 17:36:22 2020]
+Finished job 75.
+67 of 135 steps (50%) done
+[Thu Nov 19 17:36:22 2020]
+Finished job 263.
+68 of 135 steps (50%) done
+[Thu Nov 19 17:36:23 2020]
+Finished job 165.
+69 of 135 steps (51%) done
+[Thu Nov 19 17:36:23 2020]
+Finished job 233.
+70 of 135 steps (52%) done
+
+[Thu Nov 19 17:36:23 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000020864.complete
+    output: data/ncbi_coords/ENSSSCG00000020864.ncbi
+    jobid: 157
+    wildcards: id=ENSSSCG00000020864
+
+[Thu Nov 19 17:36:23 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000031060.complete
+    output: data/ncbi_coords/ENSSSCG00000031060.ncbi
+    jobid: 209
+    wildcards: id=ENSSSCG00000031060
+
+
+[Thu Nov 19 17:36:23 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000001050.complete
+    output: data/ncbi_coords/ENSSSCG00000001050.ncbi
+    jobid: 67
+    wildcards: id=ENSSSCG00000001050
+
+[Thu Nov 19 17:36:23 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000011033.complete
+    output: data/ncbi_coords/ENSSSCG00000011033.ncbi
+    jobid: 175
+    wildcards: id=ENSSSCG00000011033
+
+
+[Thu Nov 19 17:36:23 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000028629.complete
+    output: data/ncbi_coords/ENSSSCG00000028629.ncbi
+    jobid: 179
+    wildcards: id=ENSSSCG00000028629
+
+
+[Thu Nov 19 17:36:23 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000021739.complete
+    output: data/ncbi_coords/ENSSSCG00000021739.ncbi
+    jobid: 217
+    wildcards: id=ENSSSCG00000021739
+
+
+[Thu Nov 19 17:36:23 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000004475.complete
+    output: data/ncbi_coords/ENSSSCG00000004475.ncbi
+    jobid: 181
+    wildcards: id=ENSSSCG00000004475
+
+[Thu Nov 19 17:36:23 2020]
+Finished job 175.
+71 of 135 steps (53%) done
+[Thu Nov 19 17:36:24 2020]
+Finished job 209.
+72 of 135 steps (53%) done
+[Thu Nov 19 17:36:24 2020]
+Finished job 67.
+73 of 135 steps (54%) done
+[Thu Nov 19 17:36:24 2020]
+Finished job 181.
+74 of 135 steps (55%) done
+[Thu Nov 19 17:36:24 2020]
+Finished job 157.
+75 of 135 steps (56%) done
+[Thu Nov 19 17:36:24 2020]
+Finished job 217.
+76 of 135 steps (56%) done
+[Thu Nov 19 17:36:24 2020]
+Finished job 179.
+77 of 135 steps (57%) done
+
+[Thu Nov 19 17:36:24 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000002961.complete
+    output: data/ncbi_coords/ENSSSCG00000002961.ncbi
+    jobid: 37
+    wildcards: id=ENSSSCG00000002961
+
+
+[Thu Nov 19 17:36:24 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000026409.complete
+    output: data/ncbi_coords/ENSSSCG00000026409.ncbi
+    jobid: 3
+    wildcards: id=ENSSSCG00000026409
+
+[Thu Nov 19 17:36:24 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000006215.complete
+    output: data/ncbi_coords/ENSSSCG00000006215.ncbi
+    jobid: 97
+    wildcards: id=ENSSSCG00000006215
+
+
+[Thu Nov 19 17:36:24 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000005503.complete
+    output: data/ncbi_coords/ENSSSCG00000005503.ncbi
+    jobid: 149
+    wildcards: id=ENSSSCG00000005503
+
+
+[Thu Nov 19 17:36:24 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000002385.complete
+    output: data/ncbi_coords/ENSSSCG00000002385.ncbi
+    jobid: 59
+    wildcards: id=ENSSSCG00000002385
+
+
+[Thu Nov 19 17:36:24 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007216.complete
+    output: data/ncbi_coords/ENSSSCG00000007216.ncbi
+    jobid: 127
+    wildcards: id=ENSSSCG00000007216
+
+[Thu Nov 19 17:36:24 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000009115.complete
+    output: data/ncbi_coords/ENSSSCG00000009115.ncbi
+    jobid: 99
+    wildcards: id=ENSSSCG00000009115
+
+[Thu Nov 19 17:36:25 2020]
+Finished job 59.
+78 of 135 steps (58%) done
+[Thu Nov 19 17:36:25 2020]
+Finished job 3.
+79 of 135 steps (59%) done
+[Thu Nov 19 17:36:25 2020]
+Finished job 37.
+80 of 135 steps (59%) done
+[Thu Nov 19 17:36:25 2020]
+Finished job 97.
+81 of 135 steps (60%) done
+[Thu Nov 19 17:36:25 2020]
+Finished job 127.
+82 of 135 steps (61%) done
+[Thu Nov 19 17:36:25 2020]
+Finished job 149.
+83 of 135 steps (61%) done
+[Thu Nov 19 17:36:25 2020]
+Finished job 99.
+84 of 135 steps (62%) done
+
+[Thu Nov 19 17:36:25 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000003017.complete
+    output: data/ncbi_coords/ENSSSCG00000003017.ncbi
+    jobid: 247
+    wildcards: id=ENSSSCG00000003017
+
+[Thu Nov 19 17:36:25 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000016047.complete
+    output: data/ncbi_coords/ENSSSCG00000016047.ncbi
+    jobid: 249
+    wildcards: id=ENSSSCG00000016047
+
+
+[Thu Nov 19 17:36:25 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000025244.complete
+    output: data/ncbi_coords/ENSSSCG00000025244.ncbi
+    jobid: 15
+    wildcards: id=ENSSSCG00000025244
+
+[Thu Nov 19 17:36:25 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007218.complete
+    output: data/ncbi_coords/ENSSSCG00000007218.ncbi
+    jobid: 231
+    wildcards: id=ENSSSCG00000007218
+
+[Thu Nov 19 17:36:25 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000023666.complete
+    output: data/ncbi_coords/ENSSSCG00000023666.ncbi
+    jobid: 51
+    wildcards: id=ENSSSCG00000023666
+
+[Thu Nov 19 17:36:25 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000008326.complete
+    output: data/ncbi_coords/ENSSSCG00000008326.ncbi
+    jobid: 1
+    wildcards: id=ENSSSCG00000008326
+
+
+[Thu Nov 19 17:36:25 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010948.complete
+    output: data/ncbi_coords/ENSSSCG00000010948.ncbi
+    jobid: 105
+    wildcards: id=ENSSSCG00000010948
+
+[Thu Nov 19 17:36:26 2020]
+Finished job 15.
+85 of 135 steps (63%) done
+[Thu Nov 19 17:36:26 2020]
+Finished job 231.
+86 of 135 steps (64%) done
+[Thu Nov 19 17:36:26 2020]
+Finished job 249.
+87 of 135 steps (64%) done
+[Thu Nov 19 17:36:26 2020]
+Finished job 247.
+88 of 135 steps (65%) done
+[Thu Nov 19 17:36:26 2020]
+Finished job 51.
+89 of 135 steps (66%) done
+[Thu Nov 19 17:36:26 2020]
+Finished job 1.
+90 of 135 steps (67%) done
+[Thu Nov 19 17:36:26 2020]
+Finished job 105.
+91 of 135 steps (67%) done
+
+[Thu Nov 19 17:36:27 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000002777.complete
+    output: data/ncbi_coords/ENSSSCG00000002777.ncbi
+    jobid: 151
+    wildcards: id=ENSSSCG00000002777
+
+[Thu Nov 19 17:36:27 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000024973.complete
+    output: data/ncbi_coords/ENSSSCG00000024973.ncbi
+    jobid: 205
+    wildcards: id=ENSSSCG00000024973
+
+
+[Thu Nov 19 17:36:27 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000015048.complete
+    output: data/ncbi_coords/ENSSSCG00000015048.ncbi
+    jobid: 61
+    wildcards: id=ENSSSCG00000015048
+
+[Thu Nov 19 17:36:27 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000005193.complete
+    output: data/ncbi_coords/ENSSSCG00000005193.ncbi
+    jobid: 141
+    wildcards: id=ENSSSCG00000005193
+
+[Thu Nov 19 17:36:27 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000020924.complete
+    output: data/ncbi_coords/ENSSSCG00000020924.ncbi
+    jobid: 111
+    wildcards: id=ENSSSCG00000020924
+
+
+[Thu Nov 19 17:36:27 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000000481.complete
+    output: data/ncbi_coords/ENSSSCG00000000481.ncbi
+    jobid: 261
+    wildcards: id=ENSSSCG00000000481
+
+
+[Thu Nov 19 17:36:27 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000006648.complete
+    output: data/ncbi_coords/ENSSSCG00000006648.ncbi
+    jobid: 77
+    wildcards: id=ENSSSCG00000006648
+
+[Thu Nov 19 17:36:28 2020]
+Finished job 141.
+92 of 135 steps (68%) done
+[Thu Nov 19 17:36:28 2020]
+Finished job 61.
+93 of 135 steps (69%) done
+[Thu Nov 19 17:36:28 2020]
+Finished job 111.
+94 of 135 steps (70%) done
+[Thu Nov 19 17:36:28 2020]
+Finished job 205.
+95 of 135 steps (70%) done
+[Thu Nov 19 17:36:28 2020]
+Finished job 77.
+96 of 135 steps (71%) done
+[Thu Nov 19 17:36:28 2020]
+Finished job 151.
+97 of 135 steps (72%) done
+[Thu Nov 19 17:36:28 2020]
+Finished job 261.
+98 of 135 steps (73%) done
+
+[Thu Nov 19 17:36:28 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000004904.complete
+    output: data/ncbi_coords/ENSSSCG00000004904.ncbi
+    jobid: 211
+    wildcards: id=ENSSSCG00000004904
+
+
+[Thu Nov 19 17:36:28 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007744.complete
+    output: data/ncbi_coords/ENSSSCG00000007744.ncbi
+    jobid: 63
+    wildcards: id=ENSSSCG00000007744
+
+[Thu Nov 19 17:36:28 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000006403.complete
+    output: data/ncbi_coords/ENSSSCG00000006403.ncbi
+    jobid: 39
+    wildcards: id=ENSSSCG00000006403
+
+
+[Thu Nov 19 17:36:28 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000008088.complete
+    output: data/ncbi_coords/ENSSSCG00000008088.ncbi
+    jobid: 129
+    wildcards: id=ENSSSCG00000008088
+
+[Thu Nov 19 17:36:28 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000011436.complete
+    output: data/ncbi_coords/ENSSSCG00000011436.ncbi
+    jobid: 81
+    wildcards: id=ENSSSCG00000011436
+
+[Thu Nov 19 17:36:28 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000027555.complete
+    output: data/ncbi_coords/ENSSSCG00000027555.ncbi
+    jobid: 193
+    wildcards: id=ENSSSCG00000027555
+
+[Thu Nov 19 17:36:28 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000002686.complete
+    output: data/ncbi_coords/ENSSSCG00000002686.ncbi
+    jobid: 107
+    wildcards: id=ENSSSCG00000002686
+
+[Thu Nov 19 17:36:29 2020]
+Finished job 39.
+99 of 135 steps (73%) done
+[Thu Nov 19 17:36:29 2020]
+Finished job 63.
+100 of 135 steps (74%) done
+[Thu Nov 19 17:36:29 2020]
+Finished job 107.
+101 of 135 steps (75%) done
+[Thu Nov 19 17:36:29 2020]
+Finished job 211.
+102 of 135 steps (76%) done
+[Thu Nov 19 17:36:29 2020]
+Finished job 129.
+103 of 135 steps (76%) done
+[Thu Nov 19 17:36:29 2020]
+Finished job 81.
+104 of 135 steps (77%) done
+[Thu Nov 19 17:36:29 2020]
+Finished job 193.
+105 of 135 steps (78%) done
+
+[Thu Nov 19 17:36:29 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007214.complete
+    output: data/ncbi_coords/ENSSSCG00000007214.ncbi
+    jobid: 213
+    wildcards: id=ENSSSCG00000007214
+
+
+[Thu Nov 19 17:36:29 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000016200.complete
+    output: data/ncbi_coords/ENSSSCG00000016200.ncbi
+    jobid: 183
+    wildcards: id=ENSSSCG00000016200
+
+[Thu Nov 19 17:36:29 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000023876.complete
+    output: data/ncbi_coords/ENSSSCG00000023876.ncbi
+    jobid: 79
+    wildcards: id=ENSSSCG00000023876
+
+
+[Thu Nov 19 17:36:29 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010816.complete
+    output: data/ncbi_coords/ENSSSCG00000010816.ncbi
+    jobid: 19
+    wildcards: id=ENSSSCG00000010816
+
+
+[Thu Nov 19 17:36:29 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000029988.complete
+    output: data/ncbi_coords/ENSSSCG00000029988.ncbi
+    jobid: 11
+    wildcards: id=ENSSSCG00000029988
+
+
+[Thu Nov 19 17:36:29 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000016273.complete
+    output: data/ncbi_coords/ENSSSCG00000016273.ncbi
+    jobid: 109
+    wildcards: id=ENSSSCG00000016273
+
+[Thu Nov 19 17:36:29 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000012117.complete
+    output: data/ncbi_coords/ENSSSCG00000012117.ncbi
+    jobid: 73
+    wildcards: id=ENSSSCG00000012117
+
+[Thu Nov 19 17:36:30 2020]
+Finished job 213.
+106 of 135 steps (79%) done
+[Thu Nov 19 17:36:30 2020]
+Finished job 19.
+107 of 135 steps (79%) done
+[Thu Nov 19 17:36:30 2020]
+Finished job 183.
+108 of 135 steps (80%) done
+[Thu Nov 19 17:36:30 2020]
+Finished job 79.
+109 of 135 steps (81%) done
+[Thu Nov 19 17:36:30 2020]
+Finished job 109.
+110 of 135 steps (81%) done
+[Thu Nov 19 17:36:30 2020]
+Finished job 11.
+111 of 135 steps (82%) done
+[Thu Nov 19 17:36:30 2020]
+Finished job 73.
+112 of 135 steps (83%) done
+
+[Thu Nov 19 17:36:30 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000009406.complete
+    output: data/ncbi_coords/ENSSSCG00000009406.ncbi
+    jobid: 147
+    wildcards: id=ENSSSCG00000009406
+
+[Thu Nov 19 17:36:30 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000012840.complete
+    output: data/ncbi_coords/ENSSSCG00000012840.ncbi
+    jobid: 177
+    wildcards: id=ENSSSCG00000012840
+
+
+[Thu Nov 19 17:36:30 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000023686.complete
+    output: data/ncbi_coords/ENSSSCG00000023686.ncbi
+    jobid: 207
+    wildcards: id=ENSSSCG00000023686
+
+[Thu Nov 19 17:36:30 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000011862.complete
+    output: data/ncbi_coords/ENSSSCG00000011862.ncbi
+    jobid: 139
+    wildcards: id=ENSSSCG00000011862
+
+
+[Thu Nov 19 17:36:30 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000008090.complete
+    output: data/ncbi_coords/ENSSSCG00000008090.ncbi
+    jobid: 199
+    wildcards: id=ENSSSCG00000008090
+
+
+[Thu Nov 19 17:36:30 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010310.complete
+    output: data/ncbi_coords/ENSSSCG00000010310.ncbi
+    jobid: 169
+    wildcards: id=ENSSSCG00000010310
+
+
+[Thu Nov 19 17:36:30 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000017227.complete
+    output: data/ncbi_coords/ENSSSCG00000017227.ncbi
+    jobid: 137
+    wildcards: id=ENSSSCG00000017227
+
+[Thu Nov 19 17:36:31 2020]
+Finished job 137.
+113 of 135 steps (84%) done
+[Thu Nov 19 17:36:32 2020]
+Finished job 207.
+114 of 135 steps (84%) done
+[Thu Nov 19 17:36:32 2020]
+Finished job 139.
+115 of 135 steps (85%) done
+[Thu Nov 19 17:36:32 2020]
+Finished job 147.
+116 of 135 steps (86%) done
+[Thu Nov 19 17:36:32 2020]
+Finished job 177.
+117 of 135 steps (87%) done
+[Thu Nov 19 17:36:32 2020]
+Finished job 169.
+118 of 135 steps (87%) done
+[Thu Nov 19 17:36:32 2020]
+Finished job 199.
+119 of 135 steps (88%) done
+
+[Thu Nov 19 17:36:32 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010937.complete
+    output: data/ncbi_coords/ENSSSCG00000010937.ncbi
+    jobid: 145
+    wildcards: id=ENSSSCG00000010937
+
+[Thu Nov 19 17:36:32 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010787.complete
+    output: data/ncbi_coords/ENSSSCG00000010787.ncbi
+    jobid: 265
+    wildcards: id=ENSSSCG00000010787
+
+
+[Thu Nov 19 17:36:32 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000002749.complete
+    output: data/ncbi_coords/ENSSSCG00000002749.ncbi
+    jobid: 17
+    wildcards: id=ENSSSCG00000002749
+
+[Thu Nov 19 17:36:32 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000027877.complete
+    output: data/ncbi_coords/ENSSSCG00000027877.ncbi
+    jobid: 163
+    wildcards: id=ENSSSCG00000027877
+
+
+[Thu Nov 19 17:36:32 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000030733.complete
+    output: data/ncbi_coords/ENSSSCG00000030733.ncbi
+    jobid: 133
+    wildcards: id=ENSSSCG00000030733
+
+[Thu Nov 19 17:36:32 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000007277.complete
+    output: data/ncbi_coords/ENSSSCG00000007277.ncbi
+    jobid: 167
+    wildcards: id=ENSSSCG00000007277
+
+[Thu Nov 19 17:36:32 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000015652.complete
+    output: data/ncbi_coords/ENSSSCG00000015652.ncbi
+    jobid: 197
+    wildcards: id=ENSSSCG00000015652
+
+[Thu Nov 19 17:36:32 2020]
+Finished job 145.
+120 of 135 steps (89%) done
+[Thu Nov 19 17:36:33 2020]
+Finished job 17.
+121 of 135 steps (90%) done
+[Thu Nov 19 17:36:33 2020]
+Finished job 265.
+122 of 135 steps (90%) done
+[Thu Nov 19 17:36:33 2020]
+Finished job 133.
+123 of 135 steps (91%) done
+[Thu Nov 19 17:36:33 2020]
+Finished job 167.
+124 of 135 steps (92%) done
+[Thu Nov 19 17:36:33 2020]
+Finished job 163.
+125 of 135 steps (93%) done
+[Thu Nov 19 17:36:33 2020]
+Finished job 197.
+126 of 135 steps (93%) done
+
+[Thu Nov 19 17:36:33 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000024689.complete
+    output: data/ncbi_coords/ENSSSCG00000024689.ncbi
+    jobid: 125
+    wildcards: id=ENSSSCG00000024689
+
+[Thu Nov 19 17:36:33 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000017399.complete
+    output: data/ncbi_coords/ENSSSCG00000017399.ncbi
+    jobid: 5
+    wildcards: id=ENSSSCG00000017399
+
+[Thu Nov 19 17:36:33 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000029990.complete
+    output: data/ncbi_coords/ENSSSCG00000029990.ncbi
+    jobid: 153
+    wildcards: id=ENSSSCG00000029990
+
+[Thu Nov 19 17:36:33 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000015801.complete
+    output: data/ncbi_coords/ENSSSCG00000015801.ncbi
+    jobid: 55
+    wildcards: id=ENSSSCG00000015801
+
+[Thu Nov 19 17:36:33 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000006924.complete
+    output: data/ncbi_coords/ENSSSCG00000006924.ncbi
+    jobid: 267
+    wildcards: id=ENSSSCG00000006924
+
+[Thu Nov 19 17:36:33 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010885.complete
+    output: data/ncbi_coords/ENSSSCG00000010885.ncbi
+    jobid: 245
+    wildcards: id=ENSSSCG00000010885
+
+[Thu Nov 19 17:36:33 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000000866.complete
+    output: data/ncbi_coords/ENSSSCG00000000866.ncbi
+    jobid: 13
+    wildcards: id=ENSSSCG00000000866
+
+[Thu Nov 19 17:36:34 2020]
+Finished job 5.
+127 of 135 steps (94%) done
+[Thu Nov 19 17:36:34 2020]
+Finished job 153.
+128 of 135 steps (95%) done
+[Thu Nov 19 17:36:34 2020]
+Finished job 125.
+129 of 135 steps (96%) done
+[Thu Nov 19 17:36:34 2020]
+Finished job 13.
+130 of 135 steps (96%) done
+[Thu Nov 19 17:36:34 2020]
+Finished job 245.
+131 of 135 steps (97%) done
+[Thu Nov 19 17:36:34 2020]
+Finished job 55.
+132 of 135 steps (98%) done
+[Thu Nov 19 17:36:34 2020]
+Finished job 267.
+133 of 135 steps (99%) done
+
+[Thu Nov 19 17:36:34 2020]
+rule get_ncbi:
+    input: data/complete_coords/ENSSSCG00000010459.complete
+    output: data/ncbi_coords/ENSSSCG00000010459.ncbi
+    jobid: 103
+    wildcards: id=ENSSSCG00000010459
+
+[Thu Nov 19 17:36:35 2020]
+Finished job 103.
+134 of 135 steps (99%) done
+
+[Thu Nov 19 17:36:35 2020]
+localrule all:
+    input: data/ncbi_coords/ENSSSCG00000008326.ncbi, data/ncbi_coords/ENSSSCG00000026409.ncbi, data/ncbi_coords/ENSSSCG00000017399.ncbi, data/ncbi_coords/ENSSSCG00000001743.ncbi, data/ncbi_coords/ENSSSCG00000010929.ncbi, data/ncbi_coords/ENSSSCG00000029988.ncbi, data/ncbi_coords/ENSSSCG00000000866.ncbi, data/ncbi_coords/ENSSSCG00000025244.ncbi, data/ncbi_coords/ENSSSCG00000002749.ncbi, data/ncbi_coords/ENSSSCG00000010816.ncbi, data/ncbi_coords/ENSSSCG00000031002.ncbi, data/ncbi_coords/ENSSSCG00000015070.ncbi, data/ncbi_coords/ENSSSCG00000012593.ncbi, data/ncbi_coords/ENSSSCG00000026214.ncbi, data/ncbi_coords/ENSSSCG00000011453.ncbi, data/ncbi_coords/ENSSSCG00000005163.ncbi, data/ncbi_coords/ENSSSCG00000007146.ncbi, data/ncbi_coords/ENSSSCG00000016940.ncbi, data/ncbi_coords/ENSSSCG00000002961.ncbi, data/ncbi_coords/ENSSSCG00000006403.ncbi, data/ncbi_coords/ENSSSCG00000026201.ncbi, data/ncbi_coords/ENSSSCG00000006719.ncbi, data/ncbi_coords/ENSSSCG00000026592.ncbi, data/ncbi_coords/ENSSSCG00000008842.ncbi, data/ncbi_coords/ENSSSCG00000025058.ncbi, data/ncbi_coords/ENSSSCG00000023666.ncbi, data/ncbi_coords/ENSSSCG00000014428.ncbi, data/ncbi_coords/ENSSSCG00000015801.ncbi, data/ncbi_coords/ENSSSCG00000007153.ncbi, data/ncbi_coords/ENSSSCG00000002385.ncbi, data/ncbi_coords/ENSSSCG00000015048.ncbi, data/ncbi_coords/ENSSSCG00000007744.ncbi, data/ncbi_coords/ENSSSCG00000013369.ncbi, data/ncbi_coords/ENSSSCG00000001050.ncbi, data/ncbi_coords/ENSSSCG00000017121.ncbi, data/ncbi_coords/ENSSSCG00000012257.ncbi, data/ncbi_coords/ENSSSCG00000012117.ncbi, data/ncbi_coords/ENSSSCG00000010554.ncbi, data/ncbi_coords/ENSSSCG00000006648.ncbi, data/ncbi_coords/ENSSSCG00000023876.ncbi, data/ncbi_coords/ENSSSCG00000011436.ncbi, data/ncbi_coords/ENSSSCG00000011512.ncbi, data/ncbi_coords/ENSSSCG00000011850.ncbi, data/ncbi_coords/ENSSSCG00000001404.ncbi, data/ncbi_coords/ENSSSCG00000000922.ncbi, data/ncbi_coords/ENSSSCG00000001428.ncbi, data/ncbi_coords/ENSSSCG00000004875.ncbi, data/ncbi_coords/ENSSSCG00000026583.ncbi, data/ncbi_coords/ENSSSCG00000006215.ncbi, data/ncbi_coords/ENSSSCG00000009115.ncbi, data/ncbi_coords/ENSSSCG00000007226.ncbi, data/ncbi_coords/ENSSSCG00000010459.ncbi, data/ncbi_coords/ENSSSCG00000010948.ncbi, data/ncbi_coords/ENSSSCG00000002686.ncbi, data/ncbi_coords/ENSSSCG00000016273.ncbi, data/ncbi_coords/ENSSSCG00000020924.ncbi, data/ncbi_coords/ENSSSCG00000008948.ncbi, data/ncbi_coords/ENSSSCG00000012371.ncbi, data/ncbi_coords/ENSSSCG00000007217.ncbi, data/ncbi_coords/ENSSSCG00000006386.ncbi, data/ncbi_coords/ENSSSCG00000028431.ncbi, data/ncbi_coords/ENSSSCG00000012077.ncbi, data/ncbi_coords/ENSSSCG00000024689.ncbi, data/ncbi_coords/ENSSSCG00000007216.ncbi, data/ncbi_coords/ENSSSCG00000008088.ncbi, data/ncbi_coords/ENSSSCG00000007522.ncbi, data/ncbi_coords/ENSSSCG00000030733.ncbi, data/ncbi_coords/ENSSSCG00000010780.ncbi, data/ncbi_coords/ENSSSCG00000017227.ncbi, data/ncbi_coords/ENSSSCG00000011862.ncbi, data/ncbi_coords/ENSSSCG00000005193.ncbi, data/ncbi_coords/ENSSSCG00000025500.ncbi, data/ncbi_coords/ENSSSCG00000010937.ncbi, data/ncbi_coords/ENSSSCG00000009406.ncbi, data/ncbi_coords/ENSSSCG00000005503.ncbi, data/ncbi_coords/ENSSSCG00000002777.ncbi, data/ncbi_coords/ENSSSCG00000029990.ncbi, data/ncbi_coords/ENSSSCG00000015616.ncbi, data/ncbi_coords/ENSSSCG00000020864.ncbi, data/ncbi_coords/ENSSSCG00000030168.ncbi, data/ncbi_coords/ENSSSCG00000003141.ncbi, data/ncbi_coords/ENSSSCG00000027877.ncbi, data/ncbi_coords/ENSSSCG00000013579.ncbi, data/ncbi_coords/ENSSSCG00000007277.ncbi, data/ncbi_coords/ENSSSCG00000010310.ncbi, data/ncbi_coords/ENSSSCG00000002756.ncbi, data/ncbi_coords/ENSSSCG00000009695.ncbi, data/ncbi_coords/ENSSSCG00000011033.ncbi, data/ncbi_coords/ENSSSCG00000012840.ncbi, data/ncbi_coords/ENSSSCG00000028629.ncbi, data/ncbi_coords/ENSSSCG00000004475.ncbi, data/ncbi_coords/ENSSSCG00000016200.ncbi, data/ncbi_coords/ENSSSCG00000009477.ncbi, data/ncbi_coords/ENSSSCG00000008521.ncbi, data/ncbi_coords/ENSSSCG00000001741.ncbi, data/ncbi_coords/ENSSSCG00000012118.ncbi, data/ncbi_coords/ENSSSCG00000027555.ncbi, data/ncbi_coords/ENSSSCG00000004296.ncbi, data/ncbi_coords/ENSSSCG00000015652.ncbi, data/ncbi_coords/ENSSSCG00000008090.ncbi, data/ncbi_coords/ENSSSCG00000025273.ncbi, data/ncbi_coords/ENSSSCG00000031069.ncbi, data/ncbi_coords/ENSSSCG00000024973.ncbi, data/ncbi_coords/ENSSSCG00000023686.ncbi, data/ncbi_coords/ENSSSCG00000031060.ncbi, data/ncbi_coords/ENSSSCG00000004904.ncbi, data/ncbi_coords/ENSSSCG00000007214.ncbi, data/ncbi_coords/ENSSSCG00000017103.ncbi, data/ncbi_coords/ENSSSCG00000021739.ncbi, data/ncbi_coords/ENSSSCG00000010591.ncbi, data/ncbi_coords/ENSSSCG00000015053.ncbi, data/ncbi_coords/ENSSSCG00000014170.ncbi, data/ncbi_coords/ENSSSCG00000007221.ncbi, data/ncbi_coords/ENSSSCG00000003130.ncbi, data/ncbi_coords/ENSSSCG00000009002.ncbi, data/ncbi_coords/ENSSSCG00000007218.ncbi, data/ncbi_coords/ENSSSCG00000024497.ncbi, data/ncbi_coords/ENSSSCG00000005488.ncbi, data/ncbi_coords/ENSSSCG00000030758.ncbi, data/ncbi_coords/ENSSSCG00000011147.ncbi, data/ncbi_coords/ENSSSCG00000027850.ncbi, data/ncbi_coords/ENSSSCG00000026109.ncbi, data/ncbi_coords/ENSSSCG00000010885.ncbi, data/ncbi_coords/ENSSSCG00000003017.ncbi, data/ncbi_coords/ENSSSCG00000016047.ncbi, data/ncbi_coords/ENSSSCG00000000038.ncbi, data/ncbi_coords/ENSSSCG00000000932.ncbi, data/ncbi_coords/ENSSSCG00000030227.ncbi, data/ncbi_coords/ENSSSCG00000022432.ncbi, data/ncbi_coords/ENSSSCG00000006337.ncbi, data/ncbi_coords/ENSSSCG00000000481.ncbi, data/ncbi_coords/ENSSSCG00000007215.ncbi, data/ncbi_coords/ENSSSCG00000010787.ncbi, data/ncbi_coords/ENSSSCG00000006924.ncbi
+    jobid: 0
+
+[Thu Nov 19 17:36:35 2020]
+Finished job 0.
+135 of 135 steps (100%) done
+Complete log: /home/pelmo/tesi/remap_sscrofa/.snakemake/log/2020-11-19T173609.825740.snakemake.log

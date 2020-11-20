@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 1 of /home/pelmo/tesi/remap_sscrofa/Snakefile:
+Missing input files for rule split_file:
+data/starting_file.tsv
