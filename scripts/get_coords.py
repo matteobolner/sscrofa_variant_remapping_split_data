@@ -7,6 +7,7 @@ server = "https://may2017.rest.ensembl.org"
 
 def get_coords(starting_file, gene_file, vars_file, complete_coords_file):
     starting_df = pd.read_csv(starting_file, sep='|', names=['gene_name','ensembl_id','chromosome','start','end','var_pos'])
+    starting_df = starting_df.drop_duplicates()
     gene_coords = starting_df.head(n=1)[['chromosome','start','end']]
     ensembl_id = starting_df['ensembl_id'].iloc[0]
     ext = "/lookup/id/" + ensembl_id + "?"
@@ -25,7 +26,7 @@ def get_coords(starting_file, gene_file, vars_file, complete_coords_file):
     starting_df['strand'] = strand
 
     gene_coords = gene_coords['chromosome'].astype(str) + ':' + gene_coords['start'].astype(str) + '-' + gene_coords['end'].astype(str)
-    vars_coords = starting_df['chromosome'].astype(str) + ":" + starting_df['final_var_pos'].astype(str)
+    vars_coords = starting_df['chromosome'].astype(str) + ":" + starting_df['final_var_pos'].astype(str)+ "-" + starting_df['final_var_pos'].astype(str)
 
     gene_coords.to_csv(gene_file, header = False, index = False)
     vars_coords.to_csv(vars_file, header = False, index = False)

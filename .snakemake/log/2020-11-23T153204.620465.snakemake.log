@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 22 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Missing input files for rule merge_results:
+data/var_coords_remapped_report/ENSSSCG00000008326.vars.report

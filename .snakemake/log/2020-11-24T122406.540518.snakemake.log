@@ -1,0 +1,1449 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	merge_results
+	135
+Select jobs to execute...
+
+[Tue Nov 24 12:24:06 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000008326.vars.report, data/complete_coords/ENSSSCG00000008326.complete
+    output: data/remapped_vars/ENSSSCG00000008326.remapped, data/unmapped_vars/ENSSSCG00000008326.unmapped
+    jobid: 1
+    wildcards: id=ENSSSCG00000008326
+
+[Tue Nov 24 12:24:06 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010554.vars.report, data/complete_coords/ENSSSCG00000010554.complete
+    output: data/remapped_vars/ENSSSCG00000010554.remapped, data/unmapped_vars/ENSSSCG00000010554.unmapped
+    jobid: 75
+    wildcards: id=ENSSSCG00000010554
+
+[Tue Nov 24 12:24:06 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000004296.vars.report, data/complete_coords/ENSSSCG00000004296.complete
+    output: data/remapped_vars/ENSSSCG00000004296.remapped, data/unmapped_vars/ENSSSCG00000004296.unmapped
+    jobid: 195
+    wildcards: id=ENSSSCG00000004296
+
+[Tue Nov 24 12:24:06 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007221.vars.report, data/complete_coords/ENSSSCG00000007221.complete
+    output: data/remapped_vars/ENSSSCG00000007221.remapped, data/unmapped_vars/ENSSSCG00000007221.unmapped
+    jobid: 225
+    wildcards: id=ENSSSCG00000007221
+
+[Tue Nov 24 12:24:06 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010780.vars.report, data/complete_coords/ENSSSCG00000010780.complete
+    output: data/remapped_vars/ENSSSCG00000010780.remapped, data/unmapped_vars/ENSSSCG00000010780.unmapped
+    jobid: 135
+    wildcards: id=ENSSSCG00000010780
+
+[Tue Nov 24 12:24:06 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000028629.vars.report, data/complete_coords/ENSSSCG00000028629.complete
+    output: data/remapped_vars/ENSSSCG00000028629.remapped, data/unmapped_vars/ENSSSCG00000028629.unmapped
+    jobid: 179
+    wildcards: id=ENSSSCG00000028629
+
+[Tue Nov 24 12:24:06 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000031060.vars.report, data/complete_coords/ENSSSCG00000031060.complete
+    output: data/remapped_vars/ENSSSCG00000031060.remapped, data/unmapped_vars/ENSSSCG00000031060.unmapped
+    jobid: 209
+    wildcards: id=ENSSSCG00000031060
+
+[Tue Nov 24 12:24:07 2020]
+Finished job 75.
+1 of 135 steps (0.74%) done
+[Tue Nov 24 12:24:07 2020]
+Finished job 179.
+2 of 135 steps (1%) done
+[Tue Nov 24 12:24:07 2020]
+Finished job 225.
+3 of 135 steps (2%) done
+[Tue Nov 24 12:24:07 2020]
+Finished job 195.
+4 of 135 steps (3%) done
+[Tue Nov 24 12:24:07 2020]
+Finished job 209.
+5 of 135 steps (4%) done
+[Tue Nov 24 12:24:07 2020]
+Finished job 135.
+6 of 135 steps (4%) done
+[Tue Nov 24 12:24:07 2020]
+Finished job 1.
+7 of 135 steps (5%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:07 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000013579.vars.report, data/complete_coords/ENSSSCG00000013579.complete
+    output: data/remapped_vars/ENSSSCG00000013579.remapped, data/unmapped_vars/ENSSSCG00000013579.unmapped
+    jobid: 165
+    wildcards: id=ENSSSCG00000013579
+
+[Tue Nov 24 12:24:07 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000017227.vars.report, data/complete_coords/ENSSSCG00000017227.complete
+    output: data/remapped_vars/ENSSSCG00000017227.remapped, data/unmapped_vars/ENSSSCG00000017227.unmapped
+    jobid: 137
+    wildcards: id=ENSSSCG00000017227
+
+[Tue Nov 24 12:24:07 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000008842.vars.report, data/complete_coords/ENSSSCG00000008842.complete
+    output: data/remapped_vars/ENSSSCG00000008842.remapped, data/unmapped_vars/ENSSSCG00000008842.unmapped
+    jobid: 47
+    wildcards: id=ENSSSCG00000008842
+
+[Tue Nov 24 12:24:07 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000026409.vars.report, data/complete_coords/ENSSSCG00000026409.complete
+    output: data/remapped_vars/ENSSSCG00000026409.remapped, data/unmapped_vars/ENSSSCG00000026409.unmapped
+    jobid: 3
+    wildcards: id=ENSSSCG00000026409
+
+
+[Tue Nov 24 12:24:07 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000002777.vars.report, data/complete_coords/ENSSSCG00000002777.complete
+    output: data/remapped_vars/ENSSSCG00000002777.remapped, data/unmapped_vars/ENSSSCG00000002777.unmapped
+    jobid: 151
+    wildcards: id=ENSSSCG00000002777
+
+[Tue Nov 24 12:24:07 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007744.vars.report, data/complete_coords/ENSSSCG00000007744.complete
+    output: data/remapped_vars/ENSSSCG00000007744.remapped, data/unmapped_vars/ENSSSCG00000007744.unmapped
+    jobid: 63
+    wildcards: id=ENSSSCG00000007744
+
+[Tue Nov 24 12:24:07 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000004875.vars.report, data/complete_coords/ENSSSCG00000004875.complete
+    output: data/remapped_vars/ENSSSCG00000004875.remapped, data/unmapped_vars/ENSSSCG00000004875.unmapped
+    jobid: 93
+    wildcards: id=ENSSSCG00000004875
+
+[Tue Nov 24 12:24:08 2020]
+Finished job 3.
+8 of 135 steps (6%) done
+[Tue Nov 24 12:24:08 2020]
+Finished job 151.
+9 of 135 steps (7%) done
+[Tue Nov 24 12:24:08 2020]
+Finished job 47.
+10 of 135 steps (7%) done
+[Tue Nov 24 12:24:08 2020]
+Finished job 137.
+11 of 135 steps (8%) done
+[Tue Nov 24 12:24:08 2020]
+Finished job 165.
+12 of 135 steps (9%) done
+[Tue Nov 24 12:24:08 2020]
+Finished job 63.
+13 of 135 steps (10%) done
+[Tue Nov 24 12:24:08 2020]
+Finished job 93.
+14 of 135 steps (10%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:08 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000009002.vars.report, data/complete_coords/ENSSSCG00000009002.complete
+    output: data/remapped_vars/ENSSSCG00000009002.remapped, data/unmapped_vars/ENSSSCG00000009002.unmapped
+    jobid: 229
+    wildcards: id=ENSSSCG00000009002
+
+[Tue Nov 24 12:24:08 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000008090.vars.report, data/complete_coords/ENSSSCG00000008090.complete
+    output: data/remapped_vars/ENSSSCG00000008090.remapped, data/unmapped_vars/ENSSSCG00000008090.unmapped
+    jobid: 199
+    wildcards: id=ENSSSCG00000008090
+
+
+[Tue Nov 24 12:24:08 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000011862.vars.report, data/complete_coords/ENSSSCG00000011862.complete
+    output: data/remapped_vars/ENSSSCG00000011862.remapped, data/unmapped_vars/ENSSSCG00000011862.unmapped
+    jobid: 139
+    wildcards: id=ENSSSCG00000011862
+
+
+[Tue Nov 24 12:24:08 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000030227.vars.report, data/complete_coords/ENSSSCG00000030227.complete
+    output: data/remapped_vars/ENSSSCG00000030227.remapped, data/unmapped_vars/ENSSSCG00000030227.unmapped
+    jobid: 255
+    wildcards: id=ENSSSCG00000030227
+
+[Tue Nov 24 12:24:08 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010816.vars.report, data/complete_coords/ENSSSCG00000010816.complete
+    output: data/remapped_vars/ENSSSCG00000010816.remapped, data/unmapped_vars/ENSSSCG00000010816.unmapped
+    jobid: 19
+    wildcards: id=ENSSSCG00000010816
+
+
+[Tue Nov 24 12:24:08 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000025058.vars.report, data/complete_coords/ENSSSCG00000025058.complete
+    output: data/remapped_vars/ENSSSCG00000025058.remapped, data/unmapped_vars/ENSSSCG00000025058.unmapped
+    jobid: 49
+    wildcards: id=ENSSSCG00000025058
+
+
+[Tue Nov 24 12:24:08 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000004904.vars.report, data/complete_coords/ENSSSCG00000004904.complete
+    output: data/remapped_vars/ENSSSCG00000004904.remapped, data/unmapped_vars/ENSSSCG00000004904.unmapped
+    jobid: 211
+    wildcards: id=ENSSSCG00000004904
+
+[Tue Nov 24 12:24:09 2020]
+Finished job 199.
+15 of 135 steps (11%) done
+[Tue Nov 24 12:24:09 2020]
+Finished job 229.
+16 of 135 steps (12%) done
+[Tue Nov 24 12:24:09 2020]
+Finished job 255.
+17 of 135 steps (13%) done
+[Tue Nov 24 12:24:09 2020]
+Finished job 139.
+18 of 135 steps (13%) done
+[Tue Nov 24 12:24:09 2020]
+Finished job 49.
+19 of 135 steps (14%) done
+[Tue Nov 24 12:24:09 2020]
+Finished job 211.
+20 of 135 steps (15%) done
+[Tue Nov 24 12:24:09 2020]
+Finished job 19.
+21 of 135 steps (16%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:09 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000003130.vars.report, data/complete_coords/ENSSSCG00000003130.complete
+    output: data/remapped_vars/ENSSSCG00000003130.remapped, data/unmapped_vars/ENSSSCG00000003130.unmapped
+    jobid: 227
+    wildcards: id=ENSSSCG00000003130
+
+[Tue Nov 24 12:24:09 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000025273.vars.report, data/complete_coords/ENSSSCG00000025273.complete
+    output: data/remapped_vars/ENSSSCG00000025273.remapped, data/unmapped_vars/ENSSSCG00000025273.unmapped
+    jobid: 201
+    wildcards: id=ENSSSCG00000025273
+
+
+[Tue Nov 24 12:24:09 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007218.vars.report, data/complete_coords/ENSSSCG00000007218.complete
+    output: data/remapped_vars/ENSSSCG00000007218.remapped, data/unmapped_vars/ENSSSCG00000007218.unmapped
+    jobid: 231
+    wildcards: id=ENSSSCG00000007218
+
+
+[Tue Nov 24 12:24:09 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000015616.vars.report, data/complete_coords/ENSSSCG00000015616.complete
+    output: data/remapped_vars/ENSSSCG00000015616.remapped, data/unmapped_vars/ENSSSCG00000015616.unmapped
+    jobid: 155
+    wildcards: id=ENSSSCG00000015616
+
+[Tue Nov 24 12:24:09 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000009477.vars.report, data/complete_coords/ENSSSCG00000009477.complete
+    output: data/remapped_vars/ENSSSCG00000009477.remapped, data/unmapped_vars/ENSSSCG00000009477.unmapped
+    jobid: 185
+    wildcards: id=ENSSSCG00000009477
+
+
+[Tue Nov 24 12:24:09 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000005163.vars.report, data/complete_coords/ENSSSCG00000005163.complete
+    output: data/remapped_vars/ENSSSCG00000005163.remapped, data/unmapped_vars/ENSSSCG00000005163.unmapped
+    jobid: 31
+    wildcards: id=ENSSSCG00000005163
+
+[Tue Nov 24 12:24:09 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000017103.vars.report, data/complete_coords/ENSSSCG00000017103.complete
+    output: data/remapped_vars/ENSSSCG00000017103.remapped, data/unmapped_vars/ENSSSCG00000017103.unmapped
+    jobid: 215
+    wildcards: id=ENSSSCG00000017103
+
+[Tue Nov 24 12:24:10 2020]
+Finished job 215.
+22 of 135 steps (16%) done
+[Tue Nov 24 12:24:10 2020]
+Finished job 227.
+23 of 135 steps (17%) done
+[Tue Nov 24 12:24:10 2020]
+Finished job 231.
+24 of 135 steps (18%) done
+[Tue Nov 24 12:24:10 2020]
+Finished job 201.
+25 of 135 steps (19%) done
+[Tue Nov 24 12:24:10 2020]
+Finished job 155.
+26 of 135 steps (19%) done
+[Tue Nov 24 12:24:10 2020]
+Finished job 185.
+27 of 135 steps (20%) done
+[Tue Nov 24 12:24:10 2020]
+Finished job 31.
+28 of 135 steps (21%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:10 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000008521.vars.report, data/complete_coords/ENSSSCG00000008521.complete
+    output: data/remapped_vars/ENSSSCG00000008521.remapped, data/unmapped_vars/ENSSSCG00000008521.unmapped
+    jobid: 187
+    wildcards: id=ENSSSCG00000008521
+
+[Tue Nov 24 12:24:10 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000001743.vars.report, data/complete_coords/ENSSSCG00000001743.complete
+    output: data/remapped_vars/ENSSSCG00000001743.remapped, data/unmapped_vars/ENSSSCG00000001743.unmapped
+    jobid: 7
+    wildcards: id=ENSSSCG00000001743
+
+[Tue Nov 24 12:24:10 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000021739.vars.report, data/complete_coords/ENSSSCG00000021739.complete
+    output: data/remapped_vars/ENSSSCG00000021739.remapped, data/unmapped_vars/ENSSSCG00000021739.unmapped
+    jobid: 217
+    wildcards: id=ENSSSCG00000021739
+
+
+[Tue Nov 24 12:24:10 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000017399.vars.report, data/complete_coords/ENSSSCG00000017399.complete
+    output: data/remapped_vars/ENSSSCG00000017399.remapped, data/unmapped_vars/ENSSSCG00000017399.unmapped
+    jobid: 5
+    wildcards: id=ENSSSCG00000017399
+
+
+[Tue Nov 24 12:24:10 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007216.vars.report, data/complete_coords/ENSSSCG00000007216.complete
+    output: data/remapped_vars/ENSSSCG00000007216.remapped, data/unmapped_vars/ENSSSCG00000007216.unmapped
+    jobid: 127
+    wildcards: id=ENSSSCG00000007216
+
+[Tue Nov 24 12:24:10 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000001050.vars.report, data/complete_coords/ENSSSCG00000001050.complete
+    output: data/remapped_vars/ENSSSCG00000001050.remapped, data/unmapped_vars/ENSSSCG00000001050.unmapped
+    jobid: 67
+    wildcards: id=ENSSSCG00000001050
+
+
+[Tue Nov 24 12:24:10 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000006215.vars.report, data/complete_coords/ENSSSCG00000006215.complete
+    output: data/remapped_vars/ENSSSCG00000006215.remapped, data/unmapped_vars/ENSSSCG00000006215.unmapped
+    jobid: 97
+    wildcards: id=ENSSSCG00000006215
+
+[Tue Nov 24 12:24:11 2020]
+Finished job 187.
+29 of 135 steps (21%) done
+[Tue Nov 24 12:24:11 2020]
+Finished job 127.
+30 of 135 steps (22%) done
+[Tue Nov 24 12:24:11 2020]
+Finished job 5.
+31 of 135 steps (23%) done
+[Tue Nov 24 12:24:11 2020]
+Finished job 67.
+32 of 135 steps (24%) done
+[Tue Nov 24 12:24:11 2020]
+Finished job 7.
+33 of 135 steps (24%) done
+[Tue Nov 24 12:24:11 2020]
+Finished job 97.
+34 of 135 steps (25%) done
+[Tue Nov 24 12:24:11 2020]
+Finished job 217.
+35 of 135 steps (26%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:11 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000031069.vars.report, data/complete_coords/ENSSSCG00000031069.complete
+    output: data/remapped_vars/ENSSSCG00000031069.remapped, data/unmapped_vars/ENSSSCG00000031069.unmapped
+    jobid: 203
+    wildcards: id=ENSSSCG00000031069
+
+[Tue Nov 24 12:24:11 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000015070.vars.report, data/complete_coords/ENSSSCG00000015070.complete
+    output: data/remapped_vars/ENSSSCG00000015070.remapped, data/unmapped_vars/ENSSSCG00000015070.unmapped
+    jobid: 23
+    wildcards: id=ENSSSCG00000015070
+
+[Tue Nov 24 12:24:11 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000025500.vars.report, data/complete_coords/ENSSSCG00000025500.complete
+    output: data/remapped_vars/ENSSSCG00000025500.remapped, data/unmapped_vars/ENSSSCG00000025500.unmapped
+    jobid: 143
+    wildcards: id=ENSSSCG00000025500
+
+[Tue Nov 24 12:24:11 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000014428.vars.report, data/complete_coords/ENSSSCG00000014428.complete
+    output: data/remapped_vars/ENSSSCG00000014428.remapped, data/unmapped_vars/ENSSSCG00000014428.unmapped
+    jobid: 53
+    wildcards: id=ENSSSCG00000014428
+
+
+[Tue Nov 24 12:24:11 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000024497.vars.report, data/complete_coords/ENSSSCG00000024497.complete
+    output: data/remapped_vars/ENSSSCG00000024497.remapped, data/unmapped_vars/ENSSSCG00000024497.unmapped
+    jobid: 233
+    wildcards: id=ENSSSCG00000024497
+
+[Tue Nov 24 12:24:11 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000026583.vars.report, data/complete_coords/ENSSSCG00000026583.complete
+    output: data/remapped_vars/ENSSSCG00000026583.remapped, data/unmapped_vars/ENSSSCG00000026583.unmapped
+    jobid: 95
+    wildcards: id=ENSSSCG00000026583
+
+[Tue Nov 24 12:24:11 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010929.vars.report, data/complete_coords/ENSSSCG00000010929.complete
+    output: data/remapped_vars/ENSSSCG00000010929.remapped, data/unmapped_vars/ENSSSCG00000010929.unmapped
+    jobid: 9
+    wildcards: id=ENSSSCG00000010929
+
+[Tue Nov 24 12:24:12 2020]
+Finished job 95.
+36 of 135 steps (27%) done
+[Tue Nov 24 12:24:12 2020]
+Finished job 203.
+37 of 135 steps (27%) done
+[Tue Nov 24 12:24:12 2020]
+Finished job 23.
+38 of 135 steps (28%) done
+[Tue Nov 24 12:24:12 2020]
+Finished job 53.
+39 of 135 steps (29%) done
+[Tue Nov 24 12:24:12 2020]
+Finished job 143.
+40 of 135 steps (30%) done
+[Tue Nov 24 12:24:12 2020]
+Finished job 9.
+41 of 135 steps (30%) done
+[Tue Nov 24 12:24:12 2020]
+Finished job 233.
+42 of 135 steps (31%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:12 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000023666.vars.report, data/complete_coords/ENSSSCG00000023666.complete
+    output: data/remapped_vars/ENSSSCG00000023666.remapped, data/unmapped_vars/ENSSSCG00000023666.unmapped
+    jobid: 51
+    wildcards: id=ENSSSCG00000023666
+
+[Tue Nov 24 12:24:12 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000005193.vars.report, data/complete_coords/ENSSSCG00000005193.complete
+    output: data/remapped_vars/ENSSSCG00000005193.remapped, data/unmapped_vars/ENSSSCG00000005193.unmapped
+    jobid: 141
+    wildcards: id=ENSSSCG00000005193
+
+
+[Tue Nov 24 12:24:12 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000020864.vars.report, data/complete_coords/ENSSSCG00000020864.complete
+    output: data/remapped_vars/ENSSSCG00000020864.remapped, data/unmapped_vars/ENSSSCG00000020864.unmapped
+    jobid: 157
+    wildcards: id=ENSSSCG00000020864
+
+
+[Tue Nov 24 12:24:12 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000027850.vars.report, data/complete_coords/ENSSSCG00000027850.complete
+    output: data/remapped_vars/ENSSSCG00000027850.remapped, data/unmapped_vars/ENSSSCG00000027850.unmapped
+    jobid: 241
+    wildcards: id=ENSSSCG00000027850
+
+
+[Tue Nov 24 12:24:12 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000029990.vars.report, data/complete_coords/ENSSSCG00000029990.complete
+    output: data/remapped_vars/ENSSSCG00000029990.remapped, data/unmapped_vars/ENSSSCG00000029990.unmapped
+    jobid: 153
+    wildcards: id=ENSSSCG00000029990
+
+
+[Tue Nov 24 12:24:12 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000030168.vars.report, data/complete_coords/ENSSSCG00000030168.complete
+    output: data/remapped_vars/ENSSSCG00000030168.remapped, data/unmapped_vars/ENSSSCG00000030168.unmapped
+    jobid: 159
+    wildcards: id=ENSSSCG00000030168
+
+[Tue Nov 24 12:24:12 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000001741.vars.report, data/complete_coords/ENSSSCG00000001741.complete
+    output: data/remapped_vars/ENSSSCG00000001741.remapped, data/unmapped_vars/ENSSSCG00000001741.unmapped
+    jobid: 189
+    wildcards: id=ENSSSCG00000001741
+
+[Tue Nov 24 12:24:13 2020]
+Finished job 241.
+43 of 135 steps (32%) done
+[Tue Nov 24 12:24:13 2020]
+Finished job 51.
+44 of 135 steps (33%) done
+[Tue Nov 24 12:24:13 2020]
+Finished job 141.
+45 of 135 steps (33%) done
+[Tue Nov 24 12:24:13 2020]
+Finished job 153.
+46 of 135 steps (34%) done
+[Tue Nov 24 12:24:13 2020]
+Finished job 189.
+47 of 135 steps (35%) done
+[Tue Nov 24 12:24:13 2020]
+Finished job 159.
+48 of 135 steps (36%) done
+[Tue Nov 24 12:24:13 2020]
+Finished job 157.
+49 of 135 steps (36%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:13 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000031002.vars.report, data/complete_coords/ENSSSCG00000031002.complete
+    output: data/remapped_vars/ENSSSCG00000031002.remapped, data/unmapped_vars/ENSSSCG00000031002.unmapped
+    jobid: 21
+    wildcards: id=ENSSSCG00000031002
+
+[Tue Nov 24 12:24:13 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000002749.vars.report, data/complete_coords/ENSSSCG00000002749.complete
+    output: data/remapped_vars/ENSSSCG00000002749.remapped, data/unmapped_vars/ENSSSCG00000002749.unmapped
+    jobid: 17
+    wildcards: id=ENSSSCG00000002749
+
+
+[Tue Nov 24 12:24:13 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000013369.vars.report, data/complete_coords/ENSSSCG00000013369.complete
+    output: data/remapped_vars/ENSSSCG00000013369.remapped, data/unmapped_vars/ENSSSCG00000013369.unmapped
+    jobid: 65
+    wildcards: id=ENSSSCG00000013369
+
+
+[Tue Nov 24 12:24:13 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000017121.vars.report, data/complete_coords/ENSSSCG00000017121.complete
+    output: data/remapped_vars/ENSSSCG00000017121.remapped, data/unmapped_vars/ENSSSCG00000017121.unmapped
+    jobid: 69
+    wildcards: id=ENSSSCG00000017121
+
+
+[Tue Nov 24 12:24:13 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000024689.vars.report, data/complete_coords/ENSSSCG00000024689.complete
+    output: data/remapped_vars/ENSSSCG00000024689.remapped, data/unmapped_vars/ENSSSCG00000024689.unmapped
+    jobid: 125
+    wildcards: id=ENSSSCG00000024689
+
+
+[Tue Nov 24 12:24:13 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000009115.vars.report, data/complete_coords/ENSSSCG00000009115.complete
+    output: data/remapped_vars/ENSSSCG00000009115.remapped, data/unmapped_vars/ENSSSCG00000009115.unmapped
+    jobid: 99
+    wildcards: id=ENSSSCG00000009115
+
+[Tue Nov 24 12:24:13 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000008088.vars.report, data/complete_coords/ENSSSCG00000008088.complete
+    output: data/remapped_vars/ENSSSCG00000008088.remapped, data/unmapped_vars/ENSSSCG00000008088.unmapped
+    jobid: 129
+    wildcards: id=ENSSSCG00000008088
+
+[Tue Nov 24 12:24:14 2020]
+Finished job 65.
+50 of 135 steps (37%) done
+[Tue Nov 24 12:24:14 2020]
+Finished job 17.
+51 of 135 steps (38%) done
+[Tue Nov 24 12:24:14 2020]
+Finished job 21.
+52 of 135 steps (39%) done
+[Tue Nov 24 12:24:14 2020]
+Finished job 69.
+53 of 135 steps (39%) done
+[Tue Nov 24 12:24:14 2020]
+Finished job 125.
+54 of 135 steps (40%) done
+[Tue Nov 24 12:24:14 2020]
+Finished job 129.
+55 of 135 steps (41%) done
+[Tue Nov 24 12:24:14 2020]
+Finished job 99.
+56 of 135 steps (41%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:14 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010948.vars.report, data/complete_coords/ENSSSCG00000010948.complete
+    output: data/remapped_vars/ENSSSCG00000010948.remapped, data/unmapped_vars/ENSSSCG00000010948.unmapped
+    jobid: 105
+    wildcards: id=ENSSSCG00000010948
+
+[Tue Nov 24 12:24:14 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010937.vars.report, data/complete_coords/ENSSSCG00000010937.complete
+    output: data/remapped_vars/ENSSSCG00000010937.remapped, data/unmapped_vars/ENSSSCG00000010937.unmapped
+    jobid: 145
+    wildcards: id=ENSSSCG00000010937
+
+[Tue Nov 24 12:24:14 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007214.vars.report, data/complete_coords/ENSSSCG00000007214.complete
+    output: data/remapped_vars/ENSSSCG00000007214.remapped, data/unmapped_vars/ENSSSCG00000007214.unmapped
+    jobid: 213
+    wildcards: id=ENSSSCG00000007214
+
+[Tue Nov 24 12:24:14 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000016200.vars.report, data/complete_coords/ENSSSCG00000016200.complete
+    output: data/remapped_vars/ENSSSCG00000016200.remapped, data/unmapped_vars/ENSSSCG00000016200.unmapped
+    jobid: 183
+    wildcards: id=ENSSSCG00000016200
+
+
+[Tue Nov 24 12:24:14 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000001428.vars.report, data/complete_coords/ENSSSCG00000001428.complete
+    output: data/remapped_vars/ENSSSCG00000001428.remapped, data/unmapped_vars/ENSSSCG00000001428.unmapped
+    jobid: 91
+    wildcards: id=ENSSSCG00000001428
+
+[Tue Nov 24 12:24:14 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000012077.vars.report, data/complete_coords/ENSSSCG00000012077.complete
+    output: data/remapped_vars/ENSSSCG00000012077.remapped, data/unmapped_vars/ENSSSCG00000012077.unmapped
+    jobid: 123
+    wildcards: id=ENSSSCG00000012077
+
+
+[Tue Nov 24 12:24:14 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010591.vars.report, data/complete_coords/ENSSSCG00000010591.complete
+    output: data/remapped_vars/ENSSSCG00000010591.remapped, data/unmapped_vars/ENSSSCG00000010591.unmapped
+    jobid: 219
+    wildcards: id=ENSSSCG00000010591
+
+[Tue Nov 24 12:24:15 2020]
+Finished job 91.
+57 of 135 steps (42%) done
+[Tue Nov 24 12:24:15 2020]
+Finished job 105.
+58 of 135 steps (43%) done
+[Tue Nov 24 12:24:15 2020]
+Finished job 183.
+59 of 135 steps (44%) done
+[Tue Nov 24 12:24:15 2020]
+Finished job 213.
+60 of 135 steps (44%) done
+[Tue Nov 24 12:24:15 2020]
+Finished job 123.
+61 of 135 steps (45%) done
+[Tue Nov 24 12:24:15 2020]
+Finished job 219.
+62 of 135 steps (46%) done
+[Tue Nov 24 12:24:15 2020]
+Finished job 145.
+63 of 135 steps (47%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:15 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000005488.vars.report, data/complete_coords/ENSSSCG00000005488.complete
+    output: data/remapped_vars/ENSSSCG00000005488.remapped, data/unmapped_vars/ENSSSCG00000005488.unmapped
+    jobid: 235
+    wildcards: id=ENSSSCG00000005488
+
+[Tue Nov 24 12:24:15 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000003141.vars.report, data/complete_coords/ENSSSCG00000003141.complete
+    output: data/remapped_vars/ENSSSCG00000003141.remapped, data/unmapped_vars/ENSSSCG00000003141.unmapped
+    jobid: 161
+    wildcards: id=ENSSSCG00000003141
+
+
+[Tue Nov 24 12:24:16 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007226.vars.report, data/complete_coords/ENSSSCG00000007226.complete
+    output: data/remapped_vars/ENSSSCG00000007226.remapped, data/unmapped_vars/ENSSSCG00000007226.unmapped
+    jobid: 101
+    wildcards: id=ENSSSCG00000007226
+
+[Tue Nov 24 12:24:16 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000012257.vars.report, data/complete_coords/ENSSSCG00000012257.complete
+    output: data/remapped_vars/ENSSSCG00000012257.remapped, data/unmapped_vars/ENSSSCG00000012257.unmapped
+    jobid: 71
+    wildcards: id=ENSSSCG00000012257
+
+
+[Tue Nov 24 12:24:16 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000000038.vars.report, data/complete_coords/ENSSSCG00000000038.complete
+    output: data/remapped_vars/ENSSSCG00000000038.remapped, data/unmapped_vars/ENSSSCG00000000038.unmapped
+    jobid: 251
+    wildcards: id=ENSSSCG00000000038
+
+
+[Tue Nov 24 12:24:16 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007522.vars.report, data/complete_coords/ENSSSCG00000007522.complete
+    output: data/remapped_vars/ENSSSCG00000007522.remapped, data/unmapped_vars/ENSSSCG00000007522.unmapped
+    jobid: 131
+    wildcards: id=ENSSSCG00000007522
+
+[Tue Nov 24 12:24:16 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000012118.vars.report, data/complete_coords/ENSSSCG00000012118.complete
+    output: data/remapped_vars/ENSSSCG00000012118.remapped, data/unmapped_vars/ENSSSCG00000012118.unmapped
+    jobid: 191
+    wildcards: id=ENSSSCG00000012118
+
+[Tue Nov 24 12:24:16 2020]
+Finished job 235.
+64 of 135 steps (47%) done
+[Tue Nov 24 12:24:16 2020]
+Finished job 161.
+65 of 135 steps (48%) done
+[Tue Nov 24 12:24:17 2020]
+Finished job 131.
+66 of 135 steps (49%) done
+[Tue Nov 24 12:24:17 2020]
+Finished job 251.
+67 of 135 steps (50%) done
+[Tue Nov 24 12:24:17 2020]
+Finished job 101.
+68 of 135 steps (50%) done
+[Tue Nov 24 12:24:17 2020]
+Finished job 191.
+69 of 135 steps (51%) done
+[Tue Nov 24 12:24:17 2020]
+Finished job 71.
+70 of 135 steps (52%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:17 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000011850.vars.report, data/complete_coords/ENSSSCG00000011850.complete
+    output: data/remapped_vars/ENSSSCG00000011850.remapped, data/unmapped_vars/ENSSSCG00000011850.unmapped
+    jobid: 85
+    wildcards: id=ENSSSCG00000011850
+
+[Tue Nov 24 12:24:17 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000011436.vars.report, data/complete_coords/ENSSSCG00000011436.complete
+    output: data/remapped_vars/ENSSSCG00000011436.remapped, data/unmapped_vars/ENSSSCG00000011436.unmapped
+    jobid: 81
+    wildcards: id=ENSSSCG00000011436
+
+
+[Tue Nov 24 12:24:17 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000012371.vars.report, data/complete_coords/ENSSSCG00000012371.complete
+    output: data/remapped_vars/ENSSSCG00000012371.remapped, data/unmapped_vars/ENSSSCG00000012371.unmapped
+    jobid: 115
+    wildcards: id=ENSSSCG00000012371
+
+
+[Tue Nov 24 12:24:17 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000011033.vars.report, data/complete_coords/ENSSSCG00000011033.complete
+    output: data/remapped_vars/ENSSSCG00000011033.remapped, data/unmapped_vars/ENSSSCG00000011033.unmapped
+    jobid: 175
+    wildcards: id=ENSSSCG00000011033
+
+[Tue Nov 24 12:24:17 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010787.vars.report, data/complete_coords/ENSSSCG00000010787.complete
+    output: data/remapped_vars/ENSSSCG00000010787.remapped, data/unmapped_vars/ENSSSCG00000010787.unmapped
+    jobid: 265
+    wildcards: id=ENSSSCG00000010787
+
+[Tue Nov 24 12:24:17 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000015652.vars.report, data/complete_coords/ENSSSCG00000015652.complete
+    output: data/remapped_vars/ENSSSCG00000015652.remapped, data/unmapped_vars/ENSSSCG00000015652.unmapped
+    jobid: 197
+    wildcards: id=ENSSSCG00000015652
+
+
+[Tue Nov 24 12:24:17 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010310.vars.report, data/complete_coords/ENSSSCG00000010310.complete
+    output: data/remapped_vars/ENSSSCG00000010310.remapped, data/unmapped_vars/ENSSSCG00000010310.unmapped
+    jobid: 169
+    wildcards: id=ENSSSCG00000010310
+
+[Tue Nov 24 12:24:17 2020]
+Finished job 81.
+71 of 135 steps (53%) done
+[Tue Nov 24 12:24:18 2020]
+Finished job 175.
+72 of 135 steps (53%) done
+[Tue Nov 24 12:24:18 2020]
+Finished job 85.
+73 of 135 steps (54%) done
+[Tue Nov 24 12:24:18 2020]
+Finished job 169.
+74 of 135 steps (55%) done
+[Tue Nov 24 12:24:18 2020]
+Finished job 197.
+75 of 135 steps (56%) done
+[Tue Nov 24 12:24:18 2020]
+Finished job 265.
+76 of 135 steps (56%) done
+[Tue Nov 24 12:24:18 2020]
+Finished job 115.
+77 of 135 steps (57%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:18 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000024973.vars.report, data/complete_coords/ENSSSCG00000024973.complete
+    output: data/remapped_vars/ENSSSCG00000024973.remapped, data/unmapped_vars/ENSSSCG00000024973.unmapped
+    jobid: 205
+    wildcards: id=ENSSSCG00000024973
+
+
+[Tue Nov 24 12:24:18 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000012593.vars.report, data/complete_coords/ENSSSCG00000012593.complete
+    output: data/remapped_vars/ENSSSCG00000012593.remapped, data/unmapped_vars/ENSSSCG00000012593.unmapped
+    jobid: 25
+    wildcards: id=ENSSSCG00000012593
+
+[Tue Nov 24 12:24:18 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000002756.vars.report, data/complete_coords/ENSSSCG00000002756.complete
+    output: data/remapped_vars/ENSSSCG00000002756.remapped, data/unmapped_vars/ENSSSCG00000002756.unmapped
+    jobid: 171
+    wildcards: id=ENSSSCG00000002756
+
+[Tue Nov 24 12:24:18 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000015801.vars.report, data/complete_coords/ENSSSCG00000015801.complete
+    output: data/remapped_vars/ENSSSCG00000015801.remapped, data/unmapped_vars/ENSSSCG00000015801.unmapped
+    jobid: 55
+    wildcards: id=ENSSSCG00000015801
+
+
+[Tue Nov 24 12:24:18 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000022432.vars.report, data/complete_coords/ENSSSCG00000022432.complete
+    output: data/remapped_vars/ENSSSCG00000022432.remapped, data/unmapped_vars/ENSSSCG00000022432.unmapped
+    jobid: 257
+    wildcards: id=ENSSSCG00000022432
+
+[Tue Nov 24 12:24:18 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007217.vars.report, data/complete_coords/ENSSSCG00000007217.complete
+    output: data/remapped_vars/ENSSSCG00000007217.remapped, data/unmapped_vars/ENSSSCG00000007217.unmapped
+    jobid: 117
+    wildcards: id=ENSSSCG00000007217
+
+
+[Tue Nov 24 12:24:18 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007146.vars.report, data/complete_coords/ENSSSCG00000007146.complete
+    output: data/remapped_vars/ENSSSCG00000007146.remapped, data/unmapped_vars/ENSSSCG00000007146.unmapped
+    jobid: 33
+    wildcards: id=ENSSSCG00000007146
+
+[Tue Nov 24 12:24:18 2020]
+Finished job 171.
+78 of 135 steps (58%) done
+[Tue Nov 24 12:24:19 2020]
+Finished job 205.
+79 of 135 steps (59%) done
+[Tue Nov 24 12:24:19 2020]
+Finished job 55.
+80 of 135 steps (59%) done
+[Tue Nov 24 12:24:19 2020]
+Finished job 117.
+81 of 135 steps (60%) done
+[Tue Nov 24 12:24:19 2020]
+Finished job 257.
+82 of 135 steps (61%) done
+[Tue Nov 24 12:24:19 2020]
+Finished job 33.
+83 of 135 steps (61%) done
+[Tue Nov 24 12:24:19 2020]
+Finished job 25.
+84 of 135 steps (62%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:19 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007277.vars.report, data/complete_coords/ENSSSCG00000007277.complete
+    output: data/remapped_vars/ENSSSCG00000007277.remapped, data/unmapped_vars/ENSSSCG00000007277.unmapped
+    jobid: 167
+    wildcards: id=ENSSSCG00000007277
+
+[Tue Nov 24 12:24:19 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000023876.vars.report, data/complete_coords/ENSSSCG00000023876.complete
+    output: data/remapped_vars/ENSSSCG00000023876.remapped, data/unmapped_vars/ENSSSCG00000023876.unmapped
+    jobid: 79
+    wildcards: id=ENSSSCG00000023876
+
+
+[Tue Nov 24 12:24:19 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000026214.vars.report, data/complete_coords/ENSSSCG00000026214.complete
+    output: data/remapped_vars/ENSSSCG00000026214.remapped, data/unmapped_vars/ENSSSCG00000026214.unmapped
+    jobid: 27
+    wildcards: id=ENSSSCG00000026214
+
+[Tue Nov 24 12:24:19 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000029988.vars.report, data/complete_coords/ENSSSCG00000029988.complete
+    output: data/remapped_vars/ENSSSCG00000029988.remapped, data/unmapped_vars/ENSSSCG00000029988.unmapped
+    jobid: 11
+    wildcards: id=ENSSSCG00000029988
+
+[Tue Nov 24 12:24:19 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000026201.vars.report, data/complete_coords/ENSSSCG00000026201.complete
+    output: data/remapped_vars/ENSSSCG00000026201.remapped, data/unmapped_vars/ENSSSCG00000026201.unmapped
+    jobid: 41
+    wildcards: id=ENSSSCG00000026201
+
+[Tue Nov 24 12:24:19 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000015053.vars.report, data/complete_coords/ENSSSCG00000015053.complete
+    output: data/remapped_vars/ENSSSCG00000015053.remapped, data/unmapped_vars/ENSSSCG00000015053.unmapped
+    jobid: 221
+    wildcards: id=ENSSSCG00000015053
+
+[Tue Nov 24 12:24:19 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000026109.vars.report, data/complete_coords/ENSSSCG00000026109.complete
+    output: data/remapped_vars/ENSSSCG00000026109.remapped, data/unmapped_vars/ENSSSCG00000026109.unmapped
+    jobid: 243
+    wildcards: id=ENSSSCG00000026109
+
+[Tue Nov 24 12:24:19 2020]
+Finished job 27.
+85 of 135 steps (63%) done
+[Tue Nov 24 12:24:20 2020]
+Finished job 41.
+86 of 135 steps (64%) done
+[Tue Nov 24 12:24:20 2020]
+Finished job 167.
+87 of 135 steps (64%) done
+[Tue Nov 24 12:24:20 2020]
+Finished job 243.
+88 of 135 steps (65%) done
+[Tue Nov 24 12:24:20 2020]
+Finished job 221.
+89 of 135 steps (66%) done
+[Tue Nov 24 12:24:20 2020]
+Finished job 11.
+90 of 135 steps (67%) done
+[Tue Nov 24 12:24:20 2020]
+Finished job 79.
+91 of 135 steps (67%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:20 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000016273.vars.report, data/complete_coords/ENSSSCG00000016273.complete
+    output: data/remapped_vars/ENSSSCG00000016273.remapped, data/unmapped_vars/ENSSSCG00000016273.unmapped
+    jobid: 109
+    wildcards: id=ENSSSCG00000016273
+
+[Tue Nov 24 12:24:20 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000002686.vars.report, data/complete_coords/ENSSSCG00000002686.complete
+    output: data/remapped_vars/ENSSSCG00000002686.remapped, data/unmapped_vars/ENSSSCG00000002686.unmapped
+    jobid: 107
+    wildcards: id=ENSSSCG00000002686
+
+[Tue Nov 24 12:24:20 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010459.vars.report, data/complete_coords/ENSSSCG00000010459.complete
+    output: data/remapped_vars/ENSSSCG00000010459.remapped, data/unmapped_vars/ENSSSCG00000010459.unmapped
+    jobid: 103
+    wildcards: id=ENSSSCG00000010459
+
+
+[Tue Nov 24 12:24:20 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000006337.vars.report, data/complete_coords/ENSSSCG00000006337.complete
+    output: data/remapped_vars/ENSSSCG00000006337.remapped, data/unmapped_vars/ENSSSCG00000006337.unmapped
+    jobid: 259
+    wildcards: id=ENSSSCG00000006337
+
+
+[Tue Nov 24 12:24:20 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000006648.vars.report, data/complete_coords/ENSSSCG00000006648.complete
+    output: data/remapped_vars/ENSSSCG00000006648.remapped, data/unmapped_vars/ENSSSCG00000006648.unmapped
+    jobid: 77
+    wildcards: id=ENSSSCG00000006648
+
+
+[Tue Nov 24 12:24:20 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000001404.vars.report, data/complete_coords/ENSSSCG00000001404.complete
+    output: data/remapped_vars/ENSSSCG00000001404.remapped, data/unmapped_vars/ENSSSCG00000001404.unmapped
+    jobid: 87
+    wildcards: id=ENSSSCG00000001404
+
+[Tue Nov 24 12:24:20 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000023686.vars.report, data/complete_coords/ENSSSCG00000023686.complete
+    output: data/remapped_vars/ENSSSCG00000023686.remapped, data/unmapped_vars/ENSSSCG00000023686.unmapped
+    jobid: 207
+    wildcards: id=ENSSSCG00000023686
+
+[Tue Nov 24 12:24:20 2020]
+Finished job 259.
+92 of 135 steps (68%) done
+[Tue Nov 24 12:24:21 2020]
+Finished job 103.
+93 of 135 steps (69%) done
+[Tue Nov 24 12:24:21 2020]
+Finished job 77.
+94 of 135 steps (70%) done
+[Tue Nov 24 12:24:21 2020]
+Finished job 107.
+95 of 135 steps (70%) done
+[Tue Nov 24 12:24:21 2020]
+Finished job 109.
+96 of 135 steps (71%) done
+[Tue Nov 24 12:24:21 2020]
+Finished job 87.
+97 of 135 steps (72%) done
+[Tue Nov 24 12:24:21 2020]
+Finished job 207.
+98 of 135 steps (73%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:21 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000012840.vars.report, data/complete_coords/ENSSSCG00000012840.complete
+    output: data/remapped_vars/ENSSSCG00000012840.remapped, data/unmapped_vars/ENSSSCG00000012840.unmapped
+    jobid: 177
+    wildcards: id=ENSSSCG00000012840
+
+
+[Tue Nov 24 12:24:21 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000020924.vars.report, data/complete_coords/ENSSSCG00000020924.complete
+    output: data/remapped_vars/ENSSSCG00000020924.remapped, data/unmapped_vars/ENSSSCG00000020924.unmapped
+    jobid: 111
+    wildcards: id=ENSSSCG00000020924
+
+[Tue Nov 24 12:24:21 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000006924.vars.report, data/complete_coords/ENSSSCG00000006924.complete
+    output: data/remapped_vars/ENSSSCG00000006924.remapped, data/unmapped_vars/ENSSSCG00000006924.unmapped
+    jobid: 267
+    wildcards: id=ENSSSCG00000006924
+
+[Tue Nov 24 12:24:21 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000030758.vars.report, data/complete_coords/ENSSSCG00000030758.complete
+    output: data/remapped_vars/ENSSSCG00000030758.remapped, data/unmapped_vars/ENSSSCG00000030758.unmapped
+    jobid: 237
+    wildcards: id=ENSSSCG00000030758
+
+[Tue Nov 24 12:24:21 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000028431.vars.report, data/complete_coords/ENSSSCG00000028431.complete
+    output: data/remapped_vars/ENSSSCG00000028431.remapped, data/unmapped_vars/ENSSSCG00000028431.unmapped
+    jobid: 121
+    wildcards: id=ENSSSCG00000028431
+
+
+[Tue Nov 24 12:24:21 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000015048.vars.report, data/complete_coords/ENSSSCG00000015048.complete
+    output: data/remapped_vars/ENSSSCG00000015048.remapped, data/unmapped_vars/ENSSSCG00000015048.unmapped
+    jobid: 61
+    wildcards: id=ENSSSCG00000015048
+
+
+[Tue Nov 24 12:24:21 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000004475.vars.report, data/complete_coords/ENSSSCG00000004475.complete
+    output: data/remapped_vars/ENSSSCG00000004475.remapped, data/unmapped_vars/ENSSSCG00000004475.unmapped
+    jobid: 181
+    wildcards: id=ENSSSCG00000004475
+
+[Tue Nov 24 12:24:21 2020]
+Finished job 111.
+99 of 135 steps (73%) done
+[Tue Nov 24 12:24:22 2020]
+Finished job 177.
+100 of 135 steps (74%) done
+[Tue Nov 24 12:24:22 2020]
+Finished job 237.
+101 of 135 steps (75%) done
+[Tue Nov 24 12:24:22 2020]
+Finished job 267.
+102 of 135 steps (76%) done
+[Tue Nov 24 12:24:22 2020]
+Finished job 61.
+103 of 135 steps (76%) done
+[Tue Nov 24 12:24:22 2020]
+Finished job 181.
+104 of 135 steps (77%) done
+[Tue Nov 24 12:24:22 2020]
+Finished job 121.
+105 of 135 steps (78%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000014170.vars.report, data/complete_coords/ENSSSCG00000014170.complete
+    output: data/remapped_vars/ENSSSCG00000014170.remapped, data/unmapped_vars/ENSSSCG00000014170.unmapped
+    jobid: 223
+    wildcards: id=ENSSSCG00000014170
+
+[Tue Nov 24 12:24:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000030733.vars.report, data/complete_coords/ENSSSCG00000030733.complete
+    output: data/remapped_vars/ENSSSCG00000030733.remapped, data/unmapped_vars/ENSSSCG00000030733.unmapped
+    jobid: 133
+    wildcards: id=ENSSSCG00000030733
+
+
+[Tue Nov 24 12:24:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000000866.vars.report, data/complete_coords/ENSSSCG00000000866.complete
+    output: data/remapped_vars/ENSSSCG00000000866.remapped, data/unmapped_vars/ENSSSCG00000000866.unmapped
+    jobid: 13
+    wildcards: id=ENSSSCG00000000866
+
+
+[Tue Nov 24 12:24:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000006719.vars.report, data/complete_coords/ENSSSCG00000006719.complete
+    output: data/remapped_vars/ENSSSCG00000006719.remapped, data/unmapped_vars/ENSSSCG00000006719.unmapped
+    jobid: 43
+    wildcards: id=ENSSSCG00000006719
+
+[Tue Nov 24 12:24:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000027555.vars.report, data/complete_coords/ENSSSCG00000027555.complete
+    output: data/remapped_vars/ENSSSCG00000027555.remapped, data/unmapped_vars/ENSSSCG00000027555.unmapped
+    jobid: 193
+    wildcards: id=ENSSSCG00000027555
+
+
+[Tue Nov 24 12:24:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000025244.vars.report, data/complete_coords/ENSSSCG00000025244.complete
+    output: data/remapped_vars/ENSSSCG00000025244.remapped, data/unmapped_vars/ENSSSCG00000025244.unmapped
+    jobid: 15
+    wildcards: id=ENSSSCG00000025244
+
+[Tue Nov 24 12:24:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000011147.vars.report, data/complete_coords/ENSSSCG00000011147.complete
+    output: data/remapped_vars/ENSSSCG00000011147.remapped, data/unmapped_vars/ENSSSCG00000011147.unmapped
+    jobid: 239
+    wildcards: id=ENSSSCG00000011147
+
+[Tue Nov 24 12:24:22 2020]
+Finished job 223.
+106 of 135 steps (79%) done
+[Tue Nov 24 12:24:23 2020]
+Finished job 133.
+107 of 135 steps (79%) done
+[Tue Nov 24 12:24:23 2020]
+Finished job 193.
+108 of 135 steps (80%) done
+[Tue Nov 24 12:24:23 2020]
+Finished job 43.
+109 of 135 steps (81%) done
+[Tue Nov 24 12:24:23 2020]
+Finished job 15.
+110 of 135 steps (81%) done
+[Tue Nov 24 12:24:23 2020]
+Finished job 239.
+111 of 135 steps (82%) done
+[Tue Nov 24 12:24:23 2020]
+Finished job 13.
+112 of 135 steps (83%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:23 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000009406.vars.report, data/complete_coords/ENSSSCG00000009406.complete
+    output: data/remapped_vars/ENSSSCG00000009406.remapped, data/unmapped_vars/ENSSSCG00000009406.unmapped
+    jobid: 147
+    wildcards: id=ENSSSCG00000009406
+
+
+[Tue Nov 24 12:24:23 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000003017.vars.report, data/complete_coords/ENSSSCG00000003017.complete
+    output: data/remapped_vars/ENSSSCG00000003017.remapped, data/unmapped_vars/ENSSSCG00000003017.unmapped
+    jobid: 247
+    wildcards: id=ENSSSCG00000003017
+
+
+[Tue Nov 24 12:24:23 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000002961.vars.report, data/complete_coords/ENSSSCG00000002961.complete
+    output: data/remapped_vars/ENSSSCG00000002961.remapped, data/unmapped_vars/ENSSSCG00000002961.unmapped
+    jobid: 37
+    wildcards: id=ENSSSCG00000002961
+
+
+[Tue Nov 24 12:24:23 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000005503.vars.report, data/complete_coords/ENSSSCG00000005503.complete
+    output: data/remapped_vars/ENSSSCG00000005503.remapped, data/unmapped_vars/ENSSSCG00000005503.unmapped
+    jobid: 149
+    wildcards: id=ENSSSCG00000005503
+
+[Tue Nov 24 12:24:23 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000011453.vars.report, data/complete_coords/ENSSSCG00000011453.complete
+    output: data/remapped_vars/ENSSSCG00000011453.remapped, data/unmapped_vars/ENSSSCG00000011453.unmapped
+    jobid: 29
+    wildcards: id=ENSSSCG00000011453
+
+[Tue Nov 24 12:24:23 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000002385.vars.report, data/complete_coords/ENSSSCG00000002385.complete
+    output: data/remapped_vars/ENSSSCG00000002385.remapped, data/unmapped_vars/ENSSSCG00000002385.unmapped
+    jobid: 59
+    wildcards: id=ENSSSCG00000002385
+
+[Tue Nov 24 12:24:23 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000000922.vars.report, data/complete_coords/ENSSSCG00000000922.complete
+    output: data/remapped_vars/ENSSSCG00000000922.remapped, data/unmapped_vars/ENSSSCG00000000922.unmapped
+    jobid: 89
+    wildcards: id=ENSSSCG00000000922
+
+[Tue Nov 24 12:24:23 2020]
+Finished job 149.
+113 of 135 steps (84%) done
+[Tue Nov 24 12:24:24 2020]
+Finished job 247.
+114 of 135 steps (84%) done
+[Tue Nov 24 12:24:24 2020]
+Finished job 37.
+115 of 135 steps (85%) done
+[Tue Nov 24 12:24:24 2020]
+Finished job 89.
+116 of 135 steps (86%) done
+[Tue Nov 24 12:24:24 2020]
+Finished job 29.
+117 of 135 steps (87%) done
+[Tue Nov 24 12:24:24 2020]
+Finished job 59.
+118 of 135 steps (87%) done
+[Tue Nov 24 12:24:24 2020]
+Finished job 147.
+119 of 135 steps (88%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:24 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000027877.vars.report, data/complete_coords/ENSSSCG00000027877.complete
+    output: data/remapped_vars/ENSSSCG00000027877.remapped, data/unmapped_vars/ENSSSCG00000027877.unmapped
+    jobid: 163
+    wildcards: id=ENSSSCG00000027877
+
+[Tue Nov 24 12:24:24 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000012117.vars.report, data/complete_coords/ENSSSCG00000012117.complete
+    output: data/remapped_vars/ENSSSCG00000012117.remapped, data/unmapped_vars/ENSSSCG00000012117.unmapped
+    jobid: 73
+    wildcards: id=ENSSSCG00000012117
+
+
+[Tue Nov 24 12:24:24 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000016940.vars.report, data/complete_coords/ENSSSCG00000016940.complete
+    output: data/remapped_vars/ENSSSCG00000016940.remapped, data/unmapped_vars/ENSSSCG00000016940.unmapped
+    jobid: 35
+    wildcards: id=ENSSSCG00000016940
+
+
+[Tue Nov 24 12:24:24 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000006403.vars.report, data/complete_coords/ENSSSCG00000006403.complete
+    output: data/remapped_vars/ENSSSCG00000006403.remapped, data/unmapped_vars/ENSSSCG00000006403.unmapped
+    jobid: 39
+    wildcards: id=ENSSSCG00000006403
+
+
+[Tue Nov 24 12:24:24 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010885.vars.report, data/complete_coords/ENSSSCG00000010885.complete
+    output: data/remapped_vars/ENSSSCG00000010885.remapped, data/unmapped_vars/ENSSSCG00000010885.unmapped
+    jobid: 245
+    wildcards: id=ENSSSCG00000010885
+
+[Tue Nov 24 12:24:24 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000016047.vars.report, data/complete_coords/ENSSSCG00000016047.complete
+    output: data/remapped_vars/ENSSSCG00000016047.remapped, data/unmapped_vars/ENSSSCG00000016047.unmapped
+    jobid: 249
+    wildcards: id=ENSSSCG00000016047
+
+[Tue Nov 24 12:24:24 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000006386.vars.report, data/complete_coords/ENSSSCG00000006386.complete
+    output: data/remapped_vars/ENSSSCG00000006386.remapped, data/unmapped_vars/ENSSSCG00000006386.unmapped
+    jobid: 119
+    wildcards: id=ENSSSCG00000006386
+
+[Tue Nov 24 12:24:24 2020]
+Finished job 245.
+120 of 135 steps (89%) done
+[Tue Nov 24 12:24:24 2020]
+Finished job 163.
+121 of 135 steps (90%) done
+[Tue Nov 24 12:24:25 2020]
+Finished job 35.
+122 of 135 steps (90%) done
+[Tue Nov 24 12:24:25 2020]
+Finished job 73.
+123 of 135 steps (91%) done
+[Tue Nov 24 12:24:25 2020]
+Finished job 39.
+124 of 135 steps (92%) done
+[Tue Nov 24 12:24:25 2020]
+Finished job 249.
+125 of 135 steps (93%) done
+[Tue Nov 24 12:24:25 2020]
+Finished job 119.
+126 of 135 steps (93%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:25 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000000481.vars.report, data/complete_coords/ENSSSCG00000000481.complete
+    output: data/remapped_vars/ENSSSCG00000000481.remapped, data/unmapped_vars/ENSSSCG00000000481.unmapped
+    jobid: 261
+    wildcards: id=ENSSSCG00000000481
+
+[Tue Nov 24 12:24:25 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000011512.vars.report, data/complete_coords/ENSSSCG00000011512.complete
+    output: data/remapped_vars/ENSSSCG00000011512.remapped, data/unmapped_vars/ENSSSCG00000011512.unmapped
+    jobid: 83
+    wildcards: id=ENSSSCG00000011512
+
+
+[Tue Nov 24 12:24:25 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000009695.vars.report, data/complete_coords/ENSSSCG00000009695.complete
+    output: data/remapped_vars/ENSSSCG00000009695.remapped, data/unmapped_vars/ENSSSCG00000009695.unmapped
+    jobid: 173
+    wildcards: id=ENSSSCG00000009695
+
+[Tue Nov 24 12:24:25 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000008948.vars.report, data/complete_coords/ENSSSCG00000008948.complete
+    output: data/remapped_vars/ENSSSCG00000008948.remapped, data/unmapped_vars/ENSSSCG00000008948.unmapped
+    jobid: 113
+    wildcards: id=ENSSSCG00000008948
+
+[Tue Nov 24 12:24:25 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000000932.vars.report, data/complete_coords/ENSSSCG00000000932.complete
+    output: data/remapped_vars/ENSSSCG00000000932.remapped, data/unmapped_vars/ENSSSCG00000000932.unmapped
+    jobid: 253
+    wildcards: id=ENSSSCG00000000932
+
+
+[Tue Nov 24 12:24:25 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007215.vars.report, data/complete_coords/ENSSSCG00000007215.complete
+    output: data/remapped_vars/ENSSSCG00000007215.remapped, data/unmapped_vars/ENSSSCG00000007215.unmapped
+    jobid: 263
+    wildcards: id=ENSSSCG00000007215
+
+[Tue Nov 24 12:24:25 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000026592.vars.report, data/complete_coords/ENSSSCG00000026592.complete
+    output: data/remapped_vars/ENSSSCG00000026592.remapped, data/unmapped_vars/ENSSSCG00000026592.unmapped
+    jobid: 45
+    wildcards: id=ENSSSCG00000026592
+
+[Tue Nov 24 12:24:25 2020]
+Finished job 261.
+127 of 135 steps (94%) done
+[Tue Nov 24 12:24:25 2020]
+Finished job 173.
+128 of 135 steps (95%) done
+[Tue Nov 24 12:24:25 2020]
+Finished job 253.
+129 of 135 steps (96%) done
+[Tue Nov 24 12:24:25 2020]
+Finished job 83.
+130 of 135 steps (96%) done
+[Tue Nov 24 12:24:25 2020]
+Finished job 113.
+131 of 135 steps (97%) done
+[Tue Nov 24 12:24:26 2020]
+Finished job 263.
+132 of 135 steps (98%) done
+[Tue Nov 24 12:24:26 2020]
+Finished job 45.
+133 of 135 steps (99%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:26 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007153.vars.report, data/complete_coords/ENSSSCG00000007153.complete
+    output: data/remapped_vars/ENSSSCG00000007153.remapped, data/unmapped_vars/ENSSSCG00000007153.unmapped
+    jobid: 57
+    wildcards: id=ENSSSCG00000007153
+
+[Tue Nov 24 12:24:26 2020]
+Finished job 57.
+134 of 135 steps (99%) done
+Select jobs to execute...
+
+[Tue Nov 24 12:24:26 2020]
+localrule all:
+    input: data/remapped_vars/ENSSSCG00000008326.remapped, data/remapped_vars/ENSSSCG00000026409.remapped, data/remapped_vars/ENSSSCG00000017399.remapped, data/remapped_vars/ENSSSCG00000001743.remapped, data/remapped_vars/ENSSSCG00000010929.remapped, data/remapped_vars/ENSSSCG00000029988.remapped, data/remapped_vars/ENSSSCG00000000866.remapped, data/remapped_vars/ENSSSCG00000025244.remapped, data/remapped_vars/ENSSSCG00000002749.remapped, data/remapped_vars/ENSSSCG00000010816.remapped, data/remapped_vars/ENSSSCG00000031002.remapped, data/remapped_vars/ENSSSCG00000015070.remapped, data/remapped_vars/ENSSSCG00000012593.remapped, data/remapped_vars/ENSSSCG00000026214.remapped, data/remapped_vars/ENSSSCG00000011453.remapped, data/remapped_vars/ENSSSCG00000005163.remapped, data/remapped_vars/ENSSSCG00000007146.remapped, data/remapped_vars/ENSSSCG00000016940.remapped, data/remapped_vars/ENSSSCG00000002961.remapped, data/remapped_vars/ENSSSCG00000006403.remapped, data/remapped_vars/ENSSSCG00000026201.remapped, data/remapped_vars/ENSSSCG00000006719.remapped, data/remapped_vars/ENSSSCG00000026592.remapped, data/remapped_vars/ENSSSCG00000008842.remapped, data/remapped_vars/ENSSSCG00000025058.remapped, data/remapped_vars/ENSSSCG00000023666.remapped, data/remapped_vars/ENSSSCG00000014428.remapped, data/remapped_vars/ENSSSCG00000015801.remapped, data/remapped_vars/ENSSSCG00000007153.remapped, data/remapped_vars/ENSSSCG00000002385.remapped, data/remapped_vars/ENSSSCG00000015048.remapped, data/remapped_vars/ENSSSCG00000007744.remapped, data/remapped_vars/ENSSSCG00000013369.remapped, data/remapped_vars/ENSSSCG00000001050.remapped, data/remapped_vars/ENSSSCG00000017121.remapped, data/remapped_vars/ENSSSCG00000012257.remapped, data/remapped_vars/ENSSSCG00000012117.remapped, data/remapped_vars/ENSSSCG00000010554.remapped, data/remapped_vars/ENSSSCG00000006648.remapped, data/remapped_vars/ENSSSCG00000023876.remapped, data/remapped_vars/ENSSSCG00000011436.remapped, data/remapped_vars/ENSSSCG00000011512.remapped, data/remapped_vars/ENSSSCG00000011850.remapped, data/remapped_vars/ENSSSCG00000001404.remapped, data/remapped_vars/ENSSSCG00000000922.remapped, data/remapped_vars/ENSSSCG00000001428.remapped, data/remapped_vars/ENSSSCG00000004875.remapped, data/remapped_vars/ENSSSCG00000026583.remapped, data/remapped_vars/ENSSSCG00000006215.remapped, data/remapped_vars/ENSSSCG00000009115.remapped, data/remapped_vars/ENSSSCG00000007226.remapped, data/remapped_vars/ENSSSCG00000010459.remapped, data/remapped_vars/ENSSSCG00000010948.remapped, data/remapped_vars/ENSSSCG00000002686.remapped, data/remapped_vars/ENSSSCG00000016273.remapped, data/remapped_vars/ENSSSCG00000020924.remapped, data/remapped_vars/ENSSSCG00000008948.remapped, data/remapped_vars/ENSSSCG00000012371.remapped, data/remapped_vars/ENSSSCG00000007217.remapped, data/remapped_vars/ENSSSCG00000006386.remapped, data/remapped_vars/ENSSSCG00000028431.remapped, data/remapped_vars/ENSSSCG00000012077.remapped, data/remapped_vars/ENSSSCG00000024689.remapped, data/remapped_vars/ENSSSCG00000007216.remapped, data/remapped_vars/ENSSSCG00000008088.remapped, data/remapped_vars/ENSSSCG00000007522.remapped, data/remapped_vars/ENSSSCG00000030733.remapped, data/remapped_vars/ENSSSCG00000010780.remapped, data/remapped_vars/ENSSSCG00000017227.remapped, data/remapped_vars/ENSSSCG00000011862.remapped, data/remapped_vars/ENSSSCG00000005193.remapped, data/remapped_vars/ENSSSCG00000025500.remapped, data/remapped_vars/ENSSSCG00000010937.remapped, data/remapped_vars/ENSSSCG00000009406.remapped, data/remapped_vars/ENSSSCG00000005503.remapped, data/remapped_vars/ENSSSCG00000002777.remapped, data/remapped_vars/ENSSSCG00000029990.remapped, data/remapped_vars/ENSSSCG00000015616.remapped, data/remapped_vars/ENSSSCG00000020864.remapped, data/remapped_vars/ENSSSCG00000030168.remapped, data/remapped_vars/ENSSSCG00000003141.remapped, data/remapped_vars/ENSSSCG00000027877.remapped, data/remapped_vars/ENSSSCG00000013579.remapped, data/remapped_vars/ENSSSCG00000007277.remapped, data/remapped_vars/ENSSSCG00000010310.remapped, data/remapped_vars/ENSSSCG00000002756.remapped, data/remapped_vars/ENSSSCG00000009695.remapped, data/remapped_vars/ENSSSCG00000011033.remapped, data/remapped_vars/ENSSSCG00000012840.remapped, data/remapped_vars/ENSSSCG00000028629.remapped, data/remapped_vars/ENSSSCG00000004475.remapped, data/remapped_vars/ENSSSCG00000016200.remapped, data/remapped_vars/ENSSSCG00000009477.remapped, data/remapped_vars/ENSSSCG00000008521.remapped, data/remapped_vars/ENSSSCG00000001741.remapped, data/remapped_vars/ENSSSCG00000012118.remapped, data/remapped_vars/ENSSSCG00000027555.remapped, data/remapped_vars/ENSSSCG00000004296.remapped, data/remapped_vars/ENSSSCG00000015652.remapped, data/remapped_vars/ENSSSCG00000008090.remapped, data/remapped_vars/ENSSSCG00000025273.remapped, data/remapped_vars/ENSSSCG00000031069.remapped, data/remapped_vars/ENSSSCG00000024973.remapped, data/remapped_vars/ENSSSCG00000023686.remapped, data/remapped_vars/ENSSSCG00000031060.remapped, data/remapped_vars/ENSSSCG00000004904.remapped, data/remapped_vars/ENSSSCG00000007214.remapped, data/remapped_vars/ENSSSCG00000017103.remapped, data/remapped_vars/ENSSSCG00000021739.remapped, data/remapped_vars/ENSSSCG00000010591.remapped, data/remapped_vars/ENSSSCG00000015053.remapped, data/remapped_vars/ENSSSCG00000014170.remapped, data/remapped_vars/ENSSSCG00000007221.remapped, data/remapped_vars/ENSSSCG00000003130.remapped, data/remapped_vars/ENSSSCG00000009002.remapped, data/remapped_vars/ENSSSCG00000007218.remapped, data/remapped_vars/ENSSSCG00000024497.remapped, data/remapped_vars/ENSSSCG00000005488.remapped, data/remapped_vars/ENSSSCG00000030758.remapped, data/remapped_vars/ENSSSCG00000011147.remapped, data/remapped_vars/ENSSSCG00000027850.remapped, data/remapped_vars/ENSSSCG00000026109.remapped, data/remapped_vars/ENSSSCG00000010885.remapped, data/remapped_vars/ENSSSCG00000003017.remapped, data/remapped_vars/ENSSSCG00000016047.remapped, data/remapped_vars/ENSSSCG00000000038.remapped, data/remapped_vars/ENSSSCG00000000932.remapped, data/remapped_vars/ENSSSCG00000030227.remapped, data/remapped_vars/ENSSSCG00000022432.remapped, data/remapped_vars/ENSSSCG00000006337.remapped, data/remapped_vars/ENSSSCG00000000481.remapped, data/remapped_vars/ENSSSCG00000007215.remapped, data/remapped_vars/ENSSSCG00000010787.remapped, data/remapped_vars/ENSSSCG00000006924.remapped
+    jobid: 0
+
+[Tue Nov 24 12:24:26 2020]
+Finished job 0.
+135 of 135 steps (100%) done
+Complete log: /home/pelmo/sscrofa_variant_remapping/.snakemake/log/2020-11-24T122406.540518.snakemake.log

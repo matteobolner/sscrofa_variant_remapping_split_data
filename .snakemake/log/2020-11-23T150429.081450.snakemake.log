@@ -1,0 +1,87 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	merge_results
+	135
+Select jobs to execute...
+
+[Mon Nov 23 15:04:29 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000024973.vars.report, data/complete_coords/ENSSSCG00000024973.complete
+    output: data/remapped_vars/ENSSSCG00000024973.remapped, data/unmapped_vars/ENSSSCG00000024973.unmapped
+    jobid: 205
+    wildcards: id=ENSSSCG00000024973
+
+[Mon Nov 23 15:04:29 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000010937.vars.report, data/complete_coords/ENSSSCG00000010937.complete
+    output: data/remapped_vars/ENSSSCG00000010937.remapped, data/unmapped_vars/ENSSSCG00000010937.unmapped
+    jobid: 145
+    wildcards: id=ENSSSCG00000010937
+
+[Mon Nov 23 15:04:29 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000026214.vars.report, data/complete_coords/ENSSSCG00000026214.complete
+    output: data/remapped_vars/ENSSSCG00000026214.remapped, data/unmapped_vars/ENSSSCG00000026214.unmapped
+    jobid: 27
+    wildcards: id=ENSSSCG00000026214
+
+[Mon Nov 23 15:04:29 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000029988.vars.report, data/complete_coords/ENSSSCG00000029988.complete
+    output: data/remapped_vars/ENSSSCG00000029988.remapped, data/unmapped_vars/ENSSSCG00000029988.unmapped
+    jobid: 11
+    wildcards: id=ENSSSCG00000029988
+
+[Mon Nov 23 15:04:29 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000005503.vars.report, data/complete_coords/ENSSSCG00000005503.complete
+    output: data/remapped_vars/ENSSSCG00000005503.remapped, data/unmapped_vars/ENSSSCG00000005503.unmapped
+    jobid: 149
+    wildcards: id=ENSSSCG00000005503
+
+[Mon Nov 23 15:04:29 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007226.vars.report, data/complete_coords/ENSSSCG00000007226.complete
+    output: data/remapped_vars/ENSSSCG00000007226.remapped, data/unmapped_vars/ENSSSCG00000007226.unmapped
+    jobid: 101
+    wildcards: id=ENSSSCG00000007226
+
+[Mon Nov 23 15:04:29 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007522.vars.report, data/complete_coords/ENSSSCG00000007522.complete
+    output: data/remapped_vars/ENSSSCG00000007522.remapped, data/unmapped_vars/ENSSSCG00000007522.unmapped
+    jobid: 131
+    wildcards: id=ENSSSCG00000007522
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 22 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Job Missing files after 5 seconds:
+data/unmapped_vars/ENSSSCG00000007522.unmapped
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait. completed successfully, but some output files are missing. 131
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 575, in handle_job_success
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 247, in handle_job_success
+Removing output files of failed job merge_results since they might be corrupted:
+data/remapped_vars/ENSSSCG00000007522.remapped
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 22 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Job Missing files after 5 seconds:
+data/unmapped_vars/ENSSSCG00000024973.unmapped
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait. completed successfully, but some output files are missing. 205
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 575, in handle_job_success
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 247, in handle_job_success
+Removing output files of failed job merge_results since they might be corrupted:
+data/remapped_vars/ENSSSCG00000024973.remapped
+[Mon Nov 23 15:04:39 2020]
+Finished job 27.
+1 of 135 steps (0.74%) done
+[Mon Nov 23 15:04:39 2020]
+Finished job 101.
+2 of 135 steps (1%) done
+Waiting at most 5 seconds for missing files.
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.

@@ -1,0 +1,1 @@
+use biomart coordinates for genes with an ensembl id, and ncbi coordinates for genes with an NCBI id

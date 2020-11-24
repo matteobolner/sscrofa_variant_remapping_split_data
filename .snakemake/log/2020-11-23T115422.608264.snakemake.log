@@ -1,0 +1,161 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	merge_results
+	135
+Select jobs to execute...
+
+[Mon Nov 23 11:54:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000007153.vars.report, data/complete_coords/ENSSSCG00000007153.complete
+    output: data/remapped_vars/ENSSSCG00000007153.remapped
+    jobid: 57
+    wildcards: id=ENSSSCG00000007153
+
+[Mon Nov 23 11:54:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000023686.vars.report, data/complete_coords/ENSSSCG00000023686.complete
+    output: data/remapped_vars/ENSSSCG00000023686.remapped
+    jobid: 207
+    wildcards: id=ENSSSCG00000023686
+
+[Mon Nov 23 11:54:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000000866.vars.report, data/complete_coords/ENSSSCG00000000866.complete
+    output: data/remapped_vars/ENSSSCG00000000866.remapped
+    jobid: 13
+    wildcards: id=ENSSSCG00000000866
+
+[Mon Nov 23 11:54:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000006924.vars.report, data/complete_coords/ENSSSCG00000006924.complete
+    output: data/remapped_vars/ENSSSCG00000006924.remapped
+    jobid: 267
+    wildcards: id=ENSSSCG00000006924
+
+[Mon Nov 23 11:54:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000012117.vars.report, data/complete_coords/ENSSSCG00000012117.complete
+    output: data/remapped_vars/ENSSSCG00000012117.remapped
+    jobid: 73
+    wildcards: id=ENSSSCG00000012117
+
+[Mon Nov 23 11:54:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000014170.vars.report, data/complete_coords/ENSSSCG00000014170.complete
+    output: data/remapped_vars/ENSSSCG00000014170.remapped
+    jobid: 223
+    wildcards: id=ENSSSCG00000014170
+
+[Mon Nov 23 11:54:22 2020]
+rule merge_results:
+    input: data/var_coords_remapped_report/ENSSSCG00000005503.vars.report, data/complete_coords/ENSSSCG00000005503.complete
+    output: data/remapped_vars/ENSSSCG00000005503.remapped
+    jobid: 149
+    wildcards: id=ENSSSCG00000005503
+
+[Mon Nov 23 11:54:23 2020]
+Error in rule merge_results:
+    jobid: 73
+    output: data/remapped_vars/ENSSSCG00000012117.remapped
+
+RuleException:
+CalledProcessError in line 29 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmp4nu1a4_b.merge_results.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 29, in __rule_merge_results
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Mon Nov 23 11:54:23 2020]
+Error in rule merge_results:
+    jobid: 149
+    output: data/remapped_vars/ENSSSCG00000005503.remapped
+
+RuleException:
+CalledProcessError in line 29 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmp2tl51prd.merge_results.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 29, in __rule_merge_results
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Mon Nov 23 11:54:23 2020]
+Error in rule merge_results:
+    jobid: 207
+    output: data/remapped_vars/ENSSSCG00000023686.remapped
+
+[Mon Nov 23 11:54:23 2020]
+RuleException:
+CalledProcessError in line 29 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpqpdn5tz4.merge_results.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 29, in __rule_merge_results
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+Error in rule merge_results:
+    jobid: 267
+    output: data/remapped_vars/ENSSSCG00000006924.remapped
+
+RuleException:
+CalledProcessError in line 29 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmprelo8it0.merge_results.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 29, in __rule_merge_results
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Mon Nov 23 11:54:23 2020]
+Error in rule merge_results:
+    jobid: 223
+    output: data/remapped_vars/ENSSSCG00000014170.remapped
+
+[Mon Nov 23 11:54:23 2020]
+Error in rule merge_results:
+    jobid: 13
+RuleException:
+CalledProcessError in line 29 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpnlukew8q.merge_results.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 29, in __rule_merge_results
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+    output: data/remapped_vars/ENSSSCG00000000866.remapped
+
+RuleException:
+CalledProcessError in line 29 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmp87ij_7aq.merge_results.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 29, in __rule_merge_results
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Mon Nov 23 11:54:23 2020]
+Error in rule merge_results:
+    jobid: 57
+    output: data/remapped_vars/ENSSSCG00000007153.remapped
+
+RuleException:
+CalledProcessError in line 29 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmp5lu4ye5l.merge_results.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 29, in __rule_merge_results
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/pelmo/sscrofa_variant_remapping/.snakemake/log/2020-11-23T115422.608264.snakemake.log
