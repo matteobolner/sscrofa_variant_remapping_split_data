@@ -1,0 +1,161 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	verify_vars
+	135
+Select jobs to execute...
+
+[Tue Dec  1 15:38:51 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000025273.remapped
+    output: data/verified_vars/ENSSSCG00000025273.verified
+    jobid: 369
+    wildcards: id=ENSSSCG00000025273
+
+[Tue Dec  1 15:38:51 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000011850.remapped
+    output: data/verified_vars/ENSSSCG00000011850.verified
+    jobid: 311
+    wildcards: id=ENSSSCG00000011850
+
+[Tue Dec  1 15:38:51 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000011453.remapped
+    output: data/verified_vars/ENSSSCG00000011453.verified
+    jobid: 283
+    wildcards: id=ENSSSCG00000011453
+
+[Tue Dec  1 15:38:51 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000007218.remapped
+    output: data/verified_vars/ENSSSCG00000007218.verified
+    jobid: 384
+    wildcards: id=ENSSSCG00000007218
+
+[Tue Dec  1 15:38:51 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000012371.remapped
+    output: data/verified_vars/ENSSSCG00000012371.verified
+    jobid: 326
+    wildcards: id=ENSSSCG00000012371
+
+[Tue Dec  1 15:38:51 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000000481.remapped
+    output: data/verified_vars/ENSSSCG00000000481.verified
+    jobid: 399
+    wildcards: id=ENSSSCG00000000481
+
+[Tue Dec  1 15:38:51 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000024973.remapped
+    output: data/verified_vars/ENSSSCG00000024973.verified
+    jobid: 371
+    wildcards: id=ENSSSCG00000024973
+
+[Tue Dec  1 15:38:52 2020]
+Error in rule verify_vars:
+    jobid: 369
+    output: data/verified_vars/ENSSSCG00000025273.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpj533a0bk.var_confirmation.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Tue Dec  1 15:38:52 2020]
+Error in rule verify_vars:
+    jobid: 384
+    output: data/verified_vars/ENSSSCG00000007218.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmp1htqikdj.var_confirmation.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Tue Dec  1 15:38:52 2020]
+Error in rule verify_vars:
+    jobid: 326
+    output: data/verified_vars/ENSSSCG00000012371.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpbkvkwinz.var_confirmation.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Tue Dec  1 15:38:52 2020]
+Error in rule verify_vars:
+    jobid: 311
+    output: data/verified_vars/ENSSSCG00000011850.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpfj1cqmn9.var_confirmation.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Tue Dec  1 15:38:52 2020]
+Error in rule verify_vars:
+    jobid: 371
+    output: data/verified_vars/ENSSSCG00000024973.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmp_3nx38vc.var_confirmation.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Tue Dec  1 15:38:52 2020]
+Error in rule verify_vars:
+    jobid: 283
+    output: data/verified_vars/ENSSSCG00000011453.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpuzmy61xg.var_confirmation.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Tue Dec  1 15:38:52 2020]
+Error in rule verify_vars:
+    jobid: 399
+    output: data/verified_vars/ENSSSCG00000000481.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmp_157rr6y.var_confirmation.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/pelmo/sscrofa_variant_remapping/.snakemake/log/2020-12-01T153851.216378.snakemake.log

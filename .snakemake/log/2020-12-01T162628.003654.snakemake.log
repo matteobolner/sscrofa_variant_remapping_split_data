@@ -1,0 +1,88 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	133	verify_vars
+	134
+Select jobs to execute...
+
+[Tue Dec  1 16:26:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000000038.remapped
+    output: data/verified_vars/ENSSSCG00000000038.verified
+    jobid: 394
+    wildcards: id=ENSSSCG00000000038
+
+[Tue Dec  1 16:26:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000016273.remapped
+    output: data/verified_vars/ENSSSCG00000016273.verified
+    jobid: 323
+    wildcards: id=ENSSSCG00000016273
+
+[Tue Dec  1 16:26:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000002686.remapped
+    output: data/verified_vars/ENSSSCG00000002686.verified
+    jobid: 322
+    wildcards: id=ENSSSCG00000002686
+
+[Tue Dec  1 16:26:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000001404.remapped
+    output: data/verified_vars/ENSSSCG00000001404.verified
+    jobid: 312
+    wildcards: id=ENSSSCG00000001404
+
+[Tue Dec  1 16:26:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000017227.remapped
+    output: data/verified_vars/ENSSSCG00000017227.verified
+    jobid: 337
+    wildcards: id=ENSSSCG00000017227
+
+[Tue Dec  1 16:26:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000031002.remapped
+    output: data/verified_vars/ENSSSCG00000031002.verified
+    jobid: 279
+    wildcards: id=ENSSSCG00000031002
+
+[Tue Dec  1 16:26:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000007277.remapped
+    output: data/verified_vars/ENSSSCG00000007277.verified
+    jobid: 352
+    wildcards: id=ENSSSCG00000007277
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 35 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Job Missing files after 5 seconds:
+data/verified_vars/ENSSSCG00000007277.verified
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait. completed successfully, but some output files are missing. 352
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 575, in handle_job_success
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 247, in handle_job_success
+[Tue Dec  1 16:26:38 2020]
+Finished job 279.
+1 of 134 steps (0.75%) done
+[Tue Dec  1 16:26:56 2020]
+Finished job 312.
+2 of 134 steps (1%) done
+[Tue Dec  1 16:28:35 2020]
+Finished job 322.
+3 of 134 steps (2%) done
+[Tue Dec  1 16:28:54 2020]
+Finished job 337.
+4 of 134 steps (3%) done
+[Tue Dec  1 16:29:45 2020]
+Finished job 323.
+5 of 134 steps (4%) done
+[Tue Dec  1 16:31:37 2020]
+Finished job 394.
+6 of 134 steps (4%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/pelmo/sscrofa_variant_remapping/.snakemake/log/2020-12-01T162628.003654.snakemake.log

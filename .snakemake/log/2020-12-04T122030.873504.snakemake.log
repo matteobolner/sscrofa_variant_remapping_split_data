@@ -1,0 +1,161 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	verified_stats
+	135
+Select jobs to execute...
+
+[Fri Dec  4 12:20:31 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000000481.verified
+    output: data/verified_stats/ENSSSCG00000000481.stats
+    jobid: 521
+    wildcards: id=ENSSSCG00000000481
+
+[Fri Dec  4 12:20:31 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000007216.verified
+    output: data/verified_stats/ENSSSCG00000007216.stats
+    jobid: 253
+    wildcards: id=ENSSSCG00000007216
+
+[Fri Dec  4 12:20:31 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000028629.verified
+    output: data/verified_stats/ENSSSCG00000028629.stats
+    jobid: 357
+    wildcards: id=ENSSSCG00000028629
+
+[Fri Dec  4 12:20:31 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000002961.verified
+    output: data/verified_stats/ENSSSCG00000002961.stats
+    jobid: 73
+    wildcards: id=ENSSSCG00000002961
+
+[Fri Dec  4 12:20:31 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000001050.verified
+    output: data/verified_stats/ENSSSCG00000001050.stats
+    jobid: 133
+    wildcards: id=ENSSSCG00000001050
+
+[Fri Dec  4 12:20:31 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000008521.verified
+    output: data/verified_stats/ENSSSCG00000008521.stats
+    jobid: 373
+    wildcards: id=ENSSSCG00000008521
+
+[Fri Dec  4 12:20:31 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000025244.verified
+    output: data/verified_stats/ENSSSCG00000025244.stats
+    jobid: 29
+    wildcards: id=ENSSSCG00000025244
+
+[Fri Dec  4 12:20:31 2020]
+Error in rule verified_stats:
+    jobid: 357
+    output: data/verified_stats/ENSSSCG00000028629.stats
+
+RuleException:
+CalledProcessError in line 49 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmp2xslcgey.verified_stats.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 49, in __rule_verified_stats
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Fri Dec  4 12:20:31 2020]
+Error in rule verified_stats:
+    jobid: 253
+    output: data/verified_stats/ENSSSCG00000007216.stats
+
+RuleException:
+CalledProcessError in line 49 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpjnv1t564.verified_stats.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 49, in __rule_verified_stats
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Fri Dec  4 12:20:31 2020]
+Error in rule verified_stats:
+    jobid: 373
+    output: data/verified_stats/ENSSSCG00000008521.stats
+
+RuleException:
+CalledProcessError in line 49 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmptf9_4gx7.verified_stats.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 49, in __rule_verified_stats
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Fri Dec  4 12:20:32 2020]
+Error in rule verified_stats:
+    jobid: 133
+    output: data/verified_stats/ENSSSCG00000001050.stats
+
+RuleException:
+CalledProcessError in line 49 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpnys7n9iv.verified_stats.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 49, in __rule_verified_stats
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Fri Dec  4 12:20:32 2020]
+Error in rule verified_stats:
+    jobid: 73
+    output: data/verified_stats/ENSSSCG00000002961.stats
+
+[Fri Dec  4 12:20:32 2020]
+Error in rule verified_stats:
+    jobid: 29
+    output: data/verified_stats/ENSSSCG00000025244.stats
+RuleException:
+CalledProcessError in line 49 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmp0svsdz6p.verified_stats.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 49, in __rule_verified_stats
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+
+RuleException:
+CalledProcessError in line 49 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpjeci4y9l.verified_stats.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 49, in __rule_verified_stats
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Fri Dec  4 12:20:32 2020]
+Error in rule verified_stats:
+    jobid: 521
+    output: data/verified_stats/ENSSSCG00000000481.stats
+
+RuleException:
+CalledProcessError in line 49 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpigd5rxc7.verified_stats.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 49, in __rule_verified_stats
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/pelmo/sscrofa_variant_remapping/.snakemake/log/2020-12-04T122030.873504.snakemake.log

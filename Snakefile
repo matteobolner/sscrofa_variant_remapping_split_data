@@ -7,8 +7,9 @@ rule all:
         #expand("data/gene_coords/{id}.gene", id=IDS),
         #expand("data/var_coords/{id}.vars", id=IDS)
         #expand("data/complete_coords/{id}.complete", id=IDS)
-        expand("data/remapped_vars/{id}.remapped", id=IDS),
-
+        #expand("data/remapped_vars/{id}.remapped", id=IDS),
+        #expand("data/verified_vars/{id}.verified", id = IDS)
+        expand("data/verified_stats/{id}.stats", id = IDS)
 
 rule get_coords:
     input:
@@ -31,7 +32,22 @@ rule merge_results:
     script:
         "scripts/merge_results.py"
 
+rule verify_vars:
+    input:
+        "data/remapped_vars/{id}.remapped",
+    output:
+        "data/verified_vars/{id}.verified"
+    script:
+        "scripts/var_confirmation.py"
 
+rule update_vcf:
+    input:
+        "data/verified_vars/{id}.verified"
+        "data/complete_coords/{id}.complete"
+    output:
+        "data/updated_vcf/{id}.vcf"
+    script:
+        "scripts/verified_stats.py"
 
 '''rule remap_genes:
     input:

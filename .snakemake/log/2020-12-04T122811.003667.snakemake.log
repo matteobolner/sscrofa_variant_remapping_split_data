@@ -1,0 +1,572 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	46	verified_stats
+	47
+Select jobs to execute...
+
+[Fri Dec  4 12:28:11 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000007277.verified
+    output: data/verified_stats/ENSSSCG00000007277.stats
+    jobid: 333
+    wildcards: id=ENSSSCG00000007277
+
+[Fri Dec  4 12:28:11 2020]
+Finished job 333.
+1 of 47 steps (2%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:11 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000002756.verified
+    output: data/verified_stats/ENSSSCG00000002756.stats
+    jobid: 341
+    wildcards: id=ENSSSCG00000002756
+
+[Fri Dec  4 12:28:12 2020]
+Finished job 341.
+2 of 47 steps (4%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:12 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000010885.verified
+    output: data/verified_stats/ENSSSCG00000010885.stats
+    jobid: 489
+    wildcards: id=ENSSSCG00000010885
+
+[Fri Dec  4 12:28:12 2020]
+Finished job 489.
+3 of 47 steps (6%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:12 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000001741.verified
+    output: data/verified_stats/ENSSSCG00000001741.stats
+    jobid: 377
+    wildcards: id=ENSSSCG00000001741
+
+[Fri Dec  4 12:28:13 2020]
+Finished job 377.
+4 of 47 steps (9%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:13 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000017103.verified
+    output: data/verified_stats/ENSSSCG00000017103.stats
+    jobid: 429
+    wildcards: id=ENSSSCG00000017103
+
+[Fri Dec  4 12:28:13 2020]
+Finished job 429.
+5 of 47 steps (11%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:13 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000027555.verified
+    output: data/verified_stats/ENSSSCG00000027555.stats
+    jobid: 385
+    wildcards: id=ENSSSCG00000027555
+
+[Fri Dec  4 12:28:13 2020]
+Finished job 385.
+6 of 47 steps (13%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:13 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000004904.verified
+    output: data/verified_stats/ENSSSCG00000004904.stats
+    jobid: 421
+    wildcards: id=ENSSSCG00000004904
+
+[Fri Dec  4 12:28:14 2020]
+Finished job 421.
+7 of 47 steps (15%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:14 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000011453.verified
+    output: data/verified_stats/ENSSSCG00000011453.stats
+    jobid: 57
+    wildcards: id=ENSSSCG00000011453
+
+[Fri Dec  4 12:28:14 2020]
+Finished job 57.
+8 of 47 steps (17%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:14 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000006719.verified
+    output: data/verified_stats/ENSSSCG00000006719.stats
+    jobid: 85
+    wildcards: id=ENSSSCG00000006719
+
+[Fri Dec  4 12:28:15 2020]
+Finished job 85.
+9 of 47 steps (19%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:15 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000015801.verified
+    output: data/verified_stats/ENSSSCG00000015801.stats
+    jobid: 109
+    wildcards: id=ENSSSCG00000015801
+
+[Fri Dec  4 12:28:15 2020]
+Finished job 109.
+10 of 47 steps (21%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:15 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000010929.verified
+    output: data/verified_stats/ENSSSCG00000010929.stats
+    jobid: 17
+    wildcards: id=ENSSSCG00000010929
+
+[Fri Dec  4 12:28:16 2020]
+Finished job 17.
+11 of 47 steps (23%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:16 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000002385.verified
+    output: data/verified_stats/ENSSSCG00000002385.stats
+    jobid: 117
+    wildcards: id=ENSSSCG00000002385
+
+[Fri Dec  4 12:28:16 2020]
+Finished job 117.
+12 of 47 steps (26%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:16 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000000866.verified
+    output: data/verified_stats/ENSSSCG00000000866.stats
+    jobid: 25
+    wildcards: id=ENSSSCG00000000866
+
+[Fri Dec  4 12:28:17 2020]
+Finished job 25.
+13 of 47 steps (28%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:17 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000000922.verified
+    output: data/verified_stats/ENSSSCG00000000922.stats
+    jobid: 177
+    wildcards: id=ENSSSCG00000000922
+
+[Fri Dec  4 12:28:17 2020]
+Finished job 177.
+14 of 47 steps (30%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:17 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000007226.verified
+    output: data/verified_stats/ENSSSCG00000007226.stats
+    jobid: 201
+    wildcards: id=ENSSSCG00000007226
+
+[Fri Dec  4 12:28:17 2020]
+Finished job 201.
+15 of 47 steps (32%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:17 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000029988.verified
+    output: data/verified_stats/ENSSSCG00000029988.stats
+    jobid: 21
+    wildcards: id=ENSSSCG00000029988
+
+[Fri Dec  4 12:28:18 2020]
+Finished job 21.
+16 of 47 steps (34%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:18 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000020864.verified
+    output: data/verified_stats/ENSSSCG00000020864.stats
+    jobid: 313
+    wildcards: id=ENSSSCG00000020864
+
+[Fri Dec  4 12:28:18 2020]
+Finished job 313.
+17 of 47 steps (36%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:18 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000003141.verified
+    output: data/verified_stats/ENSSSCG00000003141.stats
+    jobid: 321
+    wildcards: id=ENSSSCG00000003141
+
+[Fri Dec  4 12:28:19 2020]
+Finished job 321.
+18 of 47 steps (38%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:19 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000007214.verified
+    output: data/verified_stats/ENSSSCG00000007214.stats
+    jobid: 425
+    wildcards: id=ENSSSCG00000007214
+
+[Fri Dec  4 12:28:19 2020]
+Finished job 425.
+19 of 47 steps (40%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:19 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000011147.verified
+    output: data/verified_stats/ENSSSCG00000011147.stats
+    jobid: 477
+    wildcards: id=ENSSSCG00000011147
+
+[Fri Dec  4 12:28:20 2020]
+Finished job 477.
+20 of 47 steps (43%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:20 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000002961.verified
+    output: data/verified_stats/ENSSSCG00000002961.stats
+    jobid: 73
+    wildcards: id=ENSSSCG00000002961
+
+[Fri Dec  4 12:28:20 2020]
+Finished job 73.
+21 of 47 steps (45%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:20 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000007216.verified
+    output: data/verified_stats/ENSSSCG00000007216.stats
+    jobid: 253
+    wildcards: id=ENSSSCG00000007216
+
+[Fri Dec  4 12:28:21 2020]
+Finished job 253.
+22 of 47 steps (47%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:21 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000031060.verified
+    output: data/verified_stats/ENSSSCG00000031060.stats
+    jobid: 417
+    wildcards: id=ENSSSCG00000031060
+
+[Fri Dec  4 12:28:21 2020]
+Finished job 417.
+23 of 47 steps (49%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:21 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000025058.verified
+    output: data/verified_stats/ENSSSCG00000025058.stats
+    jobid: 97
+    wildcards: id=ENSSSCG00000025058
+
+[Fri Dec  4 12:28:22 2020]
+Finished job 97.
+24 of 47 steps (51%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:22 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000012118.verified
+    output: data/verified_stats/ENSSSCG00000012118.stats
+    jobid: 381
+    wildcards: id=ENSSSCG00000012118
+
+[Fri Dec  4 12:28:22 2020]
+Finished job 381.
+25 of 47 steps (53%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:22 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000015053.verified
+    output: data/verified_stats/ENSSSCG00000015053.stats
+    jobid: 441
+    wildcards: id=ENSSSCG00000015053
+
+[Fri Dec  4 12:28:23 2020]
+Finished job 441.
+26 of 47 steps (55%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:23 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000000038.verified
+    output: data/verified_stats/ENSSSCG00000000038.stats
+    jobid: 501
+    wildcards: id=ENSSSCG00000000038
+
+[Fri Dec  4 12:28:23 2020]
+Finished job 501.
+27 of 47 steps (57%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:23 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000010554.verified
+    output: data/verified_stats/ENSSSCG00000010554.stats
+    jobid: 149
+    wildcards: id=ENSSSCG00000010554
+
+[Fri Dec  4 12:28:23 2020]
+Finished job 149.
+28 of 47 steps (60%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:23 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000006215.verified
+    output: data/verified_stats/ENSSSCG00000006215.stats
+    jobid: 193
+    wildcards: id=ENSSSCG00000006215
+
+[Fri Dec  4 12:28:24 2020]
+Finished job 193.
+29 of 47 steps (62%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:24 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000011512.verified
+    output: data/verified_stats/ENSSSCG00000011512.stats
+    jobid: 165
+    wildcards: id=ENSSSCG00000011512
+
+[Fri Dec  4 12:28:24 2020]
+Finished job 165.
+30 of 47 steps (64%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:24 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000007153.verified
+    output: data/verified_stats/ENSSSCG00000007153.stats
+    jobid: 113
+    wildcards: id=ENSSSCG00000007153
+
+[Fri Dec  4 12:28:25 2020]
+Finished job 113.
+31 of 47 steps (66%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:25 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000026592.verified
+    output: data/verified_stats/ENSSSCG00000026592.stats
+    jobid: 89
+    wildcards: id=ENSSSCG00000026592
+
+[Fri Dec  4 12:28:25 2020]
+Finished job 89.
+32 of 47 steps (68%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:25 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000013579.verified
+    output: data/verified_stats/ENSSSCG00000013579.stats
+    jobid: 329
+    wildcards: id=ENSSSCG00000013579
+
+[Fri Dec  4 12:28:26 2020]
+Finished job 329.
+33 of 47 steps (70%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:26 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000016940.verified
+    output: data/verified_stats/ENSSSCG00000016940.stats
+    jobid: 69
+    wildcards: id=ENSSSCG00000016940
+
+[Fri Dec  4 12:28:26 2020]
+Finished job 69.
+34 of 47 steps (72%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:26 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000007146.verified
+    output: data/verified_stats/ENSSSCG00000007146.stats
+    jobid: 65
+    wildcards: id=ENSSSCG00000007146
+
+[Fri Dec  4 12:28:26 2020]
+Finished job 65.
+35 of 47 steps (74%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:26 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000007744.verified
+    output: data/verified_stats/ENSSSCG00000007744.stats
+    jobid: 125
+    wildcards: id=ENSSSCG00000007744
+
+[Fri Dec  4 12:28:27 2020]
+Finished job 125.
+36 of 47 steps (77%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:27 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000004875.verified
+    output: data/verified_stats/ENSSSCG00000004875.stats
+    jobid: 185
+    wildcards: id=ENSSSCG00000004875
+
+[Fri Dec  4 12:28:27 2020]
+Finished job 185.
+37 of 47 steps (79%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:27 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000000481.verified
+    output: data/verified_stats/ENSSSCG00000000481.stats
+    jobid: 521
+    wildcards: id=ENSSSCG00000000481
+
+[Fri Dec  4 12:28:28 2020]
+Finished job 521.
+38 of 47 steps (81%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:28 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000022432.verified
+    output: data/verified_stats/ENSSSCG00000022432.stats
+    jobid: 513
+    wildcards: id=ENSSSCG00000022432
+
+[Fri Dec  4 12:28:28 2020]
+Finished job 513.
+39 of 47 steps (83%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:28 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000007218.verified
+    output: data/verified_stats/ENSSSCG00000007218.stats
+    jobid: 461
+    wildcards: id=ENSSSCG00000007218
+
+[Fri Dec  4 12:28:29 2020]
+Finished job 461.
+40 of 47 steps (85%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:29 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000025273.verified
+    output: data/verified_stats/ENSSSCG00000025273.stats
+    jobid: 401
+    wildcards: id=ENSSSCG00000025273
+
+[Fri Dec  4 12:28:29 2020]
+Finished job 401.
+41 of 47 steps (87%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:29 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000007221.verified
+    output: data/verified_stats/ENSSSCG00000007221.stats
+    jobid: 449
+    wildcards: id=ENSSSCG00000007221
+
+[Fri Dec  4 12:28:29 2020]
+Finished job 449.
+42 of 47 steps (89%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:30 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000006386.verified
+    output: data/verified_stats/ENSSSCG00000006386.stats
+    jobid: 237
+    wildcards: id=ENSSSCG00000006386
+
+[Fri Dec  4 12:28:30 2020]
+Finished job 237.
+43 of 47 steps (91%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:30 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000005503.verified
+    output: data/verified_stats/ENSSSCG00000005503.stats
+    jobid: 297
+    wildcards: id=ENSSSCG00000005503
+
+[Fri Dec  4 12:28:30 2020]
+Finished job 297.
+44 of 47 steps (94%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:30 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000006337.verified
+    output: data/verified_stats/ENSSSCG00000006337.stats
+    jobid: 517
+    wildcards: id=ENSSSCG00000006337
+
+[Fri Dec  4 12:28:31 2020]
+Finished job 517.
+45 of 47 steps (96%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:31 2020]
+rule verified_stats:
+    input: data/verified_vars/ENSSSCG00000025500.verified
+    output: data/verified_stats/ENSSSCG00000025500.stats
+    jobid: 285
+    wildcards: id=ENSSSCG00000025500
+
+[Fri Dec  4 12:28:31 2020]
+Finished job 285.
+46 of 47 steps (98%) done
+Select jobs to execute...
+
+[Fri Dec  4 12:28:31 2020]
+localrule all:
+    input: data/verified_stats/ENSSSCG00000008326.stats, data/verified_stats/ENSSSCG00000026409.stats, data/verified_stats/ENSSSCG00000017399.stats, data/verified_stats/ENSSSCG00000001743.stats, data/verified_stats/ENSSSCG00000010929.stats, data/verified_stats/ENSSSCG00000029988.stats, data/verified_stats/ENSSSCG00000000866.stats, data/verified_stats/ENSSSCG00000025244.stats, data/verified_stats/ENSSSCG00000002749.stats, data/verified_stats/ENSSSCG00000010816.stats, data/verified_stats/ENSSSCG00000031002.stats, data/verified_stats/ENSSSCG00000015070.stats, data/verified_stats/ENSSSCG00000012593.stats, data/verified_stats/ENSSSCG00000026214.stats, data/verified_stats/ENSSSCG00000011453.stats, data/verified_stats/ENSSSCG00000005163.stats, data/verified_stats/ENSSSCG00000007146.stats, data/verified_stats/ENSSSCG00000016940.stats, data/verified_stats/ENSSSCG00000002961.stats, data/verified_stats/ENSSSCG00000006403.stats, data/verified_stats/ENSSSCG00000026201.stats, data/verified_stats/ENSSSCG00000006719.stats, data/verified_stats/ENSSSCG00000026592.stats, data/verified_stats/ENSSSCG00000008842.stats, data/verified_stats/ENSSSCG00000025058.stats, data/verified_stats/ENSSSCG00000023666.stats, data/verified_stats/ENSSSCG00000014428.stats, data/verified_stats/ENSSSCG00000015801.stats, data/verified_stats/ENSSSCG00000007153.stats, data/verified_stats/ENSSSCG00000002385.stats, data/verified_stats/ENSSSCG00000015048.stats, data/verified_stats/ENSSSCG00000007744.stats, data/verified_stats/ENSSSCG00000013369.stats, data/verified_stats/ENSSSCG00000001050.stats, data/verified_stats/ENSSSCG00000017121.stats, data/verified_stats/ENSSSCG00000012257.stats, data/verified_stats/ENSSSCG00000012117.stats, data/verified_stats/ENSSSCG00000010554.stats, data/verified_stats/ENSSSCG00000006648.stats, data/verified_stats/ENSSSCG00000023876.stats, data/verified_stats/ENSSSCG00000011436.stats, data/verified_stats/ENSSSCG00000011512.stats, data/verified_stats/ENSSSCG00000011850.stats, data/verified_stats/ENSSSCG00000001404.stats, data/verified_stats/ENSSSCG00000000922.stats, data/verified_stats/ENSSSCG00000001428.stats, data/verified_stats/ENSSSCG00000004875.stats, data/verified_stats/ENSSSCG00000026583.stats, data/verified_stats/ENSSSCG00000006215.stats, data/verified_stats/ENSSSCG00000009115.stats, data/verified_stats/ENSSSCG00000007226.stats, data/verified_stats/ENSSSCG00000010459.stats, data/verified_stats/ENSSSCG00000010948.stats, data/verified_stats/ENSSSCG00000002686.stats, data/verified_stats/ENSSSCG00000016273.stats, data/verified_stats/ENSSSCG00000020924.stats, data/verified_stats/ENSSSCG00000008948.stats, data/verified_stats/ENSSSCG00000012371.stats, data/verified_stats/ENSSSCG00000007217.stats, data/verified_stats/ENSSSCG00000006386.stats, data/verified_stats/ENSSSCG00000028431.stats, data/verified_stats/ENSSSCG00000012077.stats, data/verified_stats/ENSSSCG00000024689.stats, data/verified_stats/ENSSSCG00000007216.stats, data/verified_stats/ENSSSCG00000008088.stats, data/verified_stats/ENSSSCG00000007522.stats, data/verified_stats/ENSSSCG00000030733.stats, data/verified_stats/ENSSSCG00000010780.stats, data/verified_stats/ENSSSCG00000017227.stats, data/verified_stats/ENSSSCG00000011862.stats, data/verified_stats/ENSSSCG00000005193.stats, data/verified_stats/ENSSSCG00000025500.stats, data/verified_stats/ENSSSCG00000010937.stats, data/verified_stats/ENSSSCG00000009406.stats, data/verified_stats/ENSSSCG00000005503.stats, data/verified_stats/ENSSSCG00000002777.stats, data/verified_stats/ENSSSCG00000029990.stats, data/verified_stats/ENSSSCG00000015616.stats, data/verified_stats/ENSSSCG00000020864.stats, data/verified_stats/ENSSSCG00000030168.stats, data/verified_stats/ENSSSCG00000003141.stats, data/verified_stats/ENSSSCG00000027877.stats, data/verified_stats/ENSSSCG00000013579.stats, data/verified_stats/ENSSSCG00000007277.stats, data/verified_stats/ENSSSCG00000010310.stats, data/verified_stats/ENSSSCG00000002756.stats, data/verified_stats/ENSSSCG00000009695.stats, data/verified_stats/ENSSSCG00000011033.stats, data/verified_stats/ENSSSCG00000012840.stats, data/verified_stats/ENSSSCG00000028629.stats, data/verified_stats/ENSSSCG00000004475.stats, data/verified_stats/ENSSSCG00000016200.stats, data/verified_stats/ENSSSCG00000009477.stats, data/verified_stats/ENSSSCG00000008521.stats, data/verified_stats/ENSSSCG00000001741.stats, data/verified_stats/ENSSSCG00000012118.stats, data/verified_stats/ENSSSCG00000027555.stats, data/verified_stats/ENSSSCG00000004296.stats, data/verified_stats/ENSSSCG00000015652.stats, data/verified_stats/ENSSSCG00000008090.stats, data/verified_stats/ENSSSCG00000025273.stats, data/verified_stats/ENSSSCG00000031069.stats, data/verified_stats/ENSSSCG00000024973.stats, data/verified_stats/ENSSSCG00000023686.stats, data/verified_stats/ENSSSCG00000031060.stats, data/verified_stats/ENSSSCG00000004904.stats, data/verified_stats/ENSSSCG00000007214.stats, data/verified_stats/ENSSSCG00000017103.stats, data/verified_stats/ENSSSCG00000021739.stats, data/verified_stats/ENSSSCG00000010591.stats, data/verified_stats/ENSSSCG00000015053.stats, data/verified_stats/ENSSSCG00000014170.stats, data/verified_stats/ENSSSCG00000007221.stats, data/verified_stats/ENSSSCG00000003130.stats, data/verified_stats/ENSSSCG00000009002.stats, data/verified_stats/ENSSSCG00000007218.stats, data/verified_stats/ENSSSCG00000024497.stats, data/verified_stats/ENSSSCG00000005488.stats, data/verified_stats/ENSSSCG00000030758.stats, data/verified_stats/ENSSSCG00000011147.stats, data/verified_stats/ENSSSCG00000027850.stats, data/verified_stats/ENSSSCG00000026109.stats, data/verified_stats/ENSSSCG00000010885.stats, data/verified_stats/ENSSSCG00000003017.stats, data/verified_stats/ENSSSCG00000016047.stats, data/verified_stats/ENSSSCG00000000038.stats, data/verified_stats/ENSSSCG00000000932.stats, data/verified_stats/ENSSSCG00000030227.stats, data/verified_stats/ENSSSCG00000022432.stats, data/verified_stats/ENSSSCG00000006337.stats, data/verified_stats/ENSSSCG00000000481.stats, data/verified_stats/ENSSSCG00000007215.stats, data/verified_stats/ENSSSCG00000010787.stats, data/verified_stats/ENSSSCG00000006924.stats
+    jobid: 0
+
+[Fri Dec  4 12:28:31 2020]
+Finished job 0.
+47 of 47 steps (100%) done
+Complete log: /home/pelmo/sscrofa_variant_remapping/.snakemake/log/2020-12-04T122811.003667.snakemake.log

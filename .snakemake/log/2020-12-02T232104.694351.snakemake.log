@@ -1,0 +1,72 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	12	verify_vars
+	13
+Select jobs to execute...
+
+[Wed Dec  2 23:21:05 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000010816.remapped
+    output: data/verified_vars/ENSSSCG00000010816.verified
+    jobid: 278
+    wildcards: id=ENSSSCG00000010816
+
+[Wed Dec  2 23:21:05 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000001743.remapped
+    output: data/verified_vars/ENSSSCG00000001743.verified
+    jobid: 272
+    wildcards: id=ENSSSCG00000001743
+
+[Wed Dec  2 23:22:26 2020]
+Finished job 272.
+1 of 13 steps (8%) done
+[Thu Dec  3 00:03:09 2020]
+Finished job 278.
+2 of 13 steps (15%) done
+Select jobs to execute...
+
+[Thu Dec  3 00:03:09 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000010780.remapped
+    output: data/verified_vars/ENSSSCG00000010780.verified
+    jobid: 336
+    wildcards: id=ENSSSCG00000010780
+
+[Thu Dec  3 00:03:09 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000007522.remapped
+    output: data/verified_vars/ENSSSCG00000007522.verified
+    jobid: 334
+    wildcards: id=ENSSSCG00000007522
+
+[Thu Dec  3 00:04:35 2020]
+Finished job 334.
+3 of 13 steps (23%) done
+[Thu Dec  3 00:05:03 2020]
+Finished job 336.
+4 of 13 steps (31%) done
+Select jobs to execute...
+
+[Thu Dec  3 00:05:03 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000003141.remapped
+    output: data/verified_vars/ENSSSCG00000003141.verified
+    jobid: 349
+    wildcards: id=ENSSSCG00000003141
+
+[Thu Dec  3 00:05:03 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000000922.remapped
+    output: data/verified_vars/ENSSSCG00000000922.verified
+    jobid: 313
+    wildcards: id=ENSSSCG00000000922
+
+[Thu Dec  3 00:05:29 2020]
+Finished job 349.
+5 of 13 steps (38%) done

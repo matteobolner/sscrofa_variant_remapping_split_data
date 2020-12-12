@@ -1,0 +1,74 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 5
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	117	verify_vars
+	118
+Select jobs to execute...
+
+[Wed Dec  2 11:01:26 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000006215.remapped
+    output: data/verified_vars/ENSSSCG00000006215.verified
+    jobid: 317
+    wildcards: id=ENSSSCG00000006215
+
+[Wed Dec  2 11:01:26 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000015048.remapped
+    output: data/verified_vars/ENSSSCG00000015048.verified
+    jobid: 299
+    wildcards: id=ENSSSCG00000015048
+
+[Wed Dec  2 11:01:26 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000020864.remapped
+    output: data/verified_vars/ENSSSCG00000020864.verified
+    jobid: 347
+    wildcards: id=ENSSSCG00000020864
+
+[Wed Dec  2 11:01:26 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000028629.remapped
+    output: data/verified_vars/ENSSSCG00000028629.verified
+    jobid: 358
+    wildcards: id=ENSSSCG00000028629
+
+[Wed Dec  2 11:01:26 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000007216.remapped
+    output: data/verified_vars/ENSSSCG00000007216.verified
+    jobid: 332
+    wildcards: id=ENSSSCG00000007216
+
+[Wed Dec  2 11:01:40 2020]
+Finished job 317.
+1 of 118 steps (0.85%) done
+[Wed Dec  2 11:01:56 2020]
+Finished job 358.
+2 of 118 steps (2%) done
+[Wed Dec  2 11:02:00 2020]
+Finished job 332.
+3 of 118 steps (3%) done
+[Wed Dec  2 11:05:42 2020]
+Finished job 299.
+4 of 118 steps (3%) done
+Terminating processes on user request, this might take some time.
+[Wed Dec  2 11:17:38 2020]
+Error in rule verify_vars:
+    jobid: 347
+    output: data/verified_vars/ENSSSCG00000020864.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpjf25j6k6.var_confirmation.py' died with <Signals.SIGINT: 2>.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+Complete log: /home/pelmo/sscrofa_variant_remapping/.snakemake/log/2020-12-02T110125.775751.snakemake.log

@@ -1,0 +1,167 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	134	verify_vars
+	135
+Select jobs to execute...
+
+[Tue Dec  1 16:39:50 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000007744.remapped
+    output: data/verified_vars/ENSSSCG00000007744.verified
+    jobid: 300
+    wildcards: id=ENSSSCG00000007744
+
+[Tue Dec  1 16:41:57 2020]
+Finished job 300.
+1 of 135 steps (0.74%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:41:57 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000004475.remapped
+    output: data/verified_vars/ENSSSCG00000004475.verified
+    jobid: 359
+    wildcards: id=ENSSSCG00000004475
+
+[Tue Dec  1 16:42:03 2020]
+Finished job 359.
+2 of 135 steps (1%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:42:03 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000025500.remapped
+    output: data/verified_vars/ENSSSCG00000025500.verified
+    jobid: 340
+    wildcards: id=ENSSSCG00000025500
+
+[Tue Dec  1 16:42:07 2020]
+Finished job 340.
+3 of 135 steps (2%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:42:07 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000009695.remapped
+    output: data/verified_vars/ENSSSCG00000009695.verified
+    jobid: 355
+    wildcards: id=ENSSSCG00000009695
+
+[Tue Dec  1 16:42:50 2020]
+Finished job 355.
+4 of 135 steps (3%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:42:50 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000006337.remapped
+    output: data/verified_vars/ENSSSCG00000006337.verified
+    jobid: 398
+    wildcards: id=ENSSSCG00000006337
+
+[Tue Dec  1 16:46:40 2020]
+Finished job 398.
+5 of 135 steps (4%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:46:40 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000031060.remapped
+    output: data/verified_vars/ENSSSCG00000031060.verified
+    jobid: 373
+    wildcards: id=ENSSSCG00000031060
+
+[Tue Dec  1 16:47:02 2020]
+Finished job 373.
+6 of 135 steps (4%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:47:02 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000002961.remapped
+    output: data/verified_vars/ENSSSCG00000002961.verified
+    jobid: 287
+    wildcards: id=ENSSSCG00000002961
+
+[Tue Dec  1 16:47:02 2020]
+Finished job 287.
+7 of 135 steps (5%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:47:02 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000016200.remapped
+    output: data/verified_vars/ENSSSCG00000016200.verified
+    jobid: 360
+    wildcards: id=ENSSSCG00000016200
+
+[Tue Dec  1 16:48:19 2020]
+Finished job 360.
+8 of 135 steps (6%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:48:19 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000006403.remapped
+    output: data/verified_vars/ENSSSCG00000006403.verified
+    jobid: 288
+    wildcards: id=ENSSSCG00000006403
+
+[Tue Dec  1 16:50:20 2020]
+Finished job 288.
+9 of 135 steps (7%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:50:20 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000009477.remapped
+    output: data/verified_vars/ENSSSCG00000009477.verified
+    jobid: 361
+    wildcards: id=ENSSSCG00000009477
+
+[Tue Dec  1 16:56:57 2020]
+Finished job 361.
+10 of 135 steps (7%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:56:57 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000007214.remapped
+    output: data/verified_vars/ENSSSCG00000007214.verified
+    jobid: 375
+    wildcards: id=ENSSSCG00000007214
+
+[Tue Dec  1 16:57:28 2020]
+Finished job 375.
+11 of 135 steps (8%) done
+Select jobs to execute...
+
+[Tue Dec  1 16:57:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000017121.remapped
+    output: data/verified_vars/ENSSSCG00000017121.verified
+    jobid: 303
+    wildcards: id=ENSSSCG00000017121
+
+[Tue Dec  1 16:58:37 2020]
+Error in rule verify_vars:
+    jobid: 303
+    output: data/verified_vars/ENSSSCG00000017121.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpbpyk3wdw.var_confirmation.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/pelmo/sscrofa_variant_remapping/.snakemake/log/2020-12-01T163950.556010.snakemake.log

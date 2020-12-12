@@ -11,7 +11,8 @@ def merge_results(report_file, initial_coords_file, remapped_vars_file, unmapped
     final_df = final_df.replace(r'^\s*$', np.nan, regex=True)
     unmapped_df = final_df[final_df['var_pos_11'].isna()]
     unmapped_df.to_csv(unmapped_vars_file, index=False, na_rep = 'NO_MAPPING')
-    final_df.to_csv(remapped_vars_file, index = False, na_rep = 'NaN')
+    final_df.dropna(subset=['var_pos_11'])
+    final_df.to_csv(remapped_vars_file, index = False) #, na_rep = 'NaN')
 
     return()
 

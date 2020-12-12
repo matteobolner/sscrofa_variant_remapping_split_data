@@ -1,0 +1,127 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	127	verify_vars
+	128
+Select jobs to execute...
+
+[Tue Dec  1 16:35:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000011512.remapped
+    output: data/verified_vars/ENSSSCG00000011512.verified
+    jobid: 310
+    wildcards: id=ENSSSCG00000011512
+
+[Tue Dec  1 16:35:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000025273.remapped
+    output: data/verified_vars/ENSSSCG00000025273.verified
+    jobid: 369
+    wildcards: id=ENSSSCG00000025273
+
+[Tue Dec  1 16:35:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000023876.remapped
+    output: data/verified_vars/ENSSSCG00000023876.verified
+    jobid: 308
+    wildcards: id=ENSSSCG00000023876
+
+[Tue Dec  1 16:35:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000015801.remapped
+    output: data/verified_vars/ENSSSCG00000015801.verified
+    jobid: 296
+    wildcards: id=ENSSSCG00000015801
+
+[Tue Dec  1 16:35:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000007218.remapped
+    output: data/verified_vars/ENSSSCG00000007218.verified
+    jobid: 384
+    wildcards: id=ENSSSCG00000007218
+
+[Tue Dec  1 16:35:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000011850.remapped
+    output: data/verified_vars/ENSSSCG00000011850.verified
+    jobid: 311
+    wildcards: id=ENSSSCG00000011850
+
+[Tue Dec  1 16:35:28 2020]
+rule verify_vars:
+    input: data/remapped_vars/ENSSSCG00000012840.remapped
+    output: data/verified_vars/ENSSSCG00000012840.verified
+    jobid: 357
+    wildcards: id=ENSSSCG00000012840
+
+[Tue Dec  1 16:36:00 2020]
+Error in rule verify_vars:
+    jobid: 308
+    output: data/verified_vars/ENSSSCG00000023876.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpd31vumt5.var_confirmation.py' returned non-zero exit status 1.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Tue Dec  1 16:36:01 2020]
+Finished job 357.
+1 of 128 steps (0.78%) done
+[Tue Dec  1 16:36:17 2020]
+Finished job 384.
+2 of 128 steps (2%) done
+[Tue Dec  1 16:36:17 2020]
+Finished job 369.
+3 of 128 steps (2%) done
+Terminating processes on user request, this might take some time.
+[Tue Dec  1 16:36:35 2020]
+Error in rule verify_vars:
+    jobid: 310
+    output: data/verified_vars/ENSSSCG00000011512.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpsuqugi84.var_confirmation.py' died with <Signals.SIGINT: 2>.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Tue Dec  1 16:36:35 2020]
+Error in rule verify_vars:
+    jobid: 296
+    output: data/verified_vars/ENSSSCG00000015801.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpcrnbdo9r.var_confirmation.py' died with <Signals.SIGINT: 2>.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+[Tue Dec  1 16:36:35 2020]
+Error in rule verify_vars:
+    jobid: 311
+    output: data/verified_vars/ENSSSCG00000011850.verified
+
+RuleException:
+CalledProcessError in line 41 of /home/pelmo/sscrofa_variant_remapping/Snakefile:
+Command 'set -euo pipefail;  /home/pelmo/anaconda3/envs/snakemake/bin/python3.9 /home/pelmo/sscrofa_variant_remapping/.snakemake/scripts/tmpz_seknya.var_confirmation.py' died with <Signals.SIGINT: 2>.
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2273, in run_wrapper
+  File "/home/pelmo/sscrofa_variant_remapping/Snakefile", line 41, in __rule_verify_vars
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/home/pelmo/anaconda3/envs/snakemake/lib/python3.9/site-packages/snakemake/executors/__init__.py", line 2304, in run_wrapper
+Complete log: /home/pelmo/sscrofa_variant_remapping/.snakemake/log/2020-12-01T163528.548063.snakemake.log
